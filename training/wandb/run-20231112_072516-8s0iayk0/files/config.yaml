@@ -1,0 +1,130 @@
+wandb_version: 1
+
+device:
+  desc: null
+  value: cuda
+misc:
+  desc: null
+  value:
+    seed: 0
+experiment:
+  desc: null
+  value:
+    input_resolution:
+    - 224
+    - 224
+    simclr_mlp:
+    - 512
+    - 128
+    - 512
+    simclr_temperature: 0.1
+    dropout: 0.05
+    eda_alpha: 0.05
+    back_trans: true
+    backtrans_p: 0.1
+    text_length: 132
+    mixgen: false
+    mixgen_type: cat
+    mixgen_p: 0.1
+    mixgen_ratio: 0.1
+    mvs_image: false
+    nitc_ratio: 1.0
+    ss: false
+    ss_ratio: 0.4
+    ritc: true
+    ritc_eps: 0.01
+    ritc_ratio: 1.0
+    mlm: false
+    mlm_ratio: 1.0
+    cmt_depth: 4
+    citc: false
+    citc_lambda1: 0.25
+    citc_lambda2: 0.25
+    citc_ratio: 0.1
+    id: false
+    id_ratio: 1.0
+schedule:
+  desc: null
+  value:
+    lr: 0.0001
+    epoch: 5
+    epoch_warmup: 1
+    lr_start: 1.0e-06
+    lr_end: 5.0e-06
+    weight_decay: 0.02
+    betas:
+    - 0.9
+    - 0.98
+    eps: 1.0e-08
+    niter_per_ep: 2010
+model:
+  desc: null
+  value:
+    ckpt_type: original_clip
+    saved_path: /home/jovyan/workspace/BA-PRE_THESIS/paper_clones/TBPS-CLIP/checkpoint
+    checkpoint: /home/jovyan/workspace/BA-PRE_THESIS/paper_clones/TBPS-CLIP/checkpoint/ViT-B-16.pt
+    use_gather: false
+    softlabel_ratio: 0.5
+    embed_dim: 512
+    vocab_size: 49408
+log:
+  desc: null
+  value:
+    print_period: 1
+data:
+  desc: null
+  value:
+    batch_size: 16
+    test_batch_size: 256
+    num_workers: 8
+distributed:
+  desc: null
+  value:
+    backend: nccl
+    url: env://
+anno_dir:
+  desc: null
+  value: /home/jovyan/workspace/BA-PRE_THESIS/DATASET/CUHK-PEDES/vietnamese
+image_dir:
+  desc: null
+  value: /home/jovyan/workspace/BA-PRE_THESIS/DATASET/CUHK-PEDES/imgs
+_wandb:
+  desc: null
+  value:
+    python_version: 3.9.0
+    cli_version: 0.16.0
+    framework: huggingface
+    huggingface_version: 4.35.0
+    is_jupyter_run: true
+    is_kaggle_kernel: false
+    start_time: 1699773916.867437
+    t:
+      1:
+      - 1
+      - 5
+      - 11
+      - 41
+      - 49
+      - 53
+      - 55
+      - 75
+      2:
+      - 1
+      - 5
+      - 11
+      - 41
+      - 49
+      - 53
+      - 55
+      - 75
+      3:
+      - 13
+      - 16
+      - 23
+      4: 3.9.0
+      5: 0.16.0
+      6: 4.35.0
+      8:
+      - 1
+      - 5
+      13: linux-x86_64

@@ -1,0 +1,10 @@
+
+Epoch[1] Iteration[1/257], loss: 10.9902, nitc_loss: 4.6241, ss_loss: 2.0406, citc_loss: 0.0005, ritc_loss: 4.3251, Base Lr: 1.00e-06
+Epoch 1 done. Time per batch: 5.647[s] Speed: 22.1[samples/s]
+Acc@1 0.49739 Acc@5 2.02686 Acc@10 3.17085 mAP 1.35101
+Traceback (most recent call last):
+  File "/home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/TBPR-CLIP_vietnamese_training.py", line 289, in <module>
+    'model': model.module.state_dict(),
+  File "/opt/conda/envs/tbps-clip/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1265, in __getattr__
+    raise AttributeError("'{}' object has no attribute '{}'".format(
+AttributeError: 'MultilingualCLIP' object has no attribute 'module'

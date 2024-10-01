@@ -1,0 +1,15 @@
+
+Epoch[1] Iteration[1/292], loss: 7.3800, nitc_loss: 5.4150, ss_loss: 1.9799, citc_loss: 0.0005, ritc_loss: -0.0154, Base Lr: 1.00e-06
+Epoch[1] Iteration[2/292], loss: 7.3664, nitc_loss: 5.3551, ss_loss: 2.0275, citc_loss: 0.0005, ritc_loss: -0.0167, Base Lr: 1.34e-06
+Epoch[1] Iteration[3/292], loss: 7.3419, nitc_loss: 5.3262, ss_loss: 2.0302, citc_loss: 0.0005, ritc_loss: -0.0150, Base Lr: 1.68e-06
+Epoch[1] Iteration[4/292], loss: 7.2933, nitc_loss: 5.3435, ss_loss: 1.9696, citc_loss: 0.0005, ritc_loss: -0.0204, Base Lr: 2.02e-06
+Epoch[1] Iteration[5/292], loss: 7.3098, nitc_loss: 5.3515, ss_loss: 1.9703, citc_loss: 0.0007, ritc_loss: -0.0127, Base Lr: 2.36e-06
+Epoch[1] Iteration[6/292], loss: 7.2859, nitc_loss: 5.3371, ss_loss: 1.9569, citc_loss: 0.0006, ritc_loss: -0.0087, Base Lr: 2.70e-06
+Traceback (most recent call last):
+  File "/home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/TBPR-CLIP_vietnamese_training.py", line 250, in <module>
+    loss.backward()
+  File "/opt/conda/envs/tbps-clip/lib/python3.9/site-packages/torch/_tensor.py", line 487, in backward
+    torch.autograd.backward(
+  File "/opt/conda/envs/tbps-clip/lib/python3.9/site-packages/torch/autograd/__init__.py", line 197, in backward
+    Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+KeyboardInterrupt

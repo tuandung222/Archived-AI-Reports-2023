@@ -1,0 +1,201 @@
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+Epoch[1] Iteration[1/1608], loss: 5.5812, nitc_loss: 2.8677, ss_loss: 1.3477, citc_loss: 0.0004, ritc_loss: 1.3655, Base Lr: 1.00e-06
+Epoch[1] Iteration[2/1608], loss: 5.4415, nitc_loss: 2.7839, ss_loss: 1.3069, citc_loss: 0.0004, ritc_loss: 1.3504, Base Lr: 1.03e-06
+Epoch[1] Iteration[3/1608], loss: 5.4774, nitc_loss: 2.7976, ss_loss: 1.3222, citc_loss: 0.0009, ritc_loss: 1.3567, Base Lr: 1.06e-06
+Epoch[1] Iteration[4/1608], loss: 5.3624, nitc_loss: 2.6973, ss_loss: 1.3202, citc_loss: 0.0005, ritc_loss: 1.3444, Base Lr: 1.09e-06
+Epoch[1] Iteration[5/1608], loss: 5.4563, nitc_loss: 2.8404, ss_loss: 1.2456, citc_loss: 0.0005, ritc_loss: 1.3698, Base Lr: 1.12e-06
+Epoch[1] Iteration[6/1608], loss: 5.3289, nitc_loss: 2.6939, ss_loss: 1.3048, citc_loss: 0.0005, ritc_loss: 1.3297, Base Lr: 1.15e-06
+Epoch[1] Iteration[7/1608], loss: 5.3805, nitc_loss: 2.7402, ss_loss: 1.3150, citc_loss: 0.0005, ritc_loss: 1.3249, Base Lr: 1.18e-06
+Epoch[1] Iteration[8/1608], loss: 5.4311, nitc_loss: 2.7516, ss_loss: 1.3375, citc_loss: 0.0007, ritc_loss: 1.3413, Base Lr: 1.22e-06
+Epoch[1] Iteration[9/1608], loss: 5.4992, nitc_loss: 2.7875, ss_loss: 1.3507, citc_loss: 0.0005, ritc_loss: 1.3604, Base Lr: 1.25e-06
+Epoch[1] Iteration[10/1608], loss: 5.3497, nitc_loss: 2.7504, ss_loss: 1.2507, citc_loss: 0.0005, ritc_loss: 1.3482, Base Lr: 1.28e-06
+Epoch[1] Iteration[11/1608], loss: 5.2558, nitc_loss: 2.6914, ss_loss: 1.2431, citc_loss: 0.0009, ritc_loss: 1.3204, Base Lr: 1.31e-06
+Epoch[1] Iteration[12/1608], loss: 5.2834, nitc_loss: 2.7489, ss_loss: 1.1835, citc_loss: 0.0007, ritc_loss: 1.3503, Base Lr: 1.34e-06
+Epoch[1] Iteration[13/1608], loss: 5.1171, nitc_loss: 2.6501, ss_loss: 1.1376, citc_loss: 0.0007, ritc_loss: 1.3287, Base Lr: 1.37e-06
+Epoch[1] Iteration[14/1608], loss: 5.1744, nitc_loss: 2.6569, ss_loss: 1.1935, citc_loss: 0.0008, ritc_loss: 1.3231, Base Lr: 1.40e-06
+Epoch[1] Iteration[15/1608], loss: 5.0821, nitc_loss: 2.6305, ss_loss: 1.1267, citc_loss: 0.0008, ritc_loss: 1.3241, Base Lr: 1.43e-06
+Epoch[1] Iteration[16/1608], loss: 5.3620, nitc_loss: 2.8125, ss_loss: 1.1901, citc_loss: 0.0009, ritc_loss: 1.3584, Base Lr: 1.46e-06
+Epoch[1] Iteration[17/1608], loss: 5.2576, nitc_loss: 2.7452, ss_loss: 1.1596, citc_loss: 0.0009, ritc_loss: 1.3520, Base Lr: 1.49e-06
+Epoch[1] Iteration[18/1608], loss: 5.2961, nitc_loss: 2.7442, ss_loss: 1.2002, citc_loss: 0.0010, ritc_loss: 1.3507, Base Lr: 1.52e-06
+Epoch[1] Iteration[19/1608], loss: 5.1154, nitc_loss: 2.6246, ss_loss: 1.1783, citc_loss: 0.0011, ritc_loss: 1.3115, Base Lr: 1.55e-06
+Epoch[1] Iteration[20/1608], loss: 5.0772, nitc_loss: 2.5571, ss_loss: 1.2147, citc_loss: 0.0012, ritc_loss: 1.3042, Base Lr: 1.59e-06
+Epoch[1] Iteration[21/1608], loss: 5.0915, nitc_loss: 2.6599, ss_loss: 1.1182, citc_loss: 0.0009, ritc_loss: 1.3126, Base Lr: 1.62e-06
+Epoch[1] Iteration[22/1608], loss: 5.2732, nitc_loss: 2.6874, ss_loss: 1.2448, citc_loss: 0.0009, ritc_loss: 1.3401, Base Lr: 1.65e-06
+Epoch[1] Iteration[23/1608], loss: 5.1394, nitc_loss: 2.5569, ss_loss: 1.2645, citc_loss: 0.0012, ritc_loss: 1.3168, Base Lr: 1.68e-06
+Epoch[1] Iteration[24/1608], loss: 5.1216, nitc_loss: 2.6716, ss_loss: 1.1296, citc_loss: 0.0010, ritc_loss: 1.3194, Base Lr: 1.71e-06
+Epoch[1] Iteration[25/1608], loss: 5.1965, nitc_loss: 2.6365, ss_loss: 1.2315, citc_loss: 0.0010, ritc_loss: 1.3275, Base Lr: 1.74e-06
+Epoch[1] Iteration[26/1608], loss: 5.2473, nitc_loss: 2.7775, ss_loss: 1.0902, citc_loss: 0.0018, ritc_loss: 1.3778, Base Lr: 1.77e-06
+Epoch[1] Iteration[27/1608], loss: 4.8982, nitc_loss: 2.5846, ss_loss: 0.9951, citc_loss: 0.0014, ritc_loss: 1.3171, Base Lr: 1.80e-06
+Epoch[1] Iteration[28/1608], loss: 5.1169, nitc_loss: 2.6352, ss_loss: 1.1509, citc_loss: 0.0018, ritc_loss: 1.3289, Base Lr: 1.83e-06
+Epoch[1] Iteration[29/1608], loss: 4.9086, nitc_loss: 2.5940, ss_loss: 1.0024, citc_loss: 0.0020, ritc_loss: 1.3102, Base Lr: 1.86e-06
+Epoch[1] Iteration[30/1608], loss: 4.9331, nitc_loss: 2.6287, ss_loss: 0.9636, citc_loss: 0.0017, ritc_loss: 1.3391, Base Lr: 1.89e-06
+Epoch[1] Iteration[31/1608], loss: 5.0098, nitc_loss: 2.5853, ss_loss: 1.1093, citc_loss: 0.0015, ritc_loss: 1.3136, Base Lr: 1.92e-06
+Epoch[1] Iteration[32/1608], loss: 4.8506, nitc_loss: 2.5183, ss_loss: 1.0124, citc_loss: 0.0015, ritc_loss: 1.3184, Base Lr: 1.95e-06
+Epoch[1] Iteration[33/1608], loss: 4.9738, nitc_loss: 2.6198, ss_loss: 1.0152, citc_loss: 0.0017, ritc_loss: 1.3370, Base Lr: 1.99e-06
+Epoch[1] Iteration[34/1608], loss: 5.0268, nitc_loss: 2.6318, ss_loss: 1.0238, citc_loss: 0.0020, ritc_loss: 1.3693, Base Lr: 2.02e-06
+Epoch[1] Iteration[35/1608], loss: 4.9296, nitc_loss: 2.5093, ss_loss: 1.0750, citc_loss: 0.0014, ritc_loss: 1.3439, Base Lr: 2.05e-06
+Epoch[1] Iteration[36/1608], loss: 4.8681, nitc_loss: 2.5592, ss_loss: 0.9699, citc_loss: 0.0017, ritc_loss: 1.3372, Base Lr: 2.08e-06
+Epoch[1] Iteration[37/1608], loss: 5.0455, nitc_loss: 2.6332, ss_loss: 1.0697, citc_loss: 0.0027, ritc_loss: 1.3399, Base Lr: 2.11e-06
+Epoch[1] Iteration[38/1608], loss: 5.0356, nitc_loss: 2.5935, ss_loss: 1.0997, citc_loss: 0.0022, ritc_loss: 1.3403, Base Lr: 2.14e-06
+Epoch[1] Iteration[39/1608], loss: 4.6377, nitc_loss: 2.3849, ss_loss: 0.9660, citc_loss: 0.0021, ritc_loss: 1.2847, Base Lr: 2.17e-06
+Epoch[1] Iteration[40/1608], loss: 4.7658, nitc_loss: 2.4084, ss_loss: 1.0556, citc_loss: 0.0025, ritc_loss: 1.2993, Base Lr: 2.20e-06
+Epoch[1] Iteration[41/1608], loss: 4.6801, nitc_loss: 2.4604, ss_loss: 0.8930, citc_loss: 0.0026, ritc_loss: 1.3240, Base Lr: 2.23e-06
+Epoch[1] Iteration[42/1608], loss: 4.7486, nitc_loss: 2.4780, ss_loss: 0.9365, citc_loss: 0.0020, ritc_loss: 1.3321, Base Lr: 2.26e-06
+Epoch[1] Iteration[43/1608], loss: 4.6462, nitc_loss: 2.5033, ss_loss: 0.8584, citc_loss: 0.0027, ritc_loss: 1.2819, Base Lr: 2.29e-06
+Epoch[1] Iteration[44/1608], loss: 4.6198, nitc_loss: 2.4049, ss_loss: 0.9276, citc_loss: 0.0030, ritc_loss: 1.2842, Base Lr: 2.32e-06
+Epoch[1] Iteration[45/1608], loss: 4.4723, nitc_loss: 2.3820, ss_loss: 0.8043, citc_loss: 0.0028, ritc_loss: 1.2831, Base Lr: 2.35e-06
+Epoch[1] Iteration[46/1608], loss: 4.8586, nitc_loss: 2.5309, ss_loss: 1.0028, citc_loss: 0.0024, ritc_loss: 1.3226, Base Lr: 2.39e-06
+Epoch[1] Iteration[47/1608], loss: 4.7949, nitc_loss: 2.4972, ss_loss: 1.0110, citc_loss: 0.0022, ritc_loss: 1.2846, Base Lr: 2.42e-06
+Epoch[1] Iteration[48/1608], loss: 4.6938, nitc_loss: 2.4795, ss_loss: 0.9035, citc_loss: 0.0028, ritc_loss: 1.3080, Base Lr: 2.45e-06
+Epoch[1] Iteration[49/1608], loss: 4.9060, nitc_loss: 2.5165, ss_loss: 1.0591, citc_loss: 0.0027, ritc_loss: 1.3277, Base Lr: 2.48e-06
+Epoch[1] Iteration[50/1608], loss: 4.6244, nitc_loss: 2.4018, ss_loss: 0.9361, citc_loss: 0.0029, ritc_loss: 1.2837, Base Lr: 2.51e-06
+Epoch[1] Iteration[51/1608], loss: 4.5100, nitc_loss: 2.3544, ss_loss: 0.8760, citc_loss: 0.0033, ritc_loss: 1.2764, Base Lr: 2.54e-06
+Epoch[1] Iteration[52/1608], loss: 4.8310, nitc_loss: 2.5470, ss_loss: 0.9447, citc_loss: 0.0032, ritc_loss: 1.3362, Base Lr: 2.57e-06
+Epoch[1] Iteration[53/1608], loss: 4.7866, nitc_loss: 2.5072, ss_loss: 0.9347, citc_loss: 0.0042, ritc_loss: 1.3406, Base Lr: 2.60e-06
+Epoch[1] Iteration[54/1608], loss: 4.6956, nitc_loss: 2.3777, ss_loss: 0.9784, citc_loss: 0.0032, ritc_loss: 1.3363, Base Lr: 2.63e-06
+Epoch[1] Iteration[55/1608], loss: 4.6271, nitc_loss: 2.4704, ss_loss: 0.8282, citc_loss: 0.0041, ritc_loss: 1.3243, Base Lr: 2.66e-06
+Epoch[1] Iteration[56/1608], loss: 4.3995, nitc_loss: 2.3005, ss_loss: 0.8302, citc_loss: 0.0037, ritc_loss: 1.2651, Base Lr: 2.69e-06
+Epoch[1] Iteration[57/1608], loss: 4.9551, nitc_loss: 2.6592, ss_loss: 0.9278, citc_loss: 0.0040, ritc_loss: 1.3641, Base Lr: 2.72e-06
+Epoch[1] Iteration[58/1608], loss: 4.5309, nitc_loss: 2.2492, ss_loss: 1.0164, citc_loss: 0.0029, ritc_loss: 1.2624, Base Lr: 2.76e-06
+Epoch[1] Iteration[59/1608], loss: 4.5664, nitc_loss: 2.3640, ss_loss: 0.9152, citc_loss: 0.0040, ritc_loss: 1.2832, Base Lr: 2.79e-06
+Epoch[1] Iteration[60/1608], loss: 4.2749, nitc_loss: 2.2417, ss_loss: 0.7483, citc_loss: 0.0029, ritc_loss: 1.2819, Base Lr: 2.82e-06
+Epoch[1] Iteration[61/1608], loss: 4.5944, nitc_loss: 2.4423, ss_loss: 0.8284, citc_loss: 0.0033, ritc_loss: 1.3203, Base Lr: 2.85e-06
+Epoch[1] Iteration[62/1608], loss: 4.6841, nitc_loss: 2.3718, ss_loss: 0.9631, citc_loss: 0.0035, ritc_loss: 1.3457, Base Lr: 2.88e-06
+Epoch[1] Iteration[63/1608], loss: 4.6161, nitc_loss: 2.3807, ss_loss: 0.9273, citc_loss: 0.0029, ritc_loss: 1.3052, Base Lr: 2.91e-06
+Epoch[1] Iteration[64/1608], loss: 4.4864, nitc_loss: 2.3058, ss_loss: 0.9150, citc_loss: 0.0040, ritc_loss: 1.2615, Base Lr: 2.94e-06
+Epoch[1] Iteration[65/1608], loss: 4.7044, nitc_loss: 2.4655, ss_loss: 0.8982, citc_loss: 0.0031, ritc_loss: 1.3375, Base Lr: 2.97e-06
+Epoch[1] Iteration[66/1608], loss: 4.5305, nitc_loss: 2.3725, ss_loss: 0.8269, citc_loss: 0.0041, ritc_loss: 1.3271, Base Lr: 3.00e-06
+Epoch[1] Iteration[67/1608], loss: 4.8195, nitc_loss: 2.5025, ss_loss: 0.9160, citc_loss: 0.0038, ritc_loss: 1.3972, Base Lr: 3.03e-06
+Epoch[1] Iteration[68/1608], loss: 4.5769, nitc_loss: 2.3961, ss_loss: 0.8704, citc_loss: 0.0045, ritc_loss: 1.3060, Base Lr: 3.06e-06
+Epoch[1] Iteration[69/1608], loss: 4.4423, nitc_loss: 2.3133, ss_loss: 0.8489, citc_loss: 0.0048, ritc_loss: 1.2753, Base Lr: 3.09e-06
+Epoch[1] Iteration[70/1608], loss: 4.6089, nitc_loss: 2.4831, ss_loss: 0.7609, citc_loss: 0.0043, ritc_loss: 1.3606, Base Lr: 3.12e-06
+Epoch[1] Iteration[71/1608], loss: 4.6872, nitc_loss: 2.4227, ss_loss: 0.8830, citc_loss: 0.0038, ritc_loss: 1.3777, Base Lr: 3.16e-06
+Epoch[1] Iteration[72/1608], loss: 4.5526, nitc_loss: 2.2653, ss_loss: 1.0255, citc_loss: 0.0047, ritc_loss: 1.2571, Base Lr: 3.19e-06
+Epoch[1] Iteration[73/1608], loss: 4.4881, nitc_loss: 2.2622, ss_loss: 0.9353, citc_loss: 0.0046, ritc_loss: 1.2860, Base Lr: 3.22e-06
+Epoch[1] Iteration[74/1608], loss: 4.2322, nitc_loss: 2.1634, ss_loss: 0.8009, citc_loss: 0.0043, ritc_loss: 1.2636, Base Lr: 3.25e-06
+Epoch[1] Iteration[75/1608], loss: 4.6592, nitc_loss: 2.4561, ss_loss: 0.8640, citc_loss: 0.0044, ritc_loss: 1.3347, Base Lr: 3.28e-06
+Epoch[1] Iteration[76/1608], loss: 4.3978, nitc_loss: 2.2953, ss_loss: 0.7874, citc_loss: 0.0049, ritc_loss: 1.3102, Base Lr: 3.31e-06
+Epoch[1] Iteration[77/1608], loss: 4.4920, nitc_loss: 2.3971, ss_loss: 0.7552, citc_loss: 0.0054, ritc_loss: 1.3344, Base Lr: 3.34e-06
+Epoch[1] Iteration[78/1608], loss: 4.1699, nitc_loss: 2.1883, ss_loss: 0.7347, citc_loss: 0.0043, ritc_loss: 1.2426, Base Lr: 3.37e-06
+Epoch[1] Iteration[79/1608], loss: 4.4105, nitc_loss: 2.2164, ss_loss: 0.9231, citc_loss: 0.0047, ritc_loss: 1.2664, Base Lr: 3.40e-06
+Epoch[1] Iteration[80/1608], loss: 4.3979, nitc_loss: 2.2833, ss_loss: 0.7992, citc_loss: 0.0053, ritc_loss: 1.3100, Base Lr: 3.43e-06
+Epoch[1] Iteration[81/1608], loss: 4.3250, nitc_loss: 2.2268, ss_loss: 0.7743, citc_loss: 0.0050, ritc_loss: 1.3190, Base Lr: 3.46e-06
+Epoch[1] Iteration[82/1608], loss: 4.0725, nitc_loss: 2.1231, ss_loss: 0.7078, citc_loss: 0.0055, ritc_loss: 1.2361, Base Lr: 3.49e-06
+Epoch[1] Iteration[83/1608], loss: 4.3602, nitc_loss: 2.3525, ss_loss: 0.6493, citc_loss: 0.0054, ritc_loss: 1.3530, Base Lr: 3.53e-06
+Epoch[1] Iteration[84/1608], loss: 3.9955, nitc_loss: 2.0280, ss_loss: 0.7336, citc_loss: 0.0048, ritc_loss: 1.2291, Base Lr: 3.56e-06
+Epoch[1] Iteration[85/1608], loss: 4.2972, nitc_loss: 2.2076, ss_loss: 0.7925, citc_loss: 0.0050, ritc_loss: 1.2921, Base Lr: 3.59e-06
+Epoch[1] Iteration[86/1608], loss: 4.6077, nitc_loss: 2.4589, ss_loss: 0.7464, citc_loss: 0.0058, ritc_loss: 1.3966, Base Lr: 3.62e-06
+Epoch[1] Iteration[87/1608], loss: 4.4405, nitc_loss: 2.3816, ss_loss: 0.7215, citc_loss: 0.0054, ritc_loss: 1.3320, Base Lr: 3.65e-06
+Epoch[1] Iteration[88/1608], loss: 4.5016, nitc_loss: 2.2990, ss_loss: 0.8860, citc_loss: 0.0051, ritc_loss: 1.3115, Base Lr: 3.68e-06
+Epoch[1] Iteration[89/1608], loss: 4.0617, nitc_loss: 2.0089, ss_loss: 0.8377, citc_loss: 0.0055, ritc_loss: 1.2096, Base Lr: 3.71e-06
+Epoch[1] Iteration[90/1608], loss: 4.4019, nitc_loss: 2.2522, ss_loss: 0.8636, citc_loss: 0.0057, ritc_loss: 1.2804, Base Lr: 3.74e-06
+Epoch[1] Iteration[91/1608], loss: 4.1011, nitc_loss: 2.0672, ss_loss: 0.7657, citc_loss: 0.0062, ritc_loss: 1.2621, Base Lr: 3.77e-06
+Epoch[1] Iteration[92/1608], loss: 4.0703, nitc_loss: 2.1248, ss_loss: 0.6611, citc_loss: 0.0048, ritc_loss: 1.2796, Base Lr: 3.80e-06
+Epoch[1] Iteration[93/1608], loss: 3.8136, nitc_loss: 1.9008, ss_loss: 0.7475, citc_loss: 0.0062, ritc_loss: 1.1591, Base Lr: 3.83e-06
+Epoch[1] Iteration[94/1608], loss: 4.1399, nitc_loss: 2.0473, ss_loss: 0.8855, citc_loss: 0.0058, ritc_loss: 1.2013, Base Lr: 3.86e-06
+Epoch[1] Iteration[95/1608], loss: 4.1379, nitc_loss: 2.0764, ss_loss: 0.8082, citc_loss: 0.0056, ritc_loss: 1.2477, Base Lr: 3.89e-06
+Epoch[1] Iteration[96/1608], loss: 4.4280, nitc_loss: 2.2761, ss_loss: 0.8418, citc_loss: 0.0063, ritc_loss: 1.3038, Base Lr: 3.93e-06
+Epoch[1] Iteration[97/1608], loss: 4.4992, nitc_loss: 2.3571, ss_loss: 0.8076, citc_loss: 0.0066, ritc_loss: 1.3279, Base Lr: 3.96e-06
+Epoch[1] Iteration[98/1608], loss: 3.9448, nitc_loss: 2.0417, ss_loss: 0.7004, citc_loss: 0.0058, ritc_loss: 1.1968, Base Lr: 3.99e-06
+Epoch[1] Iteration[99/1608], loss: 4.4824, nitc_loss: 2.2181, ss_loss: 0.9861, citc_loss: 0.0045, ritc_loss: 1.2736, Base Lr: 4.02e-06
+Epoch[1] Iteration[100/1608], loss: 4.1173, nitc_loss: 2.1398, ss_loss: 0.6811, citc_loss: 0.0057, ritc_loss: 1.2906, Base Lr: 4.05e-06
+Epoch[1] Iteration[101/1608], loss: 3.9785, nitc_loss: 2.0251, ss_loss: 0.6536, citc_loss: 0.0064, ritc_loss: 1.2935, Base Lr: 4.08e-06
+Epoch[1] Iteration[102/1608], loss: 4.4244, nitc_loss: 2.3513, ss_loss: 0.7299, citc_loss: 0.0052, ritc_loss: 1.3380, Base Lr: 4.11e-06
+Epoch[1] Iteration[103/1608], loss: 4.2074, nitc_loss: 2.2039, ss_loss: 0.7015, citc_loss: 0.0064, ritc_loss: 1.2956, Base Lr: 4.14e-06
+Epoch[1] Iteration[104/1608], loss: 4.4416, nitc_loss: 2.1692, ss_loss: 1.0040, citc_loss: 0.0053, ritc_loss: 1.2630, Base Lr: 4.17e-06
+Epoch[1] Iteration[105/1608], loss: 4.3407, nitc_loss: 2.2164, ss_loss: 0.7693, citc_loss: 0.0058, ritc_loss: 1.3492, Base Lr: 4.20e-06
+Epoch[1] Iteration[106/1608], loss: 4.3015, nitc_loss: 2.2180, ss_loss: 0.7367, citc_loss: 0.0066, ritc_loss: 1.3402, Base Lr: 4.23e-06
+Epoch[1] Iteration[107/1608], loss: 4.2270, nitc_loss: 2.1673, ss_loss: 0.6734, citc_loss: 0.0059, ritc_loss: 1.3805, Base Lr: 4.26e-06
+Epoch[1] Iteration[108/1608], loss: 3.9696, nitc_loss: 2.1034, ss_loss: 0.6520, citc_loss: 0.0060, ritc_loss: 1.2081, Base Lr: 4.29e-06
+Epoch[1] Iteration[109/1608], loss: 4.3111, nitc_loss: 2.2435, ss_loss: 0.7715, citc_loss: 0.0063, ritc_loss: 1.2898, Base Lr: 4.33e-06
+Epoch[1] Iteration[110/1608], loss: 4.7680, nitc_loss: 2.4518, ss_loss: 0.8977, citc_loss: 0.0058, ritc_loss: 1.4126, Base Lr: 4.36e-06
+Epoch[1] Iteration[111/1608], loss: 4.6203, nitc_loss: 2.4952, ss_loss: 0.7554, citc_loss: 0.0066, ritc_loss: 1.3631, Base Lr: 4.39e-06
+Epoch[1] Iteration[112/1608], loss: 3.9368, nitc_loss: 2.0545, ss_loss: 0.6746, citc_loss: 0.0074, ritc_loss: 1.2003, Base Lr: 4.42e-06
+Epoch[1] Iteration[113/1608], loss: 4.2744, nitc_loss: 2.1346, ss_loss: 0.8416, citc_loss: 0.0062, ritc_loss: 1.2921, Base Lr: 4.45e-06
+Epoch[1] Iteration[114/1608], loss: 3.9418, nitc_loss: 2.0467, ss_loss: 0.6852, citc_loss: 0.0061, ritc_loss: 1.2038, Base Lr: 4.48e-06
+Epoch[1] Iteration[115/1608], loss: 4.2046, nitc_loss: 2.0882, ss_loss: 0.8134, citc_loss: 0.0063, ritc_loss: 1.2967, Base Lr: 4.51e-06
+Epoch[1] Iteration[116/1608], loss: 4.6519, nitc_loss: 2.4131, ss_loss: 0.9105, citc_loss: 0.0057, ritc_loss: 1.3225, Base Lr: 4.54e-06
+Epoch[1] Iteration[117/1608], loss: 4.1046, nitc_loss: 2.2293, ss_loss: 0.6205, citc_loss: 0.0059, ritc_loss: 1.2489, Base Lr: 4.57e-06
+Epoch[1] Iteration[118/1608], loss: 4.0159, nitc_loss: 2.1203, ss_loss: 0.6062, citc_loss: 0.0058, ritc_loss: 1.2836, Base Lr: 4.60e-06
+Epoch[1] Iteration[119/1608], loss: 3.9044, nitc_loss: 1.9937, ss_loss: 0.7388, citc_loss: 0.0066, ritc_loss: 1.1653, Base Lr: 4.63e-06
+Epoch[1] Iteration[120/1608], loss: 4.2994, nitc_loss: 2.2435, ss_loss: 0.7294, citc_loss: 0.0063, ritc_loss: 1.3202, Base Lr: 4.66e-06
+Epoch[1] Iteration[121/1608], loss: 4.3825, nitc_loss: 2.3108, ss_loss: 0.7049, citc_loss: 0.0066, ritc_loss: 1.3602, Base Lr: 4.70e-06
+Epoch[1] Iteration[122/1608], loss: 3.8639, nitc_loss: 1.9939, ss_loss: 0.6311, citc_loss: 0.0079, ritc_loss: 1.2310, Base Lr: 4.73e-06
+Epoch[1] Iteration[123/1608], loss: 4.3218, nitc_loss: 2.2507, ss_loss: 0.7208, citc_loss: 0.0073, ritc_loss: 1.3430, Base Lr: 4.76e-06
+Epoch[1] Iteration[124/1608], loss: 3.8245, nitc_loss: 1.9422, ss_loss: 0.6251, citc_loss: 0.0061, ritc_loss: 1.2512, Base Lr: 4.79e-06
+Epoch[1] Iteration[125/1608], loss: 4.0745, nitc_loss: 1.9657, ss_loss: 0.8682, citc_loss: 0.0075, ritc_loss: 1.2331, Base Lr: 4.82e-06
+Epoch[1] Iteration[126/1608], loss: 4.0023, nitc_loss: 1.9024, ss_loss: 0.8348, citc_loss: 0.0065, ritc_loss: 1.2586, Base Lr: 4.85e-06
+Epoch[1] Iteration[127/1608], loss: 3.9836, nitc_loss: 1.9951, ss_loss: 0.7650, citc_loss: 0.0064, ritc_loss: 1.2171, Base Lr: 4.88e-06
+Epoch[1] Iteration[128/1608], loss: 4.5442, nitc_loss: 2.3916, ss_loss: 0.8077, citc_loss: 0.0062, ritc_loss: 1.3388, Base Lr: 4.91e-06
+Epoch[1] Iteration[129/1608], loss: 3.7078, nitc_loss: 2.0105, ss_loss: 0.5300, citc_loss: 0.0077, ritc_loss: 1.1596, Base Lr: 4.94e-06
+Epoch[1] Iteration[130/1608], loss: 4.1231, nitc_loss: 2.0413, ss_loss: 0.8421, citc_loss: 0.0077, ritc_loss: 1.2319, Base Lr: 4.97e-06
+Epoch[1] Iteration[131/1608], loss: 4.2997, nitc_loss: 2.2218, ss_loss: 0.7714, citc_loss: 0.0072, ritc_loss: 1.2993, Base Lr: 5.00e-06
+Epoch[1] Iteration[132/1608], loss: 4.2180, nitc_loss: 2.2040, ss_loss: 0.7216, citc_loss: 0.0081, ritc_loss: 1.2844, Base Lr: 5.03e-06
+Epoch[1] Iteration[133/1608], loss: 3.9761, nitc_loss: 2.0745, ss_loss: 0.6427, citc_loss: 0.0085, ritc_loss: 1.2505, Base Lr: 5.06e-06
+Epoch[1] Iteration[134/1608], loss: 4.2348, nitc_loss: 2.0576, ss_loss: 0.8302, citc_loss: 0.0077, ritc_loss: 1.3393, Base Lr: 5.10e-06
+Epoch[1] Iteration[135/1608], loss: 4.5319, nitc_loss: 2.2429, ss_loss: 0.9308, citc_loss: 0.0082, ritc_loss: 1.3500, Base Lr: 5.13e-06
+Epoch[1] Iteration[136/1608], loss: 4.4856, nitc_loss: 2.2009, ss_loss: 0.9312, citc_loss: 0.0069, ritc_loss: 1.3465, Base Lr: 5.16e-06
+Epoch[1] Iteration[137/1608], loss: 4.1474, nitc_loss: 2.1267, ss_loss: 0.7116, citc_loss: 0.0083, ritc_loss: 1.3009, Base Lr: 5.19e-06
+Epoch[1] Iteration[138/1608], loss: 4.2019, nitc_loss: 2.1546, ss_loss: 0.7329, citc_loss: 0.0075, ritc_loss: 1.3069, Base Lr: 5.22e-06
+Epoch[1] Iteration[139/1608], loss: 4.1967, nitc_loss: 2.1523, ss_loss: 0.7054, citc_loss: 0.0087, ritc_loss: 1.3304, Base Lr: 5.25e-06
+Epoch[1] Iteration[140/1608], loss: 4.0606, nitc_loss: 2.0943, ss_loss: 0.7078, citc_loss: 0.0068, ritc_loss: 1.2518, Base Lr: 5.28e-06
+Epoch[1] Iteration[141/1608], loss: 3.8786, nitc_loss: 2.0380, ss_loss: 0.5754, citc_loss: 0.0096, ritc_loss: 1.2556, Base Lr: 5.31e-06
+Epoch[1] Iteration[142/1608], loss: 3.9282, nitc_loss: 2.0381, ss_loss: 0.6464, citc_loss: 0.0083, ritc_loss: 1.2355, Base Lr: 5.34e-06
+Epoch[1] Iteration[143/1608], loss: 4.3544, nitc_loss: 2.2160, ss_loss: 0.8255, citc_loss: 0.0080, ritc_loss: 1.3050, Base Lr: 5.37e-06
+Epoch[1] Iteration[144/1608], loss: 3.4185, nitc_loss: 1.7114, ss_loss: 0.6022, citc_loss: 0.0076, ritc_loss: 1.0973, Base Lr: 5.40e-06
+Epoch[1] Iteration[145/1608], loss: 4.1983, nitc_loss: 2.2085, ss_loss: 0.6601, citc_loss: 0.0096, ritc_loss: 1.3201, Base Lr: 5.43e-06
+Epoch[1] Iteration[146/1608], loss: 4.1797, nitc_loss: 2.0568, ss_loss: 0.8184, citc_loss: 0.0083, ritc_loss: 1.2962, Base Lr: 5.47e-06
+Epoch[1] Iteration[147/1608], loss: 4.5391, nitc_loss: 2.4113, ss_loss: 0.7231, citc_loss: 0.0086, ritc_loss: 1.3961, Base Lr: 5.50e-06
+Epoch[1] Iteration[148/1608], loss: 4.2443, nitc_loss: 2.1940, ss_loss: 0.7393, citc_loss: 0.0083, ritc_loss: 1.3028, Base Lr: 5.53e-06
+Epoch[1] Iteration[149/1608], loss: 4.6434, nitc_loss: 2.6181, ss_loss: 0.5324, citc_loss: 0.0087, ritc_loss: 1.4841, Base Lr: 5.56e-06
+Epoch[1] Iteration[150/1608], loss: 4.7165, nitc_loss: 2.4142, ss_loss: 0.8962, citc_loss: 0.0076, ritc_loss: 1.3985, Base Lr: 5.59e-06
+Epoch[1] Iteration[151/1608], loss: 4.0033, nitc_loss: 2.1230, ss_loss: 0.5779, citc_loss: 0.0086, ritc_loss: 1.2937, Base Lr: 5.62e-06
+Epoch[1] Iteration[152/1608], loss: 4.4383, nitc_loss: 2.3495, ss_loss: 0.6838, citc_loss: 0.0079, ritc_loss: 1.3972, Base Lr: 5.65e-06
+Epoch[1] Iteration[153/1608], loss: 4.1253, nitc_loss: 2.1315, ss_loss: 0.6872, citc_loss: 0.0076, ritc_loss: 1.2990, Base Lr: 5.68e-06
+Epoch[1] Iteration[154/1608], loss: 4.1043, nitc_loss: 2.1750, ss_loss: 0.6249, citc_loss: 0.0075, ritc_loss: 1.2969, Base Lr: 5.71e-06
+Epoch[1] Iteration[155/1608], loss: 3.5750, nitc_loss: 1.8624, ss_loss: 0.5455, citc_loss: 0.0091, ritc_loss: 1.1580, Base Lr: 5.74e-06
+Epoch[1] Iteration[156/1608], loss: 4.5247, nitc_loss: 2.4085, ss_loss: 0.6821, citc_loss: 0.0082, ritc_loss: 1.4260, Base Lr: 5.77e-06
+Epoch[1] Iteration[157/1608], loss: 4.1864, nitc_loss: 2.1107, ss_loss: 0.7629, citc_loss: 0.0094, ritc_loss: 1.3035, Base Lr: 5.80e-06
+Epoch[1] Iteration[158/1608], loss: 3.9029, nitc_loss: 1.9728, ss_loss: 0.6923, citc_loss: 0.0089, ritc_loss: 1.2288, Base Lr: 5.83e-06
+Epoch[1] Iteration[159/1608], loss: 3.9283, nitc_loss: 2.0123, ss_loss: 0.6958, citc_loss: 0.0096, ritc_loss: 1.2107, Base Lr: 5.87e-06
+Epoch[1] Iteration[160/1608], loss: 3.8479, nitc_loss: 1.9205, ss_loss: 0.5916, citc_loss: 0.0080, ritc_loss: 1.3279, Base Lr: 5.90e-06
+Epoch[1] Iteration[161/1608], loss: 4.3135, nitc_loss: 2.1265, ss_loss: 0.8745, citc_loss: 0.0086, ritc_loss: 1.3039, Base Lr: 5.93e-06
+Epoch[1] Iteration[162/1608], loss: 3.8640, nitc_loss: 2.0272, ss_loss: 0.5539, citc_loss: 0.0089, ritc_loss: 1.2740, Base Lr: 5.96e-06
+Epoch[1] Iteration[163/1608], loss: 4.3975, nitc_loss: 2.1613, ss_loss: 0.9075, citc_loss: 0.0062, ritc_loss: 1.3225, Base Lr: 5.99e-06
+Epoch[1] Iteration[164/1608], loss: 4.3916, nitc_loss: 2.2508, ss_loss: 0.7968, citc_loss: 0.0081, ritc_loss: 1.3359, Base Lr: 6.02e-06
+Epoch[1] Iteration[165/1608], loss: 4.1082, nitc_loss: 2.0459, ss_loss: 0.8056, citc_loss: 0.0091, ritc_loss: 1.2476, Base Lr: 6.05e-06
+Epoch[1] Iteration[166/1608], loss: 4.0673, nitc_loss: 2.0284, ss_loss: 0.7657, citc_loss: 0.0074, ritc_loss: 1.2659, Base Lr: 6.08e-06
+Epoch[1] Iteration[167/1608], loss: 3.9404, nitc_loss: 2.0130, ss_loss: 0.7253, citc_loss: 0.0079, ritc_loss: 1.1943, Base Lr: 6.11e-06
+Epoch[1] Iteration[168/1608], loss: 4.1695, nitc_loss: 2.1157, ss_loss: 0.7399, citc_loss: 0.0077, ritc_loss: 1.3062, Base Lr: 6.14e-06
+Epoch[1] Iteration[169/1608], loss: 3.8698, nitc_loss: 2.0251, ss_loss: 0.6539, citc_loss: 0.0072, ritc_loss: 1.1836, Base Lr: 6.17e-06

@@ -1,0 +1,8 @@
+
+Epoch[1] Iteration[1/268], loss: 6.4066, nitc_loss: 4.5779, ss_loss: 2.0207, citc_loss: 0.0004, ritc_loss: -0.1924, Base Lr: 1.00e-06
+Epoch[1] Iteration[2/268], loss: 6.4046, nitc_loss: 4.5606, ss_loss: 2.0388, citc_loss: 0.0005, ritc_loss: -0.1953, Base Lr: 1.19e-06
+Epoch[1] Iteration[3/268], loss: 6.3825, nitc_loss: 4.5431, ss_loss: 2.0323, citc_loss: 0.0006, ritc_loss: -0.1934, Base Lr: 1.37e-06
+Epoch[1] Iteration[4/268], loss: 6.4088, nitc_loss: 4.5451, ss_loss: 2.0598, citc_loss: 0.0005, ritc_loss: -0.1966, Base Lr: 1.56e-06
+Epoch[1] Iteration[5/268], loss: 6.4001, nitc_loss: 4.5839, ss_loss: 2.0043, citc_loss: 0.0006, ritc_loss: -0.1886, Base Lr: 1.74e-06
+Epoch[1] Iteration[6/268], loss: 6.3107, nitc_loss: 4.5305, ss_loss: 1.9674, citc_loss: 0.0005, ritc_loss: -0.1878, Base Lr: 1.93e-06
+Epoch[1] Iteration[7/268], loss: 6.2529, nitc_loss: 4.5120, ss_loss: 1.9283, citc_loss: 0.0007, ritc_loss: -0.1882, Base Lr: 2.11e-06

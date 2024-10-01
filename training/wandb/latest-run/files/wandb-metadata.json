@@ -1,0 +1,122 @@
+{
+    "os": "Linux-4.4.0-62-generic-x86_64-with-glibc2.31",
+    "python": "3.9.0",
+    "heartbeatAt": "2023-11-14T02:30:28.013494",
+    "startedAt": "2023-11-14T02:30:25.783267",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "/home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/TBPR-CLIP_vietnamese_training.py",
+    "codePathLocal": "TBPR-CLIP_vietnamese_training.py",
+    "codePath": "TBPR-CLIP_vietnamese_training.py",
+    "host": "b54fbea48e98",
+    "username": "jovyan",
+    "executable": "/opt/conda/envs/tbps-clip/bin/python",
+    "cpu_count": 16,
+    "cpu_count_logical": 16,
+    "cpu_freq": {
+        "current": 2596.7699999999995,
+        "min": 0.0,
+        "max": 0.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2596.77,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2596.77,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2596.77,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2596.77,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2596.77,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2596.77,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2596.77,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2596.77,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2596.77,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2596.77,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2596.77,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2596.77,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2596.77,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2596.77,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2596.77,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2596.77,
+            "min": 0.0,
+            "max": 0.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 142.14093399047852,
+            "used": 130.5524024963379
+        }
+    },
+    "gpu": "NVIDIA Tesla P100-PCIE-16GB",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA Tesla P100-PCIE-16GB",
+            "memory_total": 17071734784
+        }
+    ],
+    "memory": {
+        "total": 125.79474639892578
+    }
+}

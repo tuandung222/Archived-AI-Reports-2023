@@ -1,0 +1,20 @@
+
+Epoch[1] Iteration[1/257], loss: 58.8370, nitc_loss: 4.6241, ss_loss: 2.0406, citc_loss: 0.0005, ritc_loss: 52.1718, Base Lr: 1.00e-06
+Epoch[1] Iteration[2/257], loss: 58.8222, nitc_loss: 4.5970, ss_loss: 2.0657, citc_loss: 0.0005, ritc_loss: 52.1591, Base Lr: 1.19e-06
+Epoch[1] Iteration[3/257], loss: 58.7922, nitc_loss: 4.5838, ss_loss: 2.0506, citc_loss: 0.0006, ritc_loss: 52.1573, Base Lr: 1.39e-06
+Epoch[1] Iteration[4/257], loss: 58.7977, nitc_loss: 4.5794, ss_loss: 2.0645, citc_loss: 0.0006, ritc_loss: 52.1533, Base Lr: 1.58e-06
+Epoch[1] Iteration[5/257], loss: 58.7976, nitc_loss: 4.6082, ss_loss: 2.0116, citc_loss: 0.0006, ritc_loss: 52.1773, Base Lr: 1.77e-06
+Epoch[1] Iteration[6/257], loss: 58.7436, nitc_loss: 4.5853, ss_loss: 1.9895, citc_loss: 0.0007, ritc_loss: 52.1682, Base Lr: 1.96e-06
+Epoch[1] Iteration[7/257], loss: 58.6559, nitc_loss: 4.5395, ss_loss: 1.9754, citc_loss: 0.0007, ritc_loss: 52.1403, Base Lr: 2.16e-06
+Epoch[1] Iteration[8/257], loss: 58.6045, nitc_loss: 4.5259, ss_loss: 1.9441, citc_loss: 0.0007, ritc_loss: 52.1338, Base Lr: 2.35e-06
+Epoch[1] Iteration[9/257], loss: 58.5359, nitc_loss: 4.4927, ss_loss: 1.9378, citc_loss: 0.0010, ritc_loss: 52.1045, Base Lr: 2.54e-06
+Epoch[1] Iteration[10/257], loss: 58.5107, nitc_loss: 4.4920, ss_loss: 1.9135, citc_loss: 0.0009, ritc_loss: 52.1042, Base Lr: 2.74e-06
+Epoch[1] Iteration[11/257], loss: 58.5906, nitc_loss: 4.5338, ss_loss: 1.9140, citc_loss: 0.0011, ritc_loss: 52.1416, Base Lr: 2.93e-06
+Traceback (most recent call last):
+  File "/home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/TBPR-CLIP_vietnamese_training.py", line 249, in <module>
+    loss.backward()
+  File "/opt/conda/envs/tbps-clip/lib/python3.9/site-packages/torch/_tensor.py", line 487, in backward
+    torch.autograd.backward(
+  File "/opt/conda/envs/tbps-clip/lib/python3.9/site-packages/torch/autograd/__init__.py", line 197, in backward
+    Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+KeyboardInterrupt

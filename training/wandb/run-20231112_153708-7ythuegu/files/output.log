@@ -1,0 +1,204 @@
+
+Epoch[1] Iteration[1/321], loss: 6.6719, nitc_loss: 4.4070, ss_loss: 1.9462, citc_loss: 0.0005, ritc_loss: 0.3182, Base Lr: 1.00e-06
+Epoch[1] Iteration[2/321], loss: 6.6186, nitc_loss: 4.3805, ss_loss: 1.9271, citc_loss: 0.0005, ritc_loss: 0.3106, Base Lr: 1.31e-06
+Epoch[1] Iteration[3/321], loss: 6.5380, nitc_loss: 4.3322, ss_loss: 1.8848, citc_loss: 0.0006, ritc_loss: 0.3203, Base Lr: 1.62e-06
+Epoch[1] Iteration[4/321], loss: 6.6109, nitc_loss: 4.3653, ss_loss: 1.9350, citc_loss: 0.0006, ritc_loss: 0.3100, Base Lr: 1.93e-06
+Epoch[1] Iteration[5/321], loss: 6.5768, nitc_loss: 4.3643, ss_loss: 1.8917, citc_loss: 0.0006, ritc_loss: 0.3201, Base Lr: 2.24e-06
+Epoch[1] Iteration[6/321], loss: 6.5862, nitc_loss: 4.3617, ss_loss: 1.8890, citc_loss: 0.0007, ritc_loss: 0.3348, Base Lr: 2.55e-06
+Epoch[1] Iteration[7/321], loss: 6.5341, nitc_loss: 4.3278, ss_loss: 1.8712, citc_loss: 0.0006, ritc_loss: 0.3345, Base Lr: 2.86e-06
+Epoch[1] Iteration[8/321], loss: 6.4676, nitc_loss: 4.3024, ss_loss: 1.8497, citc_loss: 0.0008, ritc_loss: 0.3147, Base Lr: 3.17e-06
+Epoch[1] Iteration[9/321], loss: 6.3733, nitc_loss: 4.2850, ss_loss: 1.7527, citc_loss: 0.0008, ritc_loss: 0.3347, Base Lr: 3.47e-06
+Epoch[1] Iteration[10/321], loss: 6.3947, nitc_loss: 4.2879, ss_loss: 1.7706, citc_loss: 0.0008, ritc_loss: 0.3354, Base Lr: 3.78e-06
+Epoch[1] Iteration[11/321], loss: 6.3717, nitc_loss: 4.2677, ss_loss: 1.7553, citc_loss: 0.0011, ritc_loss: 0.3475, Base Lr: 4.09e-06
+Epoch[1] Iteration[12/321], loss: 6.3103, nitc_loss: 4.2390, ss_loss: 1.7266, citc_loss: 0.0012, ritc_loss: 0.3436, Base Lr: 4.40e-06
+Epoch[1] Iteration[13/321], loss: 6.3865, nitc_loss: 4.2580, ss_loss: 1.7784, citc_loss: 0.0013, ritc_loss: 0.3489, Base Lr: 4.71e-06
+Epoch[1] Iteration[14/321], loss: 6.2657, nitc_loss: 4.2668, ss_loss: 1.6436, citc_loss: 0.0016, ritc_loss: 0.3536, Base Lr: 5.02e-06
+Epoch[1] Iteration[15/321], loss: 6.1714, nitc_loss: 4.1901, ss_loss: 1.6269, citc_loss: 0.0016, ritc_loss: 0.3528, Base Lr: 5.33e-06
+Epoch[1] Iteration[16/321], loss: 6.1225, nitc_loss: 4.1583, ss_loss: 1.5853, citc_loss: 0.0020, ritc_loss: 0.3769, Base Lr: 5.64e-06
+Epoch[1] Iteration[17/321], loss: 5.9291, nitc_loss: 4.0380, ss_loss: 1.5076, citc_loss: 0.0019, ritc_loss: 0.3816, Base Lr: 5.95e-06
+Epoch[1] Iteration[18/321], loss: 6.0694, nitc_loss: 4.1325, ss_loss: 1.5522, citc_loss: 0.0022, ritc_loss: 0.3825, Base Lr: 6.26e-06
+Epoch[1] Iteration[19/321], loss: 5.9343, nitc_loss: 4.0098, ss_loss: 1.5365, citc_loss: 0.0024, ritc_loss: 0.3856, Base Lr: 6.57e-06
+Epoch[1] Iteration[20/321], loss: 6.0352, nitc_loss: 4.0824, ss_loss: 1.5572, citc_loss: 0.0027, ritc_loss: 0.3928, Base Lr: 6.88e-06
+Epoch[1] Iteration[21/321], loss: 5.9570, nitc_loss: 4.0148, ss_loss: 1.5319, citc_loss: 0.0028, ritc_loss: 0.4075, Base Lr: 7.19e-06
+Epoch[1] Iteration[22/321], loss: 5.9137, nitc_loss: 4.0268, ss_loss: 1.4665, citc_loss: 0.0030, ritc_loss: 0.4175, Base Lr: 7.50e-06
+Epoch[1] Iteration[23/321], loss: 5.8802, nitc_loss: 3.9913, ss_loss: 1.4636, citc_loss: 0.0031, ritc_loss: 0.4222, Base Lr: 7.81e-06
+Epoch[1] Iteration[24/321], loss: 5.7577, nitc_loss: 3.9493, ss_loss: 1.3648, citc_loss: 0.0033, ritc_loss: 0.4403, Base Lr: 8.12e-06
+Epoch[1] Iteration[25/321], loss: 5.7699, nitc_loss: 3.9262, ss_loss: 1.3906, citc_loss: 0.0033, ritc_loss: 0.4499, Base Lr: 8.42e-06
+Epoch[1] Iteration[26/321], loss: 5.7742, nitc_loss: 3.9078, ss_loss: 1.4294, citc_loss: 0.0033, ritc_loss: 0.4337, Base Lr: 8.73e-06
+Epoch[1] Iteration[27/321], loss: 5.8258, nitc_loss: 3.9387, ss_loss: 1.4100, citc_loss: 0.0036, ritc_loss: 0.4735, Base Lr: 9.04e-06
+Epoch[1] Iteration[28/321], loss: 5.7890, nitc_loss: 3.9560, ss_loss: 1.3495, citc_loss: 0.0036, ritc_loss: 0.4799, Base Lr: 9.35e-06
+Epoch[1] Iteration[29/321], loss: 5.6984, nitc_loss: 3.9028, ss_loss: 1.3348, citc_loss: 0.0039, ritc_loss: 0.4568, Base Lr: 9.66e-06
+Epoch[1] Iteration[30/321], loss: 5.8458, nitc_loss: 4.0477, ss_loss: 1.3295, citc_loss: 0.0041, ritc_loss: 0.4646, Base Lr: 9.97e-06
+Epoch[1] Iteration[31/321], loss: 5.6658, nitc_loss: 3.8945, ss_loss: 1.3016, citc_loss: 0.0042, ritc_loss: 0.4655, Base Lr: 1.03e-05
+Epoch[1] Iteration[32/321], loss: 5.6580, nitc_loss: 3.8282, ss_loss: 1.3325, citc_loss: 0.0043, ritc_loss: 0.4930, Base Lr: 1.06e-05
+Epoch[1] Iteration[33/321], loss: 5.6059, nitc_loss: 3.8237, ss_loss: 1.3067, citc_loss: 0.0043, ritc_loss: 0.4712, Base Lr: 1.09e-05
+Epoch[1] Iteration[34/321], loss: 5.6460, nitc_loss: 3.8719, ss_loss: 1.3215, citc_loss: 0.0040, ritc_loss: 0.4486, Base Lr: 1.12e-05
+Epoch[1] Iteration[35/321], loss: 5.5962, nitc_loss: 3.8437, ss_loss: 1.2717, citc_loss: 0.0045, ritc_loss: 0.4764, Base Lr: 1.15e-05
+Epoch[1] Iteration[36/321], loss: 5.6671, nitc_loss: 3.8707, ss_loss: 1.3451, citc_loss: 0.0043, ritc_loss: 0.4470, Base Lr: 1.18e-05
+Epoch[1] Iteration[37/321], loss: 5.6127, nitc_loss: 3.8927, ss_loss: 1.2624, citc_loss: 0.0046, ritc_loss: 0.4530, Base Lr: 1.21e-05
+Epoch[1] Iteration[38/321], loss: 5.6024, nitc_loss: 3.8819, ss_loss: 1.2513, citc_loss: 0.0048, ritc_loss: 0.4644, Base Lr: 1.24e-05
+Epoch[1] Iteration[39/321], loss: 5.5427, nitc_loss: 3.7403, ss_loss: 1.2629, citc_loss: 0.0042, ritc_loss: 0.5354, Base Lr: 1.28e-05
+Epoch[1] Iteration[40/321], loss: 5.4562, nitc_loss: 3.8092, ss_loss: 1.1971, citc_loss: 0.0048, ritc_loss: 0.4452, Base Lr: 1.31e-05
+Epoch[1] Iteration[41/321], loss: 5.5427, nitc_loss: 3.8093, ss_loss: 1.2791, citc_loss: 0.0049, ritc_loss: 0.4493, Base Lr: 1.34e-05
+Epoch[1] Iteration[42/321], loss: 5.5630, nitc_loss: 3.8709, ss_loss: 1.1886, citc_loss: 0.0053, ritc_loss: 0.4983, Base Lr: 1.37e-05
+Epoch[1] Iteration[43/321], loss: 5.5506, nitc_loss: 3.8533, ss_loss: 1.2056, citc_loss: 0.0049, ritc_loss: 0.4869, Base Lr: 1.40e-05
+Epoch[1] Iteration[44/321], loss: 5.3546, nitc_loss: 3.7020, ss_loss: 1.1376, citc_loss: 0.0054, ritc_loss: 0.5097, Base Lr: 1.43e-05
+Epoch[1] Iteration[45/321], loss: 5.5275, nitc_loss: 3.8359, ss_loss: 1.2019, citc_loss: 0.0054, ritc_loss: 0.4842, Base Lr: 1.46e-05
+Epoch[1] Iteration[46/321], loss: 5.4740, nitc_loss: 3.7362, ss_loss: 1.2417, citc_loss: 0.0052, ritc_loss: 0.4909, Base Lr: 1.49e-05
+Epoch[1] Iteration[47/321], loss: 5.3421, nitc_loss: 3.7511, ss_loss: 1.1151, citc_loss: 0.0057, ritc_loss: 0.4702, Base Lr: 1.52e-05
+Epoch[1] Iteration[48/321], loss: 5.4396, nitc_loss: 3.7265, ss_loss: 1.1906, citc_loss: 0.0057, ritc_loss: 0.5168, Base Lr: 1.55e-05
+Epoch[1] Iteration[49/321], loss: 5.3378, nitc_loss: 3.7713, ss_loss: 1.0958, citc_loss: 0.0067, ritc_loss: 0.4641, Base Lr: 1.58e-05
+Epoch[1] Iteration[50/321], loss: 5.3141, nitc_loss: 3.7187, ss_loss: 1.0871, citc_loss: 0.0065, ritc_loss: 0.5019, Base Lr: 1.62e-05
+Epoch[1] Iteration[51/321], loss: 5.3092, nitc_loss: 3.7497, ss_loss: 1.0674, citc_loss: 0.0061, ritc_loss: 0.4860, Base Lr: 1.65e-05
+Epoch[1] Iteration[52/321], loss: 5.5199, nitc_loss: 3.8485, ss_loss: 1.1364, citc_loss: 0.0065, ritc_loss: 0.5285, Base Lr: 1.68e-05
+Epoch[1] Iteration[53/321], loss: 5.4164, nitc_loss: 3.8313, ss_loss: 1.1077, citc_loss: 0.0064, ritc_loss: 0.4710, Base Lr: 1.71e-05
+Epoch[1] Iteration[54/321], loss: 5.4705, nitc_loss: 3.7823, ss_loss: 1.1440, citc_loss: 0.0064, ritc_loss: 0.5379, Base Lr: 1.74e-05
+Epoch[1] Iteration[55/321], loss: 5.3740, nitc_loss: 3.7585, ss_loss: 1.1261, citc_loss: 0.0060, ritc_loss: 0.4834, Base Lr: 1.77e-05
+Epoch[1] Iteration[56/321], loss: 5.3771, nitc_loss: 3.8316, ss_loss: 1.0824, citc_loss: 0.0058, ritc_loss: 0.4574, Base Lr: 1.80e-05
+Epoch[1] Iteration[57/321], loss: 5.2972, nitc_loss: 3.7653, ss_loss: 1.0470, citc_loss: 0.0059, ritc_loss: 0.4790, Base Lr: 1.83e-05
+Epoch[1] Iteration[58/321], loss: 5.3297, nitc_loss: 3.8071, ss_loss: 1.0873, citc_loss: 0.0067, ritc_loss: 0.4286, Base Lr: 1.86e-05
+Epoch[1] Iteration[59/321], loss: 5.3669, nitc_loss: 3.8459, ss_loss: 1.0243, citc_loss: 0.0063, ritc_loss: 0.4903, Base Lr: 1.89e-05
+Epoch[1] Iteration[60/321], loss: 5.2746, nitc_loss: 3.8059, ss_loss: 1.0055, citc_loss: 0.0073, ritc_loss: 0.4560, Base Lr: 1.93e-05
+Epoch[1] Iteration[61/321], loss: 5.2207, nitc_loss: 3.7032, ss_loss: 1.0111, citc_loss: 0.0065, ritc_loss: 0.4999, Base Lr: 1.96e-05
+Epoch[1] Iteration[62/321], loss: 5.3409, nitc_loss: 3.8488, ss_loss: 1.0373, citc_loss: 0.0068, ritc_loss: 0.4480, Base Lr: 1.99e-05
+Epoch[1] Iteration[63/321], loss: 5.2616, nitc_loss: 3.7586, ss_loss: 1.0263, citc_loss: 0.0062, ritc_loss: 0.4705, Base Lr: 2.02e-05
+Epoch[1] Iteration[64/321], loss: 5.1505, nitc_loss: 3.6628, ss_loss: 1.0182, citc_loss: 0.0066, ritc_loss: 0.4629, Base Lr: 2.05e-05
+Epoch[1] Iteration[65/321], loss: 5.3188, nitc_loss: 3.8133, ss_loss: 1.0048, citc_loss: 0.0075, ritc_loss: 0.4932, Base Lr: 2.08e-05
+Epoch[1] Iteration[66/321], loss: 5.1631, nitc_loss: 3.7313, ss_loss: 0.9303, citc_loss: 0.0076, ritc_loss: 0.4940, Base Lr: 2.11e-05
+Epoch[1] Iteration[67/321], loss: 5.2059, nitc_loss: 3.7302, ss_loss: 0.9823, citc_loss: 0.0077, ritc_loss: 0.4858, Base Lr: 2.14e-05
+Epoch[1] Iteration[68/321], loss: 5.1783, nitc_loss: 3.6666, ss_loss: 1.0173, citc_loss: 0.0076, ritc_loss: 0.4867, Base Lr: 2.17e-05
+Epoch[1] Iteration[69/321], loss: 5.2405, nitc_loss: 3.6802, ss_loss: 1.0161, citc_loss: 0.0071, ritc_loss: 0.5371, Base Lr: 2.20e-05
+Epoch[1] Iteration[70/321], loss: 5.3923, nitc_loss: 3.8509, ss_loss: 1.0656, citc_loss: 0.0076, ritc_loss: 0.4683, Base Lr: 2.23e-05
+Epoch[1] Iteration[71/321], loss: 5.3442, nitc_loss: 3.8295, ss_loss: 1.0403, citc_loss: 0.0078, ritc_loss: 0.4666, Base Lr: 2.27e-05
+Epoch[1] Iteration[72/321], loss: 5.2289, nitc_loss: 3.6843, ss_loss: 1.0577, citc_loss: 0.0078, ritc_loss: 0.4791, Base Lr: 2.30e-05
+Epoch[1] Iteration[73/321], loss: 5.0873, nitc_loss: 3.6702, ss_loss: 0.9465, citc_loss: 0.0079, ritc_loss: 0.4627, Base Lr: 2.33e-05
+Epoch[1] Iteration[74/321], loss: 5.1673, nitc_loss: 3.6979, ss_loss: 0.9935, citc_loss: 0.0074, ritc_loss: 0.4685, Base Lr: 2.36e-05
+Epoch[1] Iteration[75/321], loss: 5.1592, nitc_loss: 3.6853, ss_loss: 1.0195, citc_loss: 0.0078, ritc_loss: 0.4467, Base Lr: 2.39e-05
+Epoch[1] Iteration[76/321], loss: 5.0693, nitc_loss: 3.7081, ss_loss: 0.8923, citc_loss: 0.0079, ritc_loss: 0.4609, Base Lr: 2.42e-05
+Epoch[1] Iteration[77/321], loss: 5.1091, nitc_loss: 3.6527, ss_loss: 0.9587, citc_loss: 0.0072, ritc_loss: 0.4906, Base Lr: 2.45e-05
+Epoch[1] Iteration[78/321], loss: 5.1280, nitc_loss: 3.6676, ss_loss: 0.9631, citc_loss: 0.0072, ritc_loss: 0.4900, Base Lr: 2.48e-05
+Epoch[1] Iteration[79/321], loss: 4.9218, nitc_loss: 3.6279, ss_loss: 0.8387, citc_loss: 0.0074, ritc_loss: 0.4478, Base Lr: 2.51e-05
+Epoch[1] Iteration[80/321], loss: 5.1110, nitc_loss: 3.6069, ss_loss: 0.9862, citc_loss: 0.0069, ritc_loss: 0.5109, Base Lr: 2.54e-05
+Epoch[1] Iteration[81/321], loss: 5.1136, nitc_loss: 3.7410, ss_loss: 0.9299, citc_loss: 0.0079, ritc_loss: 0.4348, Base Lr: 2.57e-05
+Epoch[1] Iteration[82/321], loss: 4.9727, nitc_loss: 3.5966, ss_loss: 0.8836, citc_loss: 0.0076, ritc_loss: 0.4850, Base Lr: 2.61e-05
+Epoch[1] Iteration[83/321], loss: 5.0719, nitc_loss: 3.6784, ss_loss: 0.8766, citc_loss: 0.0081, ritc_loss: 0.5088, Base Lr: 2.64e-05
+Epoch[1] Iteration[84/321], loss: 5.0132, nitc_loss: 3.6012, ss_loss: 0.8868, citc_loss: 0.0075, ritc_loss: 0.5178, Base Lr: 2.67e-05
+Epoch[1] Iteration[85/321], loss: 5.0744, nitc_loss: 3.7450, ss_loss: 0.8456, citc_loss: 0.0080, ritc_loss: 0.4758, Base Lr: 2.70e-05
+Epoch[1] Iteration[86/321], loss: 5.3353, nitc_loss: 3.7824, ss_loss: 0.9985, citc_loss: 0.0073, ritc_loss: 0.5471, Base Lr: 2.73e-05
+Epoch[1] Iteration[87/321], loss: 5.1130, nitc_loss: 3.6956, ss_loss: 0.9255, citc_loss: 0.0078, ritc_loss: 0.4842, Base Lr: 2.76e-05
+Epoch[1] Iteration[88/321], loss: 5.1037, nitc_loss: 3.7037, ss_loss: 0.8767, citc_loss: 0.0083, ritc_loss: 0.5150, Base Lr: 2.79e-05
+Epoch[1] Iteration[89/321], loss: 5.0056, nitc_loss: 3.6471, ss_loss: 0.8579, citc_loss: 0.0077, ritc_loss: 0.4928, Base Lr: 2.82e-05
+Epoch[1] Iteration[90/321], loss: 5.0776, nitc_loss: 3.6247, ss_loss: 0.9165, citc_loss: 0.0077, ritc_loss: 0.5288, Base Lr: 2.85e-05
+Epoch[1] Iteration[91/321], loss: 5.1320, nitc_loss: 3.6825, ss_loss: 0.9570, citc_loss: 0.0080, ritc_loss: 0.4845, Base Lr: 2.88e-05
+Epoch[1] Iteration[92/321], loss: 4.9998, nitc_loss: 3.6531, ss_loss: 0.8900, citc_loss: 0.0080, ritc_loss: 0.4487, Base Lr: 2.92e-05
+Epoch[1] Iteration[93/321], loss: 5.0375, nitc_loss: 3.6942, ss_loss: 0.8874, citc_loss: 0.0081, ritc_loss: 0.4478, Base Lr: 2.95e-05
+Epoch[1] Iteration[94/321], loss: 5.1062, nitc_loss: 3.7846, ss_loss: 0.8421, citc_loss: 0.0076, ritc_loss: 0.4719, Base Lr: 2.98e-05
+Epoch[1] Iteration[95/321], loss: 5.0449, nitc_loss: 3.7080, ss_loss: 0.8473, citc_loss: 0.0077, ritc_loss: 0.4818, Base Lr: 3.01e-05
+Epoch[1] Iteration[96/321], loss: 4.9108, nitc_loss: 3.5750, ss_loss: 0.8359, citc_loss: 0.0085, ritc_loss: 0.4914, Base Lr: 3.04e-05
+Epoch[1] Iteration[97/321], loss: 4.9567, nitc_loss: 3.6211, ss_loss: 0.8562, citc_loss: 0.0091, ritc_loss: 0.4702, Base Lr: 3.07e-05
+Epoch[1] Iteration[98/321], loss: 5.0603, nitc_loss: 3.7576, ss_loss: 0.8451, citc_loss: 0.0092, ritc_loss: 0.4484, Base Lr: 3.10e-05
+Epoch[1] Iteration[99/321], loss: 5.0295, nitc_loss: 3.7218, ss_loss: 0.8208, citc_loss: 0.0095, ritc_loss: 0.4775, Base Lr: 3.13e-05
+Epoch[1] Iteration[100/321], loss: 5.0543, nitc_loss: 3.7263, ss_loss: 0.8469, citc_loss: 0.0092, ritc_loss: 0.4719, Base Lr: 3.16e-05
+Epoch[1] Iteration[101/321], loss: 5.0748, nitc_loss: 3.8368, ss_loss: 0.7525, citc_loss: 0.0088, ritc_loss: 0.4767, Base Lr: 3.19e-05
+Epoch[1] Iteration[102/321], loss: 5.1895, nitc_loss: 3.7837, ss_loss: 0.8746, citc_loss: 0.0079, ritc_loss: 0.5233, Base Lr: 3.22e-05
+Epoch[1] Iteration[103/321], loss: 5.0175, nitc_loss: 3.7470, ss_loss: 0.8025, citc_loss: 0.0080, ritc_loss: 0.4600, Base Lr: 3.26e-05
+Epoch[1] Iteration[104/321], loss: 4.8987, nitc_loss: 3.5815, ss_loss: 0.8437, citc_loss: 0.0079, ritc_loss: 0.4655, Base Lr: 3.29e-05
+Epoch[1] Iteration[105/321], loss: 5.0351, nitc_loss: 3.7320, ss_loss: 0.8302, citc_loss: 0.0089, ritc_loss: 0.4640, Base Lr: 3.32e-05
+Epoch[1] Iteration[106/321], loss: 4.9756, nitc_loss: 3.7080, ss_loss: 0.8025, citc_loss: 0.0094, ritc_loss: 0.4556, Base Lr: 3.35e-05
+Epoch[1] Iteration[107/321], loss: 4.9805, nitc_loss: 3.6694, ss_loss: 0.8097, citc_loss: 0.0093, ritc_loss: 0.4920, Base Lr: 3.38e-05
+Epoch[1] Iteration[108/321], loss: 5.1285, nitc_loss: 3.8274, ss_loss: 0.8103, citc_loss: 0.0092, ritc_loss: 0.4816, Base Lr: 3.41e-05
+Epoch[1] Iteration[109/321], loss: 5.0627, nitc_loss: 3.6743, ss_loss: 0.8992, citc_loss: 0.0099, ritc_loss: 0.4792, Base Lr: 3.44e-05
+Epoch[1] Iteration[110/321], loss: 4.9925, nitc_loss: 3.6921, ss_loss: 0.8036, citc_loss: 0.0092, ritc_loss: 0.4877, Base Lr: 3.47e-05
+Epoch[1] Iteration[111/321], loss: 4.8491, nitc_loss: 3.5672, ss_loss: 0.8166, citc_loss: 0.0090, ritc_loss: 0.4564, Base Lr: 3.50e-05
+Epoch[1] Iteration[112/321], loss: 5.0627, nitc_loss: 3.6843, ss_loss: 0.8477, citc_loss: 0.0094, ritc_loss: 0.5213, Base Lr: 3.53e-05
+Epoch[1] Iteration[113/321], loss: 4.9028, nitc_loss: 3.5949, ss_loss: 0.7970, citc_loss: 0.0087, ritc_loss: 0.5023, Base Lr: 3.56e-05
+Epoch[1] Iteration[114/321], loss: 5.1627, nitc_loss: 3.7879, ss_loss: 0.8667, citc_loss: 0.0093, ritc_loss: 0.4988, Base Lr: 3.60e-05
+Epoch[1] Iteration[115/321], loss: 5.0382, nitc_loss: 3.7262, ss_loss: 0.8361, citc_loss: 0.0092, ritc_loss: 0.4666, Base Lr: 3.63e-05
+Epoch[1] Iteration[116/321], loss: 4.9218, nitc_loss: 3.7003, ss_loss: 0.7555, citc_loss: 0.0087, ritc_loss: 0.4573, Base Lr: 3.66e-05
+Epoch[1] Iteration[117/321], loss: 4.9208, nitc_loss: 3.6762, ss_loss: 0.7783, citc_loss: 0.0084, ritc_loss: 0.4578, Base Lr: 3.69e-05
+Epoch[1] Iteration[118/321], loss: 5.0078, nitc_loss: 3.7226, ss_loss: 0.7968, citc_loss: 0.0086, ritc_loss: 0.4798, Base Lr: 3.72e-05
+Epoch[1] Iteration[119/321], loss: 4.9457, nitc_loss: 3.7711, ss_loss: 0.7071, citc_loss: 0.0088, ritc_loss: 0.4588, Base Lr: 3.75e-05
+Epoch[1] Iteration[120/321], loss: 4.9210, nitc_loss: 3.6793, ss_loss: 0.7558, citc_loss: 0.0087, ritc_loss: 0.4772, Base Lr: 3.78e-05
+Epoch[1] Iteration[121/321], loss: 4.9249, nitc_loss: 3.6584, ss_loss: 0.7642, citc_loss: 0.0083, ritc_loss: 0.4941, Base Lr: 3.81e-05
+Epoch[1] Iteration[122/321], loss: 4.9550, nitc_loss: 3.7144, ss_loss: 0.7827, citc_loss: 0.0095, ritc_loss: 0.4483, Base Lr: 3.84e-05
+Epoch[1] Iteration[123/321], loss: 4.9808, nitc_loss: 3.6440, ss_loss: 0.8210, citc_loss: 0.0091, ritc_loss: 0.5067, Base Lr: 3.87e-05
+Epoch[1] Iteration[124/321], loss: 4.9163, nitc_loss: 3.7343, ss_loss: 0.7155, citc_loss: 0.0097, ritc_loss: 0.4568, Base Lr: 3.91e-05
+Epoch[1] Iteration[125/321], loss: 4.8257, nitc_loss: 3.5486, ss_loss: 0.7889, citc_loss: 0.0097, ritc_loss: 0.4784, Base Lr: 3.94e-05
+Epoch[1] Iteration[126/321], loss: 4.8659, nitc_loss: 3.6102, ss_loss: 0.7626, citc_loss: 0.0098, ritc_loss: 0.4834, Base Lr: 3.97e-05
+Epoch[1] Iteration[127/321], loss: 5.0373, nitc_loss: 3.7721, ss_loss: 0.7791, citc_loss: 0.0093, ritc_loss: 0.4768, Base Lr: 4.00e-05
+Epoch[1] Iteration[128/321], loss: 5.0221, nitc_loss: 3.8109, ss_loss: 0.7478, citc_loss: 0.0098, ritc_loss: 0.4536, Base Lr: 4.03e-05
+Epoch[1] Iteration[129/321], loss: 4.9659, nitc_loss: 3.5913, ss_loss: 0.8580, citc_loss: 0.0089, ritc_loss: 0.5077, Base Lr: 4.06e-05
+Epoch[1] Iteration[130/321], loss: 4.9272, nitc_loss: 3.6977, ss_loss: 0.7089, citc_loss: 0.0103, ritc_loss: 0.5104, Base Lr: 4.09e-05
+Epoch[1] Iteration[131/321], loss: 4.8682, nitc_loss: 3.7604, ss_loss: 0.6217, citc_loss: 0.0102, ritc_loss: 0.4760, Base Lr: 4.12e-05
+Epoch[1] Iteration[132/321], loss: 4.9468, nitc_loss: 3.7104, ss_loss: 0.7675, citc_loss: 0.0096, ritc_loss: 0.4594, Base Lr: 4.15e-05
+Epoch[1] Iteration[133/321], loss: 5.0690, nitc_loss: 3.7613, ss_loss: 0.8634, citc_loss: 0.0105, ritc_loss: 0.4338, Base Lr: 4.18e-05
+Epoch[1] Iteration[134/321], loss: 4.9869, nitc_loss: 3.7281, ss_loss: 0.8178, citc_loss: 0.0108, ritc_loss: 0.4302, Base Lr: 4.21e-05
+Epoch[1] Iteration[135/321], loss: 4.8885, nitc_loss: 3.6929, ss_loss: 0.7360, citc_loss: 0.0100, ritc_loss: 0.4496, Base Lr: 4.25e-05
+Epoch[1] Iteration[136/321], loss: 4.9020, nitc_loss: 3.7183, ss_loss: 0.6866, citc_loss: 0.0097, ritc_loss: 0.4874, Base Lr: 4.28e-05
+Epoch[1] Iteration[137/321], loss: 4.9294, nitc_loss: 3.6407, ss_loss: 0.8119, citc_loss: 0.0102, ritc_loss: 0.4667, Base Lr: 4.31e-05
+Epoch[1] Iteration[138/321], loss: 5.0522, nitc_loss: 3.7304, ss_loss: 0.7830, citc_loss: 0.0102, ritc_loss: 0.5286, Base Lr: 4.34e-05
+Epoch[1] Iteration[139/321], loss: 4.9448, nitc_loss: 3.7076, ss_loss: 0.7404, citc_loss: 0.0101, ritc_loss: 0.4867, Base Lr: 4.37e-05
+Epoch[1] Iteration[140/321], loss: 4.8730, nitc_loss: 3.6535, ss_loss: 0.7133, citc_loss: 0.0103, ritc_loss: 0.4959, Base Lr: 4.40e-05
+Epoch[1] Iteration[141/321], loss: 4.9843, nitc_loss: 3.6759, ss_loss: 0.7857, citc_loss: 0.0100, ritc_loss: 0.5126, Base Lr: 4.43e-05
+Epoch[1] Iteration[142/321], loss: 4.9373, nitc_loss: 3.6846, ss_loss: 0.7640, citc_loss: 0.0094, ritc_loss: 0.4793, Base Lr: 4.46e-05
+Epoch[1] Iteration[143/321], loss: 4.9396, nitc_loss: 3.6348, ss_loss: 0.8012, citc_loss: 0.0096, ritc_loss: 0.4940, Base Lr: 4.49e-05
+Epoch[1] Iteration[144/321], loss: 5.0181, nitc_loss: 3.7415, ss_loss: 0.7808, citc_loss: 0.0099, ritc_loss: 0.4859, Base Lr: 4.52e-05
+Epoch[1] Iteration[145/321], loss: 4.9554, nitc_loss: 3.7789, ss_loss: 0.7344, citc_loss: 0.0099, ritc_loss: 0.4322, Base Lr: 4.55e-05
+Epoch[1] Iteration[146/321], loss: 4.8819, nitc_loss: 3.6500, ss_loss: 0.7417, citc_loss: 0.0097, ritc_loss: 0.4805, Base Lr: 4.59e-05
+Epoch[1] Iteration[147/321], loss: 4.9601, nitc_loss: 3.7740, ss_loss: 0.7386, citc_loss: 0.0093, ritc_loss: 0.4382, Base Lr: 4.62e-05
+Epoch[1] Iteration[148/321], loss: 4.9474, nitc_loss: 3.7558, ss_loss: 0.7512, citc_loss: 0.0099, ritc_loss: 0.4304, Base Lr: 4.65e-05
+Epoch[1] Iteration[149/321], loss: 4.9171, nitc_loss: 3.7327, ss_loss: 0.6941, citc_loss: 0.0088, ritc_loss: 0.4815, Base Lr: 4.68e-05
+Epoch[1] Iteration[150/321], loss: 4.8949, nitc_loss: 3.6472, ss_loss: 0.7743, citc_loss: 0.0090, ritc_loss: 0.4644, Base Lr: 4.71e-05
+Epoch[1] Iteration[151/321], loss: 4.8730, nitc_loss: 3.6928, ss_loss: 0.6808, citc_loss: 0.0095, ritc_loss: 0.4900, Base Lr: 4.74e-05
+Epoch[1] Iteration[152/321], loss: 4.9110, nitc_loss: 3.7842, ss_loss: 0.6652, citc_loss: 0.0094, ritc_loss: 0.4522, Base Lr: 4.77e-05
+Epoch[1] Iteration[153/321], loss: 4.8709, nitc_loss: 3.7331, ss_loss: 0.6974, citc_loss: 0.0103, ritc_loss: 0.4302, Base Lr: 4.80e-05
+Epoch[1] Iteration[154/321], loss: 5.0489, nitc_loss: 3.8472, ss_loss: 0.7572, citc_loss: 0.0100, ritc_loss: 0.4345, Base Lr: 4.83e-05
+Epoch[1] Iteration[155/321], loss: 4.8523, nitc_loss: 3.7749, ss_loss: 0.5990, citc_loss: 0.0104, ritc_loss: 0.4680, Base Lr: 4.86e-05
+Epoch[1] Iteration[156/321], loss: 4.8034, nitc_loss: 3.6627, ss_loss: 0.7151, citc_loss: 0.0100, ritc_loss: 0.4156, Base Lr: 4.90e-05
+Epoch[1] Iteration[157/321], loss: 4.9900, nitc_loss: 3.6888, ss_loss: 0.8138, citc_loss: 0.0094, ritc_loss: 0.4781, Base Lr: 4.93e-05
+Epoch[1] Iteration[158/321], loss: 5.0214, nitc_loss: 3.8147, ss_loss: 0.7223, citc_loss: 0.0100, ritc_loss: 0.4744, Base Lr: 4.96e-05
+Epoch[1] Iteration[159/321], loss: 4.9866, nitc_loss: 3.7943, ss_loss: 0.7387, citc_loss: 0.0097, ritc_loss: 0.4439, Base Lr: 4.99e-05
+Epoch[1] Iteration[160/321], loss: 4.9891, nitc_loss: 3.7538, ss_loss: 0.7204, citc_loss: 0.0101, ritc_loss: 0.5049, Base Lr: 5.02e-05
+Epoch[1] Iteration[161/321], loss: 4.8393, nitc_loss: 3.6405, ss_loss: 0.7083, citc_loss: 0.0101, ritc_loss: 0.4804, Base Lr: 5.05e-05
+Epoch[1] Iteration[162/321], loss: 4.7806, nitc_loss: 3.7062, ss_loss: 0.6300, citc_loss: 0.0100, ritc_loss: 0.4343, Base Lr: 5.08e-05
+Epoch[1] Iteration[163/321], loss: 5.0997, nitc_loss: 3.8659, ss_loss: 0.7657, citc_loss: 0.0092, ritc_loss: 0.4590, Base Lr: 5.11e-05
+Epoch[1] Iteration[164/321], loss: 4.7857, nitc_loss: 3.7268, ss_loss: 0.6079, citc_loss: 0.0104, ritc_loss: 0.4407, Base Lr: 5.14e-05
+Epoch[1] Iteration[165/321], loss: 4.9187, nitc_loss: 3.7801, ss_loss: 0.6459, citc_loss: 0.0089, ritc_loss: 0.4838, Base Lr: 5.17e-05
+Epoch[1] Iteration[166/321], loss: 5.0385, nitc_loss: 3.7620, ss_loss: 0.8103, citc_loss: 0.0084, ritc_loss: 0.4577, Base Lr: 5.20e-05
+Epoch[1] Iteration[167/321], loss: 4.8578, nitc_loss: 3.7228, ss_loss: 0.6866, citc_loss: 0.0092, ritc_loss: 0.4391, Base Lr: 5.24e-05
+Epoch[1] Iteration[168/321], loss: 4.8898, nitc_loss: 3.7410, ss_loss: 0.6702, citc_loss: 0.0100, ritc_loss: 0.4687, Base Lr: 5.27e-05
+Epoch[1] Iteration[169/321], loss: 4.8239, nitc_loss: 3.7116, ss_loss: 0.6553, citc_loss: 0.0094, ritc_loss: 0.4475, Base Lr: 5.30e-05
+Traceback (most recent call last):
+  File "/home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/TBPR-CLIP_vietnamese_training.py", line 224, in <module>
+    ret = model(batch, alpha)
+  File "/opt/conda/envs/tbps-clip/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1190, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/jovyan/workspace/BA-PRE_THESIS/paper_clones/TBPS-CLIP/model/tbps_model.py", line 114, in forward
+    text_features, text_seq_embeddings = self.encode_text(text_tokens, return_dense=True)
+  File "/home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/TBPR-CLIP_vietnamese_training.py", line 102, in encode_text
+    return self.text_encoder.encode(texts, convert_to_tensor=True, device=self.device), None
+  File "/opt/conda/envs/tbps-clip/lib/python3.9/site-packages/sentence_transformers/SentenceTransformer.py", line 165, in encode
+    out_features = self.forward(features)
+  File "/opt/conda/envs/tbps-clip/lib/python3.9/site-packages/torch/nn/modules/container.py", line 204, in forward
+    input = module(input)
+  File "/opt/conda/envs/tbps-clip/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1190, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/opt/conda/envs/tbps-clip/lib/python3.9/site-packages/sentence_transformers/models/Transformer.py", line 66, in forward
+    output_states = self.auto_model(**trans_features, return_dict=False)
+  File "/opt/conda/envs/tbps-clip/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1190, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/opt/conda/envs/tbps-clip/lib/python3.9/site-packages/transformers/models/distilbert/modeling_distilbert.py", line 599, in forward
+    return self.transformer(
+  File "/opt/conda/envs/tbps-clip/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1190, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/opt/conda/envs/tbps-clip/lib/python3.9/site-packages/transformers/models/distilbert/modeling_distilbert.py", line 369, in forward
+    layer_outputs = layer_module(
+  File "/opt/conda/envs/tbps-clip/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1190, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/opt/conda/envs/tbps-clip/lib/python3.9/site-packages/transformers/models/distilbert/modeling_distilbert.py", line 295, in forward
+    sa_output = self.attention(
+  File "/opt/conda/envs/tbps-clip/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1190, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/opt/conda/envs/tbps-clip/lib/python3.9/site-packages/transformers/models/distilbert/modeling_distilbert.py", line 219, in forward
+    q = q / math.sqrt(dim_per_head)  # (bs, n_heads, q_length, dim_per_head)
+KeyboardInterrupt

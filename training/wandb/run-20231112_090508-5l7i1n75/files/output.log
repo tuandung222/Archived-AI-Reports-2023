@@ -1,0 +1,124 @@
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+Epoch[1] Iteration[1/1608], loss: 4.1897, nitc_loss: 2.8246, ritc_loss: 1.3651, Base Lr: 1.00e-06
+Epoch[1] Iteration[2/1608], loss: nan, nitc_loss: nan, ritc_loss: nan, Base Lr: 1.03e-06
+Epoch[1] Iteration[3/1608], loss: nan, nitc_loss: nan, ritc_loss: nan, Base Lr: 1.06e-06
+Epoch[1] Iteration[4/1608], loss: nan, nitc_loss: nan, ritc_loss: nan, Base Lr: 1.09e-06
+Epoch[1] Iteration[5/1608], loss: nan, nitc_loss: nan, ritc_loss: nan, Base Lr: 1.12e-06
+Epoch[1] Iteration[6/1608], loss: nan, nitc_loss: nan, ritc_loss: nan, Base Lr: 1.15e-06
+Epoch[1] Iteration[7/1608], loss: nan, nitc_loss: nan, ritc_loss: nan, Base Lr: 1.18e-06
+Epoch[1] Iteration[8/1608], loss: nan, nitc_loss: nan, ritc_loss: nan, Base Lr: 1.22e-06
+Epoch[1] Iteration[9/1608], loss: nan, nitc_loss: nan, ritc_loss: nan, Base Lr: 1.25e-06
+Epoch[1] Iteration[10/1608], loss: nan, nitc_loss: nan, ritc_loss: nan, Base Lr: 1.28e-06
+Epoch[1] Iteration[11/1608], loss: nan, nitc_loss: nan, ritc_loss: nan, Base Lr: 1.31e-06
+Epoch[1] Iteration[12/1608], loss: nan, nitc_loss: nan, ritc_loss: nan, Base Lr: 1.34e-06
+Epoch[1] Iteration[13/1608], loss: nan, nitc_loss: nan, ritc_loss: nan, Base Lr: 1.37e-06
+Epoch[1] Iteration[14/1608], loss: nan, nitc_loss: nan, ritc_loss: nan, Base Lr: 1.40e-06
+Epoch[1] Iteration[15/1608], loss: nan, nitc_loss: nan, ritc_loss: nan, Base Lr: 1.43e-06
+Epoch[1] Iteration[16/1608], loss: nan, nitc_loss: nan, ritc_loss: nan, Base Lr: 1.46e-06
+Epoch[1] Iteration[17/1608], loss: nan, nitc_loss: nan, ritc_loss: nan, Base Lr: 1.49e-06
+Epoch[1] Iteration[18/1608], loss: nan, nitc_loss: nan, ritc_loss: nan, Base Lr: 1.52e-06
+Epoch[1] Iteration[19/1608], loss: nan, nitc_loss: nan, ritc_loss: nan, Base Lr: 1.55e-06
+Epoch[1] Iteration[20/1608], loss: nan, nitc_loss: nan, ritc_loss: nan, Base Lr: 1.59e-06
+Epoch[1] Iteration[21/1608], loss: nan, nitc_loss: nan, ritc_loss: nan, Base Lr: 1.62e-06
+Epoch[1] Iteration[22/1608], loss: nan, nitc_loss: nan, ritc_loss: nan, Base Lr: 1.65e-06
+Epoch[1] Iteration[23/1608], loss: nan, nitc_loss: nan, ritc_loss: nan, Base Lr: 1.68e-06
+Epoch[1] Iteration[24/1608], loss: nan, nitc_loss: nan, ritc_loss: nan, Base Lr: 1.71e-06
+Epoch[1] Iteration[25/1608], loss: nan, nitc_loss: nan, ritc_loss: nan, Base Lr: 1.74e-06
+Epoch[1] Iteration[26/1608], loss: nan, nitc_loss: nan, ritc_loss: nan, Base Lr: 1.77e-06
+Epoch[1] Iteration[27/1608], loss: nan, nitc_loss: nan, ritc_loss: nan, Base Lr: 1.80e-06
+Epoch[1] Iteration[28/1608], loss: nan, nitc_loss: nan, ritc_loss: nan, Base Lr: 1.83e-06
+Epoch[1] Iteration[29/1608], loss: nan, nitc_loss: nan, ritc_loss: nan, Base Lr: 1.86e-06
+Epoch[1] Iteration[30/1608], loss: nan, nitc_loss: nan, ritc_loss: nan, Base Lr: 1.89e-06
+Epoch[1] Iteration[31/1608], loss: nan, nitc_loss: nan, ritc_loss: nan, Base Lr: 1.92e-06
+Epoch[1] Iteration[32/1608], loss: nan, nitc_loss: nan, ritc_loss: nan, Base Lr: 1.95e-06
+Epoch[1] Iteration[33/1608], loss: nan, nitc_loss: nan, ritc_loss: nan, Base Lr: 1.99e-06
+Epoch[1] Iteration[34/1608], loss: nan, nitc_loss: nan, ritc_loss: nan, Base Lr: 2.02e-06
+Epoch[1] Iteration[35/1608], loss: nan, nitc_loss: nan, ritc_loss: nan, Base Lr: 2.05e-06
+Epoch[1] Iteration[36/1608], loss: nan, nitc_loss: nan, ritc_loss: nan, Base Lr: 2.08e-06
+Epoch[1] Iteration[37/1608], loss: nan, nitc_loss: nan, ritc_loss: nan, Base Lr: 2.11e-06
+Epoch[1] Iteration[38/1608], loss: nan, nitc_loss: nan, ritc_loss: nan, Base Lr: 2.14e-06
+Epoch[1] Iteration[39/1608], loss: nan, nitc_loss: nan, ritc_loss: nan, Base Lr: 2.17e-06
+Epoch[1] Iteration[40/1608], loss: nan, nitc_loss: nan, ritc_loss: nan, Base Lr: 2.20e-06
+Epoch[1] Iteration[41/1608], loss: nan, nitc_loss: nan, ritc_loss: nan, Base Lr: 2.23e-06
+Epoch[1] Iteration[42/1608], loss: nan, nitc_loss: nan, ritc_loss: nan, Base Lr: 2.26e-06
+Epoch[1] Iteration[43/1608], loss: nan, nitc_loss: nan, ritc_loss: nan, Base Lr: 2.29e-06
+Epoch[1] Iteration[44/1608], loss: nan, nitc_loss: nan, ritc_loss: nan, Base Lr: 2.32e-06
+Epoch[1] Iteration[45/1608], loss: nan, nitc_loss: nan, ritc_loss: nan, Base Lr: 2.35e-06
+Epoch[1] Iteration[46/1608], loss: nan, nitc_loss: nan, ritc_loss: nan, Base Lr: 2.39e-06
+Epoch[1] Iteration[47/1608], loss: nan, nitc_loss: nan, ritc_loss: nan, Base Lr: 2.42e-06
+Epoch[1] Iteration[48/1608], loss: nan, nitc_loss: nan, ritc_loss: nan, Base Lr: 2.45e-06
+Epoch[1] Iteration[49/1608], loss: nan, nitc_loss: nan, ritc_loss: nan, Base Lr: 2.48e-06
+Epoch[1] Iteration[50/1608], loss: nan, nitc_loss: nan, ritc_loss: nan, Base Lr: 2.51e-06
+Epoch[1] Iteration[51/1608], loss: nan, nitc_loss: nan, ritc_loss: nan, Base Lr: 2.54e-06
+Epoch[1] Iteration[52/1608], loss: nan, nitc_loss: nan, ritc_loss: nan, Base Lr: 2.57e-06
+Epoch[1] Iteration[53/1608], loss: nan, nitc_loss: nan, ritc_loss: nan, Base Lr: 2.60e-06
+Epoch[1] Iteration[54/1608], loss: nan, nitc_loss: nan, ritc_loss: nan, Base Lr: 2.63e-06
+Epoch[1] Iteration[55/1608], loss: nan, nitc_loss: nan, ritc_loss: nan, Base Lr: 2.66e-06
+Epoch[1] Iteration[56/1608], loss: nan, nitc_loss: nan, ritc_loss: nan, Base Lr: 2.69e-06
+Epoch[1] Iteration[57/1608], loss: nan, nitc_loss: nan, ritc_loss: nan, Base Lr: 2.72e-06
+Epoch[1] Iteration[58/1608], loss: nan, nitc_loss: nan, ritc_loss: nan, Base Lr: 2.76e-06
+Epoch[1] Iteration[59/1608], loss: nan, nitc_loss: nan, ritc_loss: nan, Base Lr: 2.79e-06
+Epoch[1] Iteration[60/1608], loss: nan, nitc_loss: nan, ritc_loss: nan, Base Lr: 2.82e-06
+Epoch[1] Iteration[61/1608], loss: nan, nitc_loss: nan, ritc_loss: nan, Base Lr: 2.85e-06
+Epoch[1] Iteration[62/1608], loss: nan, nitc_loss: nan, ritc_loss: nan, Base Lr: 2.88e-06
+Epoch[1] Iteration[63/1608], loss: nan, nitc_loss: nan, ritc_loss: nan, Base Lr: 2.91e-06
+Epoch[1] Iteration[64/1608], loss: nan, nitc_loss: nan, ritc_loss: nan, Base Lr: 2.94e-06
+Epoch[1] Iteration[65/1608], loss: nan, nitc_loss: nan, ritc_loss: nan, Base Lr: 2.97e-06
+Epoch[1] Iteration[66/1608], loss: nan, nitc_loss: nan, ritc_loss: nan, Base Lr: 3.00e-06
+Epoch[1] Iteration[67/1608], loss: nan, nitc_loss: nan, ritc_loss: nan, Base Lr: 3.03e-06
+Epoch[1] Iteration[68/1608], loss: nan, nitc_loss: nan, ritc_loss: nan, Base Lr: 3.06e-06
+Epoch[1] Iteration[69/1608], loss: nan, nitc_loss: nan, ritc_loss: nan, Base Lr: 3.09e-06
+Epoch[1] Iteration[70/1608], loss: nan, nitc_loss: nan, ritc_loss: nan, Base Lr: 3.12e-06
+Epoch[1] Iteration[71/1608], loss: nan, nitc_loss: nan, ritc_loss: nan, Base Lr: 3.16e-06
+Epoch[1] Iteration[72/1608], loss: nan, nitc_loss: nan, ritc_loss: nan, Base Lr: 3.19e-06
+Epoch[1] Iteration[73/1608], loss: nan, nitc_loss: nan, ritc_loss: nan, Base Lr: 3.22e-06
+Epoch[1] Iteration[74/1608], loss: nan, nitc_loss: nan, ritc_loss: nan, Base Lr: 3.25e-06
+Epoch[1] Iteration[75/1608], loss: nan, nitc_loss: nan, ritc_loss: nan, Base Lr: 3.28e-06
+Epoch[1] Iteration[76/1608], loss: nan, nitc_loss: nan, ritc_loss: nan, Base Lr: 3.31e-06
+Epoch[1] Iteration[77/1608], loss: nan, nitc_loss: nan, ritc_loss: nan, Base Lr: 3.34e-06
+Epoch[1] Iteration[78/1608], loss: nan, nitc_loss: nan, ritc_loss: nan, Base Lr: 3.37e-06
+Epoch[1] Iteration[79/1608], loss: nan, nitc_loss: nan, ritc_loss: nan, Base Lr: 3.40e-06
+Epoch[1] Iteration[80/1608], loss: nan, nitc_loss: nan, ritc_loss: nan, Base Lr: 3.43e-06
+Epoch[1] Iteration[81/1608], loss: nan, nitc_loss: nan, ritc_loss: nan, Base Lr: 3.46e-06
+Epoch[1] Iteration[82/1608], loss: nan, nitc_loss: nan, ritc_loss: nan, Base Lr: 3.49e-06
+Epoch[1] Iteration[83/1608], loss: nan, nitc_loss: nan, ritc_loss: nan, Base Lr: 3.53e-06
+Epoch[1] Iteration[84/1608], loss: nan, nitc_loss: nan, ritc_loss: nan, Base Lr: 3.56e-06
+Epoch[1] Iteration[85/1608], loss: nan, nitc_loss: nan, ritc_loss: nan, Base Lr: 3.59e-06
+Epoch[1] Iteration[86/1608], loss: nan, nitc_loss: nan, ritc_loss: nan, Base Lr: 3.62e-06
+Epoch[1] Iteration[87/1608], loss: nan, nitc_loss: nan, ritc_loss: nan, Base Lr: 3.65e-06
+Epoch[1] Iteration[88/1608], loss: nan, nitc_loss: nan, ritc_loss: nan, Base Lr: 3.68e-06
+Epoch[1] Iteration[89/1608], loss: nan, nitc_loss: nan, ritc_loss: nan, Base Lr: 3.71e-06
+Epoch[1] Iteration[90/1608], loss: nan, nitc_loss: nan, ritc_loss: nan, Base Lr: 3.74e-06
+Epoch[1] Iteration[91/1608], loss: nan, nitc_loss: nan, ritc_loss: nan, Base Lr: 3.77e-06
+Epoch[1] Iteration[92/1608], loss: nan, nitc_loss: nan, ritc_loss: nan, Base Lr: 3.80e-06

@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "/home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/TBPR-CLIP_vietnamese_training.py", line 226, in <module>
+    ret = model(batch, alpha)
+  File "/opt/conda/envs/tbps-clip/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1190, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/jovyan/workspace/BA-PRE_THESIS/paper_clones/TBPS-CLIP/model/tbps_model.py", line 100, in forward
+    cap_new.append(self.eda.random_deletion(text, eda_alpha))
+  File "/home/jovyan/workspace/BA-PRE_THESIS/paper_clones/TBPS-CLIP/model/eda.py", line 149, in random_deletion
+    self.validate(sentence=sentence, p=p)
+  File "/home/jovyan/workspace/BA-PRE_THESIS/paper_clones/TBPS-CLIP/model/eda.py", line 65, in validate
+    raise TypeError("sentence must be a valid sentence")
+TypeError: sentence must be a valid sentence

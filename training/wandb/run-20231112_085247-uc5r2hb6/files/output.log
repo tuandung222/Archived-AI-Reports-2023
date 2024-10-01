@@ -1,0 +1,50 @@
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+Epoch[1] Iteration[1/1286], loss: 4.2289, nitc_loss: 3.0329, ritc_loss: 1.1960, Base Lr: 1.00e-06
+Epoch[1] Iteration[2/1286], loss: 4.1272, nitc_loss: 2.9545, ritc_loss: 1.1727, Base Lr: 1.04e-06
+Epoch[1] Iteration[3/1286], loss: 4.1938, nitc_loss: 3.0080, ritc_loss: 1.1858, Base Lr: 1.08e-06
+Epoch[1] Iteration[4/1286], loss: 4.2085, nitc_loss: 3.0135, ritc_loss: 1.1950, Base Lr: 1.12e-06
+Epoch[1] Iteration[5/1286], loss: 4.2417, nitc_loss: 3.0463, ritc_loss: 1.1953, Base Lr: 1.15e-06
+Epoch[1] Iteration[6/1286], loss: 4.1127, nitc_loss: 2.9421, ritc_loss: 1.1706, Base Lr: 1.19e-06
+Epoch[1] Iteration[7/1286], loss: 4.3016, nitc_loss: 3.1005, ritc_loss: 1.2011, Base Lr: 1.23e-06
+Epoch[1] Iteration[8/1286], loss: 4.1619, nitc_loss: 2.9848, ritc_loss: 1.1771, Base Lr: 1.27e-06
+Epoch[1] Iteration[9/1286], loss: 4.1145, nitc_loss: 2.9469, ritc_loss: 1.1676, Base Lr: 1.31e-06
+Epoch[1] Iteration[10/1286], loss: 4.1207, nitc_loss: 2.9472, ritc_loss: 1.1735, Base Lr: 1.35e-06
+Epoch[1] Iteration[11/1286], loss: 4.1754, nitc_loss: 2.9927, ritc_loss: 1.1828, Base Lr: 1.39e-06
+Epoch[1] Iteration[12/1286], loss: 4.1977, nitc_loss: 3.0048, ritc_loss: 1.1929, Base Lr: 1.42e-06
+Epoch[1] Iteration[13/1286], loss: 4.2056, nitc_loss: 3.0106, ritc_loss: 1.1950, Base Lr: 1.46e-06
+Epoch[1] Iteration[14/1286], loss: 4.2153, nitc_loss: 3.0287, ritc_loss: 1.1867, Base Lr: 1.50e-06
+Epoch[1] Iteration[15/1286], loss: 4.1514, nitc_loss: 2.9704, ritc_loss: 1.1810, Base Lr: 1.54e-06
+Epoch[1] Iteration[16/1286], loss: 4.2153, nitc_loss: 3.0264, ritc_loss: 1.1890, Base Lr: 1.58e-06
+Epoch[1] Iteration[17/1286], loss: 4.1460, nitc_loss: 2.9686, ritc_loss: 1.1774, Base Lr: 1.62e-06
+[34m[1mwandb[39m[22m: [33mWARNING[39m Calling wandb.login() after wandb.init() has no effect.

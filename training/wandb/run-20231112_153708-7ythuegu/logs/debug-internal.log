@@ -1,0 +1,1350 @@
+2023-11-12 15:37:08,172 INFO    StreamThr :30777 [internal.py:wandb_internal():86] W&B internal server running at pid: 30777, started at: 2023-11-12 15:37:08.171955
+2023-11-12 15:37:08,173 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: status
+2023-11-12 15:37:08,177 INFO    WriterThread:30777 [datastore.py:open_for_write():85] open: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/run-7ythuegu.wandb
+2023-11-12 15:37:08,177 DEBUG   SenderThread:30777 [sender.py:send():380] send: header
+2023-11-12 15:37:08,178 DEBUG   SenderThread:30777 [sender.py:send():380] send: run
+2023-11-12 15:37:08,912 INFO    SenderThread:30777 [dir_watcher.py:__init__():211] watching files in: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files
+2023-11-12 15:37:08,913 INFO    SenderThread:30777 [sender.py:_start_run_threads():1124] run started: 7ythuegu with start time 1699803428.171957
+2023-11-12 15:37:08,923 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: check_version
+2023-11-12 15:37:08,923 DEBUG   SenderThread:30777 [sender.py:send_request():407] send_request: check_version
+2023-11-12 15:37:09,127 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: run_start
+2023-11-12 15:37:09,131 DEBUG   HandlerThread:30777 [system_info.py:__init__():32] System info init
+2023-11-12 15:37:09,131 DEBUG   HandlerThread:30777 [system_info.py:__init__():47] System info init done
+2023-11-12 15:37:09,131 INFO    HandlerThread:30777 [system_monitor.py:start():194] Starting system monitor
+2023-11-12 15:37:09,131 INFO    SystemMonitor:30777 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2023-11-12 15:37:09,133 INFO    HandlerThread:30777 [system_monitor.py:probe():214] Collecting system info
+2023-11-12 15:37:09,133 INFO    SystemMonitor:30777 [interfaces.py:start():190] Started cpu monitoring
+2023-11-12 15:37:09,134 INFO    SystemMonitor:30777 [interfaces.py:start():190] Started disk monitoring
+2023-11-12 15:37:09,135 INFO    SystemMonitor:30777 [interfaces.py:start():190] Started gpu monitoring
+2023-11-12 15:37:09,136 INFO    SystemMonitor:30777 [interfaces.py:start():190] Started memory monitoring
+2023-11-12 15:37:09,136 INFO    SystemMonitor:30777 [interfaces.py:start():190] Started network monitoring
+2023-11-12 15:37:09,145 DEBUG   HandlerThread:30777 [system_info.py:probe():196] Probing system
+2023-11-12 15:37:09,151 DEBUG   HandlerThread:30777 [gitlib.py:_init_repo():56] git repository is invalid
+2023-11-12 15:37:09,151 DEBUG   HandlerThread:30777 [system_info.py:probe():244] Probing system done
+2023-11-12 15:37:09,151 DEBUG   HandlerThread:30777 [system_monitor.py:probe():223] {'os': 'Linux-4.4.0-62-generic-x86_64-with-glibc2.31', 'python': '3.9.0', 'heartbeatAt': '2023-11-12T15:37:09.145561', 'startedAt': '2023-11-12T15:37:08.165562', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '/home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/TBPR-CLIP_vietnamese_training.py', 'codePathLocal': 'TBPR-CLIP_vietnamese_training.py', 'codePath': 'TBPR-CLIP_vietnamese_training.py', 'host': 'b54fbea48e98', 'username': 'jovyan', 'executable': '/opt/conda/envs/tbps-clip/bin/python', 'cpu_count': 16, 'cpu_count_logical': 16, 'cpu_freq': {'current': 2596.7699999999995, 'min': 0.0, 'max': 0.0}, 'cpu_freq_per_core': [{'current': 2596.77, 'min': 0.0, 'max': 0.0}, {'current': 2596.77, 'min': 0.0, 'max': 0.0}, {'current': 2596.77, 'min': 0.0, 'max': 0.0}, {'current': 2596.77, 'min': 0.0, 'max': 0.0}, {'current': 2596.77, 'min': 0.0, 'max': 0.0}, {'current': 2596.77, 'min': 0.0, 'max': 0.0}, {'current': 2596.77, 'min': 0.0, 'max': 0.0}, {'current': 2596.77, 'min': 0.0, 'max': 0.0}, {'current': 2596.77, 'min': 0.0, 'max': 0.0}, {'current': 2596.77, 'min': 0.0, 'max': 0.0}, {'current': 2596.77, 'min': 0.0, 'max': 0.0}, {'current': 2596.77, 'min': 0.0, 'max': 0.0}, {'current': 2596.77, 'min': 0.0, 'max': 0.0}, {'current': 2596.77, 'min': 0.0, 'max': 0.0}, {'current': 2596.77, 'min': 0.0, 'max': 0.0}, {'current': 2596.77, 'min': 0.0, 'max': 0.0}], 'disk': {'/': {'total': 142.14093399047852, 'used': 130.520263671875}}, 'gpu': 'NVIDIA Tesla P100-PCIE-16GB', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA Tesla P100-PCIE-16GB', 'memory_total': 17071734784}], 'memory': {'total': 125.79474639892578}}
+2023-11-12 15:37:09,151 INFO    HandlerThread:30777 [system_monitor.py:probe():224] Finished collecting system info
+2023-11-12 15:37:09,151 INFO    HandlerThread:30777 [system_monitor.py:probe():227] Publishing system info
+2023-11-12 15:37:09,151 DEBUG   HandlerThread:30777 [system_info.py:_save_pip():52] Saving list of pip packages installed into the current environment
+2023-11-12 15:37:09,151 DEBUG   HandlerThread:30777 [system_info.py:_save_pip():68] Saving pip packages done
+2023-11-12 15:37:09,152 DEBUG   HandlerThread:30777 [system_info.py:_save_conda():75] Saving list of conda packages installed into the current environment
+2023-11-12 15:37:09,915 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_created():271] file/dir created: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/requirements.txt
+2023-11-12 15:37:09,915 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_created():271] file/dir created: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/conda-environment.yaml
+2023-11-12 15:37:11,888 DEBUG   HandlerThread:30777 [system_info.py:_save_conda():87] Saving conda packages done
+2023-11-12 15:37:11,889 INFO    HandlerThread:30777 [system_monitor.py:probe():229] Finished publishing system info
+2023-11-12 15:37:11,891 DEBUG   SenderThread:30777 [sender.py:send():380] send: files
+2023-11-12 15:37:11,892 INFO    SenderThread:30777 [sender.py:_save_file():1380] saving file wandb-metadata.json with policy now
+2023-11-12 15:37:11,898 DEBUG   SenderThread:30777 [sender.py:send():380] send: telemetry
+2023-11-12 15:37:11,900 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-12 15:37:11,900 DEBUG   SenderThread:30777 [sender.py:send_request():407] send_request: stop_status
+2023-11-12 15:37:11,902 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-12 15:37:11,914 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/conda-environment.yaml
+2023-11-12 15:37:11,914 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_created():271] file/dir created: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/wandb-metadata.json
+2023-11-12 15:37:12,952 INFO    wandb-upload_0:30777 [upload_job.py:push():131] Uploaded file /tmp/tmp14c1qujcwandb/ldb54ui8-wandb-metadata.json
+2023-11-12 15:37:13,346 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: status_report
+2023-11-12 15:37:17,660 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-12 15:37:17,662 DEBUG   SenderThread:30777 [sender.py:send():380] send: history
+2023-11-12 15:37:17,662 DEBUG   SenderThread:30777 [sender.py:send_request():407] send_request: summary_record
+2023-11-12 15:37:17,664 INFO    SenderThread:30777 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-12 15:37:17,916 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_created():271] file/dir created: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/wandb-summary.json
+2023-11-12 15:37:18,665 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: status_report
+2023-11-12 15:37:18,916 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_created():271] file/dir created: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/output.log
+2023-11-12 15:37:19,879 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-12 15:37:19,879 DEBUG   SenderThread:30777 [sender.py:send():380] send: history
+2023-11-12 15:37:19,880 DEBUG   SenderThread:30777 [sender.py:send_request():407] send_request: summary_record
+2023-11-12 15:37:19,881 INFO    SenderThread:30777 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-12 15:37:19,916 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/wandb-summary.json
+2023-11-12 15:37:20,916 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/output.log
+2023-11-12 15:37:22,106 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-12 15:37:22,107 DEBUG   SenderThread:30777 [sender.py:send():380] send: history
+2023-11-12 15:37:22,107 DEBUG   SenderThread:30777 [sender.py:send_request():407] send_request: summary_record
+2023-11-12 15:37:22,109 INFO    SenderThread:30777 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-12 15:37:22,917 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/wandb-summary.json
+2023-11-12 15:37:22,917 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/output.log
+2023-11-12 15:37:24,196 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: status_report
+2023-11-12 15:37:24,326 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-12 15:37:24,327 DEBUG   SenderThread:30777 [sender.py:send():380] send: history
+2023-11-12 15:37:24,327 DEBUG   SenderThread:30777 [sender.py:send_request():407] send_request: summary_record
+2023-11-12 15:37:24,329 INFO    SenderThread:30777 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-12 15:37:24,918 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/wandb-summary.json
+2023-11-12 15:37:24,918 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/output.log
+2023-11-12 15:37:26,559 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-12 15:37:26,560 DEBUG   SenderThread:30777 [sender.py:send():380] send: history
+2023-11-12 15:37:26,560 DEBUG   SenderThread:30777 [sender.py:send_request():407] send_request: summary_record
+2023-11-12 15:37:26,562 INFO    SenderThread:30777 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-12 15:37:26,897 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-12 15:37:26,898 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-12 15:37:26,898 DEBUG   SenderThread:30777 [sender.py:send_request():407] send_request: stop_status
+2023-11-12 15:37:26,918 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/wandb-summary.json
+2023-11-12 15:37:26,919 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/output.log
+2023-11-12 15:37:28,799 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-12 15:37:28,800 DEBUG   SenderThread:30777 [sender.py:send():380] send: history
+2023-11-12 15:37:28,800 DEBUG   SenderThread:30777 [sender.py:send_request():407] send_request: summary_record
+2023-11-12 15:37:28,800 INFO    SenderThread:30777 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-12 15:37:28,919 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/wandb-summary.json
+2023-11-12 15:37:28,919 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/output.log
+2023-11-12 15:37:29,801 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: status_report
+2023-11-12 15:37:30,919 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/output.log
+2023-11-12 15:37:31,042 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-12 15:37:31,043 DEBUG   SenderThread:30777 [sender.py:send():380] send: history
+2023-11-12 15:37:31,043 DEBUG   SenderThread:30777 [sender.py:send_request():407] send_request: summary_record
+2023-11-12 15:37:31,044 INFO    SenderThread:30777 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-12 15:37:31,920 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/wandb-summary.json
+2023-11-12 15:37:32,920 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/output.log
+2023-11-12 15:37:33,263 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-12 15:37:33,264 DEBUG   SenderThread:30777 [sender.py:send():380] send: history
+2023-11-12 15:37:33,264 DEBUG   SenderThread:30777 [sender.py:send_request():407] send_request: summary_record
+2023-11-12 15:37:33,264 INFO    SenderThread:30777 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-12 15:37:33,920 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/wandb-summary.json
+2023-11-12 15:37:35,352 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: status_report
+2023-11-12 15:37:35,489 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-12 15:37:35,490 DEBUG   SenderThread:30777 [sender.py:send():380] send: history
+2023-11-12 15:37:35,490 DEBUG   SenderThread:30777 [sender.py:send_request():407] send_request: summary_record
+2023-11-12 15:37:35,490 INFO    SenderThread:30777 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-12 15:37:35,921 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/wandb-summary.json
+2023-11-12 15:37:36,921 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/output.log
+2023-11-12 15:37:37,723 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-12 15:37:37,724 DEBUG   SenderThread:30777 [sender.py:send():380] send: history
+2023-11-12 15:37:37,724 DEBUG   SenderThread:30777 [sender.py:send_request():407] send_request: summary_record
+2023-11-12 15:37:37,725 INFO    SenderThread:30777 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-12 15:37:37,921 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/wandb-summary.json
+2023-11-12 15:37:38,922 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/output.log
+2023-11-12 15:37:39,938 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-12 15:37:39,939 DEBUG   SenderThread:30777 [sender.py:send():380] send: history
+2023-11-12 15:37:39,939 DEBUG   SenderThread:30777 [sender.py:send_request():407] send_request: summary_record
+2023-11-12 15:37:39,941 INFO    SenderThread:30777 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-12 15:37:40,922 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/wandb-summary.json
+2023-11-12 15:37:40,923 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/output.log
+2023-11-12 15:37:40,945 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: status_report
+2023-11-12 15:37:41,897 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-12 15:37:41,898 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-12 15:37:41,898 DEBUG   SenderThread:30777 [sender.py:send_request():407] send_request: stop_status
+2023-11-12 15:37:41,923 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/config.yaml
+2023-11-12 15:37:42,179 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-12 15:37:42,180 DEBUG   SenderThread:30777 [sender.py:send():380] send: history
+2023-11-12 15:37:42,180 DEBUG   SenderThread:30777 [sender.py:send_request():407] send_request: summary_record
+2023-11-12 15:37:42,182 INFO    SenderThread:30777 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-12 15:37:42,923 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/wandb-summary.json
+2023-11-12 15:37:42,923 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/output.log
+2023-11-12 15:37:44,420 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-12 15:37:44,421 DEBUG   SenderThread:30777 [sender.py:send():380] send: history
+2023-11-12 15:37:44,421 DEBUG   SenderThread:30777 [sender.py:send_request():407] send_request: summary_record
+2023-11-12 15:37:44,423 INFO    SenderThread:30777 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-12 15:37:44,923 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/wandb-summary.json
+2023-11-12 15:37:44,924 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/output.log
+2023-11-12 15:37:46,510 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: status_report
+2023-11-12 15:37:46,637 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-12 15:37:46,638 DEBUG   SenderThread:30777 [sender.py:send():380] send: history
+2023-11-12 15:37:46,638 DEBUG   SenderThread:30777 [sender.py:send_request():407] send_request: summary_record
+2023-11-12 15:37:46,640 INFO    SenderThread:30777 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-12 15:37:46,924 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/wandb-summary.json
+2023-11-12 15:37:46,924 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/output.log
+2023-11-12 15:37:48,872 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-12 15:37:48,873 DEBUG   SenderThread:30777 [sender.py:send():380] send: history
+2023-11-12 15:37:48,873 DEBUG   SenderThread:30777 [sender.py:send_request():407] send_request: summary_record
+2023-11-12 15:37:48,873 INFO    SenderThread:30777 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-12 15:37:48,925 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/wandb-summary.json
+2023-11-12 15:37:48,925 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/output.log
+2023-11-12 15:37:50,925 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/output.log
+2023-11-12 15:37:51,096 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-12 15:37:51,097 DEBUG   SenderThread:30777 [sender.py:send():380] send: history
+2023-11-12 15:37:51,097 DEBUG   SenderThread:30777 [sender.py:send_request():407] send_request: summary_record
+2023-11-12 15:37:51,098 INFO    SenderThread:30777 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-12 15:37:51,925 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/wandb-summary.json
+2023-11-12 15:37:52,098 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: status_report
+2023-11-12 15:37:52,926 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/output.log
+2023-11-12 15:37:53,314 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-12 15:37:53,315 DEBUG   SenderThread:30777 [sender.py:send():380] send: history
+2023-11-12 15:37:53,315 DEBUG   SenderThread:30777 [sender.py:send_request():407] send_request: summary_record
+2023-11-12 15:37:53,315 INFO    SenderThread:30777 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-12 15:37:53,926 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/wandb-summary.json
+2023-11-12 15:37:54,926 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/output.log
+2023-11-12 15:37:55,528 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-12 15:37:55,529 DEBUG   SenderThread:30777 [sender.py:send():380] send: history
+2023-11-12 15:37:55,529 DEBUG   SenderThread:30777 [sender.py:send_request():407] send_request: summary_record
+2023-11-12 15:37:55,529 INFO    SenderThread:30777 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-12 15:37:55,926 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/wandb-summary.json
+2023-11-12 15:37:56,897 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-12 15:37:56,897 DEBUG   SenderThread:30777 [sender.py:send_request():407] send_request: stop_status
+2023-11-12 15:37:56,899 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-12 15:37:56,927 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/output.log
+2023-11-12 15:37:57,217 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: status_report
+2023-11-12 15:37:57,760 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-12 15:37:57,761 DEBUG   SenderThread:30777 [sender.py:send():380] send: history
+2023-11-12 15:37:57,761 DEBUG   SenderThread:30777 [sender.py:send_request():407] send_request: summary_record
+2023-11-12 15:37:57,761 INFO    SenderThread:30777 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-12 15:37:57,927 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/wandb-summary.json
+2023-11-12 15:37:59,996 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-12 15:37:59,997 DEBUG   SenderThread:30777 [sender.py:send():380] send: history
+2023-11-12 15:37:59,997 DEBUG   SenderThread:30777 [sender.py:send_request():407] send_request: summary_record
+2023-11-12 15:37:59,997 INFO    SenderThread:30777 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-12 15:38:00,928 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/wandb-summary.json
+2023-11-12 15:38:00,928 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/output.log
+2023-11-12 15:38:02,228 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-12 15:38:02,229 DEBUG   SenderThread:30777 [sender.py:send():380] send: history
+2023-11-12 15:38:02,230 DEBUG   SenderThread:30777 [sender.py:send_request():407] send_request: summary_record
+2023-11-12 15:38:02,231 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: status_report
+2023-11-12 15:38:02,232 INFO    SenderThread:30777 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-12 15:38:02,928 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/wandb-summary.json
+2023-11-12 15:38:02,929 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/output.log
+2023-11-12 15:38:04,442 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-12 15:38:04,443 DEBUG   SenderThread:30777 [sender.py:send():380] send: history
+2023-11-12 15:38:04,443 DEBUG   SenderThread:30777 [sender.py:send_request():407] send_request: summary_record
+2023-11-12 15:38:04,445 INFO    SenderThread:30777 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-12 15:38:04,929 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/wandb-summary.json
+2023-11-12 15:38:04,929 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/output.log
+2023-11-12 15:38:06,670 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-12 15:38:06,671 DEBUG   SenderThread:30777 [sender.py:send():380] send: history
+2023-11-12 15:38:06,671 DEBUG   SenderThread:30777 [sender.py:send_request():407] send_request: summary_record
+2023-11-12 15:38:06,673 INFO    SenderThread:30777 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-12 15:38:06,930 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/wandb-summary.json
+2023-11-12 15:38:06,930 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/output.log
+2023-11-12 15:38:07,673 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: status_report
+2023-11-12 15:38:08,885 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-12 15:38:08,886 DEBUG   SenderThread:30777 [sender.py:send():380] send: history
+2023-11-12 15:38:08,886 DEBUG   SenderThread:30777 [sender.py:send_request():407] send_request: summary_record
+2023-11-12 15:38:08,886 INFO    SenderThread:30777 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-12 15:38:08,930 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/wandb-summary.json
+2023-11-12 15:38:08,930 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/output.log
+2023-11-12 15:38:09,137 DEBUG   SystemMonitor:30777 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2023-11-12 15:38:09,138 DEBUG   SenderThread:30777 [sender.py:send():380] send: stats
+2023-11-12 15:38:10,931 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/output.log
+2023-11-12 15:38:11,116 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-12 15:38:11,117 DEBUG   SenderThread:30777 [sender.py:send():380] send: history
+2023-11-12 15:38:11,117 DEBUG   SenderThread:30777 [sender.py:send_request():407] send_request: summary_record
+2023-11-12 15:38:11,117 INFO    SenderThread:30777 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-12 15:38:11,897 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-12 15:38:11,898 DEBUG   SenderThread:30777 [sender.py:send_request():407] send_request: stop_status
+2023-11-12 15:38:11,900 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-12 15:38:11,931 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/wandb-summary.json
+2023-11-12 15:38:12,931 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/output.log
+2023-11-12 15:38:13,209 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: status_report
+2023-11-12 15:38:13,344 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-12 15:38:13,345 DEBUG   SenderThread:30777 [sender.py:send():380] send: history
+2023-11-12 15:38:13,345 DEBUG   SenderThread:30777 [sender.py:send_request():407] send_request: summary_record
+2023-11-12 15:38:13,345 INFO    SenderThread:30777 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-12 15:38:13,932 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/wandb-summary.json
+2023-11-12 15:38:14,932 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/output.log
+2023-11-12 15:38:15,540 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-12 15:38:15,541 DEBUG   SenderThread:30777 [sender.py:send():380] send: history
+2023-11-12 15:38:15,541 DEBUG   SenderThread:30777 [sender.py:send_request():407] send_request: summary_record
+2023-11-12 15:38:15,542 INFO    SenderThread:30777 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-12 15:38:15,932 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/wandb-summary.json
+2023-11-12 15:38:16,932 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/output.log
+2023-11-12 15:38:17,755 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-12 15:38:17,756 DEBUG   SenderThread:30777 [sender.py:send():380] send: history
+2023-11-12 15:38:17,756 DEBUG   SenderThread:30777 [sender.py:send_request():407] send_request: summary_record
+2023-11-12 15:38:17,757 INFO    SenderThread:30777 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-12 15:38:17,933 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/wandb-summary.json
+2023-11-12 15:38:18,757 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: status_report
+2023-11-12 15:38:18,933 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/output.log
+2023-11-12 15:38:19,986 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-12 15:38:19,987 DEBUG   SenderThread:30777 [sender.py:send():380] send: history
+2023-11-12 15:38:19,987 DEBUG   SenderThread:30777 [sender.py:send_request():407] send_request: summary_record
+2023-11-12 15:38:19,987 INFO    SenderThread:30777 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-12 15:38:20,934 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/wandb-summary.json
+2023-11-12 15:38:22,196 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-12 15:38:22,197 DEBUG   SenderThread:30777 [sender.py:send():380] send: history
+2023-11-12 15:38:22,197 DEBUG   SenderThread:30777 [sender.py:send_request():407] send_request: summary_record
+2023-11-12 15:38:22,198 INFO    SenderThread:30777 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-12 15:38:22,934 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/wandb-summary.json
+2023-11-12 15:38:22,934 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/output.log
+2023-11-12 15:38:24,286 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: status_report
+2023-11-12 15:38:24,429 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-12 15:38:24,430 DEBUG   SenderThread:30777 [sender.py:send():380] send: history
+2023-11-12 15:38:24,430 DEBUG   SenderThread:30777 [sender.py:send_request():407] send_request: summary_record
+2023-11-12 15:38:24,430 INFO    SenderThread:30777 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-12 15:38:24,935 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/wandb-summary.json
+2023-11-12 15:38:24,935 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/output.log
+2023-11-12 15:38:26,634 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-12 15:38:26,635 DEBUG   SenderThread:30777 [sender.py:send():380] send: history
+2023-11-12 15:38:26,635 DEBUG   SenderThread:30777 [sender.py:send_request():407] send_request: summary_record
+2023-11-12 15:38:26,636 INFO    SenderThread:30777 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-12 15:38:26,898 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-12 15:38:26,898 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-12 15:38:26,899 DEBUG   SenderThread:30777 [sender.py:send_request():407] send_request: stop_status
+2023-11-12 15:38:26,935 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/wandb-summary.json
+2023-11-12 15:38:26,936 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/output.log
+2023-11-12 15:38:28,863 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-12 15:38:28,864 DEBUG   SenderThread:30777 [sender.py:send():380] send: history
+2023-11-12 15:38:28,864 DEBUG   SenderThread:30777 [sender.py:send_request():407] send_request: summary_record
+2023-11-12 15:38:28,864 INFO    SenderThread:30777 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-12 15:38:28,936 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/wandb-summary.json
+2023-11-12 15:38:28,936 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/output.log
+2023-11-12 15:38:29,865 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: status_report
+2023-11-12 15:38:30,936 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/output.log
+2023-11-12 15:38:31,092 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-12 15:38:31,093 DEBUG   SenderThread:30777 [sender.py:send():380] send: history
+2023-11-12 15:38:31,093 DEBUG   SenderThread:30777 [sender.py:send_request():407] send_request: summary_record
+2023-11-12 15:38:31,094 INFO    SenderThread:30777 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-12 15:38:31,937 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/wandb-summary.json
+2023-11-12 15:38:32,937 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/output.log
+2023-11-12 15:38:33,324 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-12 15:38:33,324 DEBUG   SenderThread:30777 [sender.py:send():380] send: history
+2023-11-12 15:38:33,325 DEBUG   SenderThread:30777 [sender.py:send_request():407] send_request: summary_record
+2023-11-12 15:38:33,325 INFO    SenderThread:30777 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-12 15:38:33,937 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/wandb-summary.json
+2023-11-12 15:38:34,937 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/output.log
+2023-11-12 15:38:35,414 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: status_report
+2023-11-12 15:38:35,541 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-12 15:38:35,541 DEBUG   SenderThread:30777 [sender.py:send():380] send: history
+2023-11-12 15:38:35,542 DEBUG   SenderThread:30777 [sender.py:send_request():407] send_request: summary_record
+2023-11-12 15:38:35,542 INFO    SenderThread:30777 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-12 15:38:35,938 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/wandb-summary.json
+2023-11-12 15:38:36,938 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/output.log
+2023-11-12 15:38:37,772 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-12 15:38:37,773 DEBUG   SenderThread:30777 [sender.py:send():380] send: history
+2023-11-12 15:38:37,773 DEBUG   SenderThread:30777 [sender.py:send_request():407] send_request: summary_record
+2023-11-12 15:38:37,774 INFO    SenderThread:30777 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-12 15:38:37,938 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/wandb-summary.json
+2023-11-12 15:38:38,939 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/output.log
+2023-11-12 15:38:39,138 DEBUG   SenderThread:30777 [sender.py:send():380] send: stats
+2023-11-12 15:38:39,993 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-12 15:38:39,994 DEBUG   SenderThread:30777 [sender.py:send():380] send: history
+2023-11-12 15:38:39,994 DEBUG   SenderThread:30777 [sender.py:send_request():407] send_request: summary_record
+2023-11-12 15:38:39,994 INFO    SenderThread:30777 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-12 15:38:40,939 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/wandb-summary.json
+2023-11-12 15:38:40,995 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: status_report
+2023-11-12 15:38:41,898 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-12 15:38:41,898 DEBUG   SenderThread:30777 [sender.py:send_request():407] send_request: stop_status
+2023-11-12 15:38:41,900 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-12 15:38:42,220 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-12 15:38:42,228 DEBUG   SenderThread:30777 [sender.py:send():380] send: history
+2023-11-12 15:38:42,229 DEBUG   SenderThread:30777 [sender.py:send_request():407] send_request: summary_record
+2023-11-12 15:38:42,229 INFO    SenderThread:30777 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-12 15:38:42,940 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/wandb-summary.json
+2023-11-12 15:38:42,940 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/output.log
+2023-11-12 15:38:44,461 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-12 15:38:44,461 DEBUG   SenderThread:30777 [sender.py:send():380] send: history
+2023-11-12 15:38:44,462 DEBUG   SenderThread:30777 [sender.py:send_request():407] send_request: summary_record
+2023-11-12 15:38:44,462 INFO    SenderThread:30777 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-12 15:38:44,940 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/wandb-summary.json
+2023-11-12 15:38:44,940 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/output.log
+2023-11-12 15:38:46,552 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: status_report
+2023-11-12 15:38:46,697 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-12 15:38:46,698 DEBUG   SenderThread:30777 [sender.py:send():380] send: history
+2023-11-12 15:38:46,699 DEBUG   SenderThread:30777 [sender.py:send_request():407] send_request: summary_record
+2023-11-12 15:38:46,699 INFO    SenderThread:30777 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-12 15:38:46,941 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/wandb-summary.json
+2023-11-12 15:38:46,941 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/output.log
+2023-11-12 15:38:48,911 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-12 15:38:48,912 DEBUG   SenderThread:30777 [sender.py:send():380] send: history
+2023-11-12 15:38:48,912 DEBUG   SenderThread:30777 [sender.py:send_request():407] send_request: summary_record
+2023-11-12 15:38:48,913 INFO    SenderThread:30777 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-12 15:38:48,941 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/wandb-summary.json
+2023-11-12 15:38:48,941 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/output.log
+2023-11-12 15:38:50,942 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/output.log
+2023-11-12 15:38:51,134 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-12 15:38:51,135 DEBUG   SenderThread:30777 [sender.py:send():380] send: history
+2023-11-12 15:38:51,135 DEBUG   SenderThread:30777 [sender.py:send_request():407] send_request: summary_record
+2023-11-12 15:38:51,135 INFO    SenderThread:30777 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-12 15:38:51,942 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/wandb-summary.json
+2023-11-12 15:38:52,136 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: status_report
+2023-11-12 15:38:52,943 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/output.log
+2023-11-12 15:38:53,348 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-12 15:38:53,348 DEBUG   SenderThread:30777 [sender.py:send():380] send: history
+2023-11-12 15:38:53,349 DEBUG   SenderThread:30777 [sender.py:send_request():407] send_request: summary_record
+2023-11-12 15:38:53,349 INFO    SenderThread:30777 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-12 15:38:53,943 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/wandb-summary.json
+2023-11-12 15:38:54,943 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/output.log
+2023-11-12 15:38:55,587 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-12 15:38:55,588 DEBUG   SenderThread:30777 [sender.py:send():380] send: history
+2023-11-12 15:38:55,588 DEBUG   SenderThread:30777 [sender.py:send_request():407] send_request: summary_record
+2023-11-12 15:38:55,589 INFO    SenderThread:30777 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-12 15:38:55,943 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/wandb-summary.json
+2023-11-12 15:38:56,897 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-12 15:38:56,898 DEBUG   SenderThread:30777 [sender.py:send_request():407] send_request: stop_status
+2023-11-12 15:38:56,900 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-12 15:38:56,944 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/output.log
+2023-11-12 15:38:57,197 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: status_report
+2023-11-12 15:38:57,815 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-12 15:38:57,816 DEBUG   SenderThread:30777 [sender.py:send():380] send: history
+2023-11-12 15:38:57,817 DEBUG   SenderThread:30777 [sender.py:send_request():407] send_request: summary_record
+2023-11-12 15:38:57,817 INFO    SenderThread:30777 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-12 15:38:57,944 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/wandb-summary.json
+2023-11-12 15:39:00,037 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-12 15:39:00,038 DEBUG   SenderThread:30777 [sender.py:send():380] send: history
+2023-11-12 15:39:00,038 DEBUG   SenderThread:30777 [sender.py:send_request():407] send_request: summary_record
+2023-11-12 15:39:00,038 INFO    SenderThread:30777 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-12 15:39:00,945 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/wandb-summary.json
+2023-11-12 15:39:00,945 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/output.log
+2023-11-12 15:39:02,250 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-12 15:39:02,250 DEBUG   SenderThread:30777 [sender.py:send():380] send: history
+2023-11-12 15:39:02,251 DEBUG   SenderThread:30777 [sender.py:send_request():407] send_request: summary_record
+2023-11-12 15:39:02,251 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: status_report
+2023-11-12 15:39:02,251 INFO    SenderThread:30777 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-12 15:39:02,945 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/wandb-summary.json
+2023-11-12 15:39:02,945 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/output.log
+2023-11-12 15:39:04,493 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-12 15:39:04,494 DEBUG   SenderThread:30777 [sender.py:send():380] send: history
+2023-11-12 15:39:04,494 DEBUG   SenderThread:30777 [sender.py:send_request():407] send_request: summary_record
+2023-11-12 15:39:04,495 INFO    SenderThread:30777 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-12 15:39:04,946 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/wandb-summary.json
+2023-11-12 15:39:04,946 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/output.log
+2023-11-12 15:39:06,724 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-12 15:39:06,725 DEBUG   SenderThread:30777 [sender.py:send():380] send: history
+2023-11-12 15:39:06,725 DEBUG   SenderThread:30777 [sender.py:send_request():407] send_request: summary_record
+2023-11-12 15:39:06,726 INFO    SenderThread:30777 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-12 15:39:06,946 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/wandb-summary.json
+2023-11-12 15:39:06,947 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/output.log
+2023-11-12 15:39:07,726 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: status_report
+2023-11-12 15:39:08,947 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/output.log
+2023-11-12 15:39:08,948 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-12 15:39:08,949 DEBUG   SenderThread:30777 [sender.py:send():380] send: history
+2023-11-12 15:39:08,949 DEBUG   SenderThread:30777 [sender.py:send_request():407] send_request: summary_record
+2023-11-12 15:39:08,949 INFO    SenderThread:30777 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-12 15:39:09,139 DEBUG   SenderThread:30777 [sender.py:send():380] send: stats
+2023-11-12 15:39:09,947 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/wandb-summary.json
+2023-11-12 15:39:10,947 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/output.log
+2023-11-12 15:39:11,164 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-12 15:39:11,165 DEBUG   SenderThread:30777 [sender.py:send():380] send: history
+2023-11-12 15:39:11,165 DEBUG   SenderThread:30777 [sender.py:send_request():407] send_request: summary_record
+2023-11-12 15:39:11,166 INFO    SenderThread:30777 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-12 15:39:11,898 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-12 15:39:11,899 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-12 15:39:11,899 DEBUG   SenderThread:30777 [sender.py:send_request():407] send_request: stop_status
+2023-11-12 15:39:11,948 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/wandb-summary.json
+2023-11-12 15:39:12,948 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/output.log
+2023-11-12 15:39:13,294 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: status_report
+2023-11-12 15:39:13,399 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-12 15:39:13,400 DEBUG   SenderThread:30777 [sender.py:send():380] send: history
+2023-11-12 15:39:13,400 DEBUG   SenderThread:30777 [sender.py:send_request():407] send_request: summary_record
+2023-11-12 15:39:13,400 INFO    SenderThread:30777 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-12 15:39:13,948 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/wandb-summary.json
+2023-11-12 15:39:14,949 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/output.log
+2023-11-12 15:39:15,637 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-12 15:39:15,637 DEBUG   SenderThread:30777 [sender.py:send():380] send: history
+2023-11-12 15:39:15,638 DEBUG   SenderThread:30777 [sender.py:send_request():407] send_request: summary_record
+2023-11-12 15:39:15,638 INFO    SenderThread:30777 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-12 15:39:15,949 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/wandb-summary.json
+2023-11-12 15:39:16,949 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/output.log
+2023-11-12 15:39:17,873 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-12 15:39:17,873 DEBUG   SenderThread:30777 [sender.py:send():380] send: history
+2023-11-12 15:39:17,874 DEBUG   SenderThread:30777 [sender.py:send_request():407] send_request: summary_record
+2023-11-12 15:39:17,874 INFO    SenderThread:30777 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-12 15:39:17,950 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/wandb-summary.json
+2023-11-12 15:39:18,875 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: status_report
+2023-11-12 15:39:20,118 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-12 15:39:20,119 DEBUG   SenderThread:30777 [sender.py:send():380] send: history
+2023-11-12 15:39:20,119 DEBUG   SenderThread:30777 [sender.py:send_request():407] send_request: summary_record
+2023-11-12 15:39:20,120 INFO    SenderThread:30777 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-12 15:39:20,950 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/wandb-summary.json
+2023-11-12 15:39:20,951 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/output.log
+2023-11-12 15:39:22,351 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-12 15:39:22,352 DEBUG   SenderThread:30777 [sender.py:send():380] send: history
+2023-11-12 15:39:22,352 DEBUG   SenderThread:30777 [sender.py:send_request():407] send_request: summary_record
+2023-11-12 15:39:22,353 INFO    SenderThread:30777 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-12 15:39:22,951 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/wandb-summary.json
+2023-11-12 15:39:22,951 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/output.log
+2023-11-12 15:39:24,448 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: status_report
+2023-11-12 15:39:24,579 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-12 15:39:24,580 DEBUG   SenderThread:30777 [sender.py:send():380] send: history
+2023-11-12 15:39:24,580 DEBUG   SenderThread:30777 [sender.py:send_request():407] send_request: summary_record
+2023-11-12 15:39:24,580 INFO    SenderThread:30777 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-12 15:39:24,952 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/wandb-summary.json
+2023-11-12 15:39:24,952 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/output.log
+2023-11-12 15:39:26,804 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-12 15:39:26,805 DEBUG   SenderThread:30777 [sender.py:send():380] send: history
+2023-11-12 15:39:26,805 DEBUG   SenderThread:30777 [sender.py:send_request():407] send_request: summary_record
+2023-11-12 15:39:26,805 INFO    SenderThread:30777 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-12 15:39:26,898 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-12 15:39:26,899 DEBUG   SenderThread:30777 [sender.py:send_request():407] send_request: stop_status
+2023-11-12 15:39:26,899 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-12 15:39:26,952 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/wandb-summary.json
+2023-11-12 15:39:26,952 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/output.log
+2023-11-12 15:39:28,953 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/output.log
+2023-11-12 15:39:29,044 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-12 15:39:29,045 DEBUG   SenderThread:30777 [sender.py:send():380] send: history
+2023-11-12 15:39:29,045 DEBUG   SenderThread:30777 [sender.py:send_request():407] send_request: summary_record
+2023-11-12 15:39:29,046 INFO    SenderThread:30777 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-12 15:39:29,954 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/wandb-summary.json
+2023-11-12 15:39:30,046 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: status_report
+2023-11-12 15:39:31,286 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-12 15:39:31,287 DEBUG   SenderThread:30777 [sender.py:send():380] send: history
+2023-11-12 15:39:31,287 DEBUG   SenderThread:30777 [sender.py:send_request():407] send_request: summary_record
+2023-11-12 15:39:31,287 INFO    SenderThread:30777 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-12 15:39:31,954 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/wandb-summary.json
+2023-11-12 15:39:31,955 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/output.log
+2023-11-12 15:39:33,513 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-12 15:39:33,514 DEBUG   SenderThread:30777 [sender.py:send():380] send: history
+2023-11-12 15:39:33,514 DEBUG   SenderThread:30777 [sender.py:send_request():407] send_request: summary_record
+2023-11-12 15:39:33,515 INFO    SenderThread:30777 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-12 15:39:33,955 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/wandb-summary.json
+2023-11-12 15:39:33,955 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/output.log
+2023-11-12 15:39:35,604 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: status_report
+2023-11-12 15:39:35,722 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-12 15:39:35,723 DEBUG   SenderThread:30777 [sender.py:send():380] send: history
+2023-11-12 15:39:35,724 DEBUG   SenderThread:30777 [sender.py:send_request():407] send_request: summary_record
+2023-11-12 15:39:35,724 INFO    SenderThread:30777 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-12 15:39:35,955 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/wandb-summary.json
+2023-11-12 15:39:35,956 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/output.log
+2023-11-12 15:39:37,946 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-12 15:39:37,947 DEBUG   SenderThread:30777 [sender.py:send():380] send: history
+2023-11-12 15:39:37,947 DEBUG   SenderThread:30777 [sender.py:send_request():407] send_request: summary_record
+2023-11-12 15:39:37,948 INFO    SenderThread:30777 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-12 15:39:37,956 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/wandb-summary.json
+2023-11-12 15:39:37,956 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/output.log
+2023-11-12 15:39:39,139 DEBUG   SenderThread:30777 [sender.py:send():380] send: stats
+2023-11-12 15:39:40,217 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-12 15:39:40,218 DEBUG   SenderThread:30777 [sender.py:send():380] send: history
+2023-11-12 15:39:40,218 DEBUG   SenderThread:30777 [sender.py:send_request():407] send_request: summary_record
+2023-11-12 15:39:40,218 INFO    SenderThread:30777 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-12 15:39:40,957 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/wandb-summary.json
+2023-11-12 15:39:41,219 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: status_report
+2023-11-12 15:39:41,898 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-12 15:39:41,898 DEBUG   SenderThread:30777 [sender.py:send_request():407] send_request: stop_status
+2023-11-12 15:39:41,900 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-12 15:39:41,957 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/output.log
+2023-11-12 15:39:42,475 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-12 15:39:42,476 DEBUG   SenderThread:30777 [sender.py:send():380] send: history
+2023-11-12 15:39:42,476 DEBUG   SenderThread:30777 [sender.py:send_request():407] send_request: summary_record
+2023-11-12 15:39:42,477 INFO    SenderThread:30777 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-12 15:39:42,957 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/wandb-summary.json
+2023-11-12 15:39:43,958 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/output.log
+2023-11-12 15:39:44,727 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-12 15:39:44,728 DEBUG   SenderThread:30777 [sender.py:send():380] send: history
+2023-11-12 15:39:44,728 DEBUG   SenderThread:30777 [sender.py:send_request():407] send_request: summary_record
+2023-11-12 15:39:44,729 INFO    SenderThread:30777 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-12 15:39:44,958 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/wandb-summary.json
+2023-11-12 15:39:45,958 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/output.log
+2023-11-12 15:39:46,823 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: status_report
+2023-11-12 15:39:46,989 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-12 15:39:46,990 DEBUG   SenderThread:30777 [sender.py:send():380] send: history
+2023-11-12 15:39:46,990 DEBUG   SenderThread:30777 [sender.py:send_request():407] send_request: summary_record
+2023-11-12 15:39:46,990 INFO    SenderThread:30777 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-12 15:39:47,959 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/wandb-summary.json
+2023-11-12 15:39:47,959 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/output.log
+2023-11-12 15:39:49,274 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-12 15:39:49,275 DEBUG   SenderThread:30777 [sender.py:send():380] send: history
+2023-11-12 15:39:49,275 DEBUG   SenderThread:30777 [sender.py:send_request():407] send_request: summary_record
+2023-11-12 15:39:49,276 INFO    SenderThread:30777 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-12 15:39:49,959 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/wandb-summary.json
+2023-11-12 15:39:49,960 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/output.log
+2023-11-12 15:39:51,559 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-12 15:39:51,560 DEBUG   SenderThread:30777 [sender.py:send():380] send: history
+2023-11-12 15:39:51,560 DEBUG   SenderThread:30777 [sender.py:send_request():407] send_request: summary_record
+2023-11-12 15:39:51,560 INFO    SenderThread:30777 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-12 15:39:51,960 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/wandb-summary.json
+2023-11-12 15:39:51,960 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/output.log
+2023-11-12 15:39:52,561 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: status_report
+2023-11-12 15:39:53,823 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-12 15:39:53,824 DEBUG   SenderThread:30777 [sender.py:send():380] send: history
+2023-11-12 15:39:53,824 DEBUG   SenderThread:30777 [sender.py:send_request():407] send_request: summary_record
+2023-11-12 15:39:53,824 INFO    SenderThread:30777 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-12 15:39:53,961 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/wandb-summary.json
+2023-11-12 15:39:53,961 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/output.log
+2023-11-12 15:39:55,961 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/output.log
+2023-11-12 15:39:56,089 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-12 15:39:56,090 DEBUG   SenderThread:30777 [sender.py:send():380] send: history
+2023-11-12 15:39:56,090 DEBUG   SenderThread:30777 [sender.py:send_request():407] send_request: summary_record
+2023-11-12 15:39:56,090 INFO    SenderThread:30777 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-12 15:39:56,898 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-12 15:39:56,899 DEBUG   SenderThread:30777 [sender.py:send_request():407] send_request: stop_status
+2023-11-12 15:39:56,901 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-12 15:39:56,962 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/wandb-summary.json
+2023-11-12 15:39:58,219 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: status_report
+2023-11-12 15:39:58,361 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-12 15:39:58,362 DEBUG   SenderThread:30777 [sender.py:send():380] send: history
+2023-11-12 15:39:58,362 DEBUG   SenderThread:30777 [sender.py:send_request():407] send_request: summary_record
+2023-11-12 15:39:58,364 INFO    SenderThread:30777 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-12 15:39:58,962 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/wandb-summary.json
+2023-11-12 15:39:59,963 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/output.log
+2023-11-12 15:40:00,658 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-12 15:40:00,659 DEBUG   SenderThread:30777 [sender.py:send():380] send: history
+2023-11-12 15:40:00,659 DEBUG   SenderThread:30777 [sender.py:send_request():407] send_request: summary_record
+2023-11-12 15:40:00,660 INFO    SenderThread:30777 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-12 15:40:00,963 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/wandb-summary.json
+2023-11-12 15:40:01,963 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/output.log
+2023-11-12 15:40:02,970 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-12 15:40:02,970 DEBUG   SenderThread:30777 [sender.py:send():380] send: history
+2023-11-12 15:40:02,971 DEBUG   SenderThread:30777 [sender.py:send_request():407] send_request: summary_record
+2023-11-12 15:40:02,971 INFO    SenderThread:30777 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-12 15:40:03,964 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/wandb-summary.json
+2023-11-12 15:40:03,964 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/output.log
+2023-11-12 15:40:03,971 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: status_report
+2023-11-12 15:40:05,283 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-12 15:40:05,284 DEBUG   SenderThread:30777 [sender.py:send():380] send: history
+2023-11-12 15:40:05,284 DEBUG   SenderThread:30777 [sender.py:send_request():407] send_request: summary_record
+2023-11-12 15:40:05,284 INFO    SenderThread:30777 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-12 15:40:05,965 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/wandb-summary.json
+2023-11-12 15:40:05,965 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/output.log
+2023-11-12 15:40:07,572 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-12 15:40:07,573 DEBUG   SenderThread:30777 [sender.py:send():380] send: history
+2023-11-12 15:40:07,573 DEBUG   SenderThread:30777 [sender.py:send_request():407] send_request: summary_record
+2023-11-12 15:40:07,574 INFO    SenderThread:30777 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-12 15:40:07,965 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/wandb-summary.json
+2023-11-12 15:40:07,966 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/output.log
+2023-11-12 15:40:09,140 DEBUG   SenderThread:30777 [sender.py:send():380] send: stats
+2023-11-12 15:40:09,140 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: status_report
+2023-11-12 15:40:09,871 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-12 15:40:09,872 DEBUG   SenderThread:30777 [sender.py:send():380] send: history
+2023-11-12 15:40:09,872 DEBUG   SenderThread:30777 [sender.py:send_request():407] send_request: summary_record
+2023-11-12 15:40:09,873 INFO    SenderThread:30777 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-12 15:40:09,966 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/wandb-summary.json
+2023-11-12 15:40:09,966 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/output.log
+2023-11-12 15:40:11,933 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-12 15:40:11,933 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-12 15:40:11,933 DEBUG   SenderThread:30777 [sender.py:send_request():407] send_request: stop_status
+2023-11-12 15:40:11,966 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/output.log
+2023-11-12 15:40:12,282 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-12 15:40:12,283 DEBUG   SenderThread:30777 [sender.py:send():380] send: history
+2023-11-12 15:40:12,283 DEBUG   SenderThread:30777 [sender.py:send_request():407] send_request: summary_record
+2023-11-12 15:40:12,283 INFO    SenderThread:30777 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-12 15:40:12,967 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/wandb-summary.json
+2023-11-12 15:40:14,382 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: status_report
+2023-11-12 15:40:14,532 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-12 15:40:14,532 DEBUG   SenderThread:30777 [sender.py:send():380] send: history
+2023-11-12 15:40:14,533 DEBUG   SenderThread:30777 [sender.py:send_request():407] send_request: summary_record
+2023-11-12 15:40:14,533 INFO    SenderThread:30777 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-12 15:40:14,967 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/wandb-summary.json
+2023-11-12 15:40:15,968 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/output.log
+2023-11-12 15:40:16,836 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-12 15:40:16,837 DEBUG   SenderThread:30777 [sender.py:send():380] send: history
+2023-11-12 15:40:16,837 DEBUG   SenderThread:30777 [sender.py:send_request():407] send_request: summary_record
+2023-11-12 15:40:16,838 INFO    SenderThread:30777 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-12 15:40:16,968 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/wandb-summary.json
+2023-11-12 15:40:17,968 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/output.log
+2023-11-12 15:40:19,159 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-12 15:40:19,160 DEBUG   SenderThread:30777 [sender.py:send():380] send: history
+2023-11-12 15:40:19,160 DEBUG   SenderThread:30777 [sender.py:send_request():407] send_request: summary_record
+2023-11-12 15:40:19,160 INFO    SenderThread:30777 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-12 15:40:19,969 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/wandb-summary.json
+2023-11-12 15:40:19,969 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/output.log
+2023-11-12 15:40:20,161 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: status_report
+2023-11-12 15:40:21,459 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-12 15:40:21,460 DEBUG   SenderThread:30777 [sender.py:send():380] send: history
+2023-11-12 15:40:21,460 DEBUG   SenderThread:30777 [sender.py:send_request():407] send_request: summary_record
+2023-11-12 15:40:21,461 INFO    SenderThread:30777 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-12 15:40:21,969 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/wandb-summary.json
+2023-11-12 15:40:21,970 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/output.log
+2023-11-12 15:40:23,741 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-12 15:40:23,741 DEBUG   SenderThread:30777 [sender.py:send():380] send: history
+2023-11-12 15:40:23,741 DEBUG   SenderThread:30777 [sender.py:send_request():407] send_request: summary_record
+2023-11-12 15:40:23,742 INFO    SenderThread:30777 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-12 15:40:23,970 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/wandb-summary.json
+2023-11-12 15:40:23,970 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/output.log
+2023-11-12 15:40:25,843 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: status_report
+2023-11-12 15:40:25,971 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/output.log
+2023-11-12 15:40:26,015 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-12 15:40:26,016 DEBUG   SenderThread:30777 [sender.py:send():380] send: history
+2023-11-12 15:40:26,016 DEBUG   SenderThread:30777 [sender.py:send_request():407] send_request: summary_record
+2023-11-12 15:40:26,016 INFO    SenderThread:30777 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-12 15:40:26,932 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-12 15:40:26,933 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-12 15:40:26,933 DEBUG   SenderThread:30777 [sender.py:send_request():407] send_request: stop_status
+2023-11-12 15:40:26,971 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/wandb-summary.json
+2023-11-12 15:40:28,309 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-12 15:40:28,310 DEBUG   SenderThread:30777 [sender.py:send():380] send: history
+2023-11-12 15:40:28,310 DEBUG   SenderThread:30777 [sender.py:send_request():407] send_request: summary_record
+2023-11-12 15:40:28,311 INFO    SenderThread:30777 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-12 15:40:28,971 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/wandb-summary.json
+2023-11-12 15:40:29,972 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/output.log
+2023-11-12 15:40:30,602 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-12 15:40:30,603 DEBUG   SenderThread:30777 [sender.py:send():380] send: history
+2023-11-12 15:40:30,603 DEBUG   SenderThread:30777 [sender.py:send_request():407] send_request: summary_record
+2023-11-12 15:40:30,603 INFO    SenderThread:30777 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-12 15:40:30,972 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/wandb-summary.json
+2023-11-12 15:40:31,604 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: status_report
+2023-11-12 15:40:31,972 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/output.log
+2023-11-12 15:40:32,875 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-12 15:40:32,876 DEBUG   SenderThread:30777 [sender.py:send():380] send: history
+2023-11-12 15:40:32,876 DEBUG   SenderThread:30777 [sender.py:send_request():407] send_request: summary_record
+2023-11-12 15:40:32,876 INFO    SenderThread:30777 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-12 15:40:32,973 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/wandb-summary.json
+2023-11-12 15:40:33,973 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/output.log
+2023-11-12 15:40:35,130 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-12 15:40:35,131 DEBUG   SenderThread:30777 [sender.py:send():380] send: history
+2023-11-12 15:40:35,131 DEBUG   SenderThread:30777 [sender.py:send_request():407] send_request: summary_record
+2023-11-12 15:40:35,132 INFO    SenderThread:30777 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-12 15:40:35,974 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/wandb-summary.json
+2023-11-12 15:40:35,974 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/output.log
+2023-11-12 15:40:37,234 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: status_report
+2023-11-12 15:40:37,428 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-12 15:40:37,428 DEBUG   SenderThread:30777 [sender.py:send():380] send: history
+2023-11-12 15:40:37,429 DEBUG   SenderThread:30777 [sender.py:send_request():407] send_request: summary_record
+2023-11-12 15:40:37,429 INFO    SenderThread:30777 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-12 15:40:37,974 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/wandb-summary.json
+2023-11-12 15:40:37,975 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/output.log
+2023-11-12 15:40:39,140 DEBUG   SenderThread:30777 [sender.py:send():380] send: stats
+2023-11-12 15:40:39,711 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-12 15:40:39,713 DEBUG   SenderThread:30777 [sender.py:send():380] send: history
+2023-11-12 15:40:39,713 DEBUG   SenderThread:30777 [sender.py:send_request():407] send_request: summary_record
+2023-11-12 15:40:39,713 INFO    SenderThread:30777 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-12 15:40:39,975 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/wandb-summary.json
+2023-11-12 15:40:39,975 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/output.log
+2023-11-12 15:40:41,932 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-12 15:40:41,933 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-12 15:40:41,933 DEBUG   SenderThread:30777 [sender.py:send_request():407] send_request: stop_status
+2023-11-12 15:40:41,975 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/output.log
+2023-11-12 15:40:42,024 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-12 15:40:42,242 DEBUG   SenderThread:30777 [sender.py:send():380] send: history
+2023-11-12 15:40:42,242 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: status_report
+2023-11-12 15:40:42,242 DEBUG   SenderThread:30777 [sender.py:send_request():407] send_request: summary_record
+2023-11-12 15:40:42,243 INFO    SenderThread:30777 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-12 15:40:42,976 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/wandb-summary.json
+2023-11-12 15:40:44,317 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-12 15:40:44,318 DEBUG   SenderThread:30777 [sender.py:send():380] send: history
+2023-11-12 15:40:44,318 DEBUG   SenderThread:30777 [sender.py:send_request():407] send_request: summary_record
+2023-11-12 15:40:44,319 INFO    SenderThread:30777 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-12 15:40:44,976 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/wandb-summary.json
+2023-11-12 15:40:45,977 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/output.log
+2023-11-12 15:40:46,592 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-12 15:40:46,593 DEBUG   SenderThread:30777 [sender.py:send():380] send: history
+2023-11-12 15:40:46,593 DEBUG   SenderThread:30777 [sender.py:send_request():407] send_request: summary_record
+2023-11-12 15:40:46,593 INFO    SenderThread:30777 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-12 15:40:46,977 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/wandb-summary.json
+2023-11-12 15:40:47,594 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: status_report
+2023-11-12 15:40:47,977 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/output.log
+2023-11-12 15:40:48,891 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-12 15:40:48,892 DEBUG   SenderThread:30777 [sender.py:send():380] send: history
+2023-11-12 15:40:48,892 DEBUG   SenderThread:30777 [sender.py:send_request():407] send_request: summary_record
+2023-11-12 15:40:48,892 INFO    SenderThread:30777 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-12 15:40:48,978 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/wandb-summary.json
+2023-11-12 15:40:49,978 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/output.log
+2023-11-12 15:40:51,175 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-12 15:40:51,176 DEBUG   SenderThread:30777 [sender.py:send():380] send: history
+2023-11-12 15:40:51,176 DEBUG   SenderThread:30777 [sender.py:send_request():407] send_request: summary_record
+2023-11-12 15:40:51,177 INFO    SenderThread:30777 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-12 15:40:51,978 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/wandb-summary.json
+2023-11-12 15:40:51,979 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/output.log
+2023-11-12 15:40:53,275 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: status_report
+2023-11-12 15:40:53,479 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-12 15:40:53,479 DEBUG   SenderThread:30777 [sender.py:send():380] send: history
+2023-11-12 15:40:53,480 DEBUG   SenderThread:30777 [sender.py:send_request():407] send_request: summary_record
+2023-11-12 15:40:53,480 INFO    SenderThread:30777 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-12 15:40:53,979 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/wandb-summary.json
+2023-11-12 15:40:53,979 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/output.log
+2023-11-12 15:40:55,768 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-12 15:40:55,769 DEBUG   SenderThread:30777 [sender.py:send():380] send: history
+2023-11-12 15:40:55,769 DEBUG   SenderThread:30777 [sender.py:send_request():407] send_request: summary_record
+2023-11-12 15:40:55,770 INFO    SenderThread:30777 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-12 15:40:55,980 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/wandb-summary.json
+2023-11-12 15:40:55,980 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/output.log
+2023-11-12 15:40:56,932 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-12 15:40:56,932 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-12 15:40:56,932 DEBUG   SenderThread:30777 [sender.py:send_request():407] send_request: stop_status
+2023-11-12 15:40:57,980 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/output.log
+2023-11-12 15:40:58,083 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-12 15:40:58,084 DEBUG   SenderThread:30777 [sender.py:send():380] send: history
+2023-11-12 15:40:58,084 DEBUG   SenderThread:30777 [sender.py:send_request():407] send_request: summary_record
+2023-11-12 15:40:58,084 INFO    SenderThread:30777 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-12 15:40:58,980 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/wandb-summary.json
+2023-11-12 15:40:59,085 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: status_report
+2023-11-12 15:41:00,368 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-12 15:41:00,368 DEBUG   SenderThread:30777 [sender.py:send():380] send: history
+2023-11-12 15:41:00,369 DEBUG   SenderThread:30777 [sender.py:send_request():407] send_request: summary_record
+2023-11-12 15:41:00,370 INFO    SenderThread:30777 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-12 15:41:00,981 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/wandb-summary.json
+2023-11-12 15:41:01,981 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/output.log
+2023-11-12 15:41:02,674 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-12 15:41:02,675 DEBUG   SenderThread:30777 [sender.py:send():380] send: history
+2023-11-12 15:41:02,675 DEBUG   SenderThread:30777 [sender.py:send_request():407] send_request: summary_record
+2023-11-12 15:41:02,676 INFO    SenderThread:30777 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-12 15:41:02,982 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/wandb-summary.json
+2023-11-12 15:41:03,982 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/output.log
+2023-11-12 15:41:04,780 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: status_report
+2023-11-12 15:41:04,986 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-12 15:41:04,987 DEBUG   SenderThread:30777 [sender.py:send():380] send: history
+2023-11-12 15:41:04,987 DEBUG   SenderThread:30777 [sender.py:send_request():407] send_request: summary_record
+2023-11-12 15:41:04,987 INFO    SenderThread:30777 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-12 15:41:05,983 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/wandb-summary.json
+2023-11-12 15:41:05,983 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/output.log
+2023-11-12 15:41:07,285 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-12 15:41:07,285 DEBUG   SenderThread:30777 [sender.py:send():380] send: history
+2023-11-12 15:41:07,286 DEBUG   SenderThread:30777 [sender.py:send_request():407] send_request: summary_record
+2023-11-12 15:41:07,286 INFO    SenderThread:30777 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-12 15:41:07,983 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/wandb-summary.json
+2023-11-12 15:41:07,983 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/output.log
+2023-11-12 15:41:09,141 DEBUG   SenderThread:30777 [sender.py:send():380] send: stats
+2023-11-12 15:41:09,568 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-12 15:41:09,568 DEBUG   SenderThread:30777 [sender.py:send():380] send: history
+2023-11-12 15:41:09,569 DEBUG   SenderThread:30777 [sender.py:send_request():407] send_request: summary_record
+2023-11-12 15:41:09,569 INFO    SenderThread:30777 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-12 15:41:09,984 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/wandb-summary.json
+2023-11-12 15:41:09,984 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/output.log
+2023-11-12 15:41:10,569 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: status_report
+2023-11-12 15:41:11,879 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-12 15:41:11,880 DEBUG   SenderThread:30777 [sender.py:send():380] send: history
+2023-11-12 15:41:11,880 DEBUG   SenderThread:30777 [sender.py:send_request():407] send_request: summary_record
+2023-11-12 15:41:11,880 INFO    SenderThread:30777 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-12 15:41:11,932 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-12 15:41:11,933 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-12 15:41:11,933 DEBUG   SenderThread:30777 [sender.py:send_request():407] send_request: stop_status
+2023-11-12 15:41:11,984 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/wandb-summary.json
+2023-11-12 15:41:11,984 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/output.log
+2023-11-12 15:41:13,985 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/output.log
+2023-11-12 15:41:14,184 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-12 15:41:14,184 DEBUG   SenderThread:30777 [sender.py:send():380] send: history
+2023-11-12 15:41:14,185 DEBUG   SenderThread:30777 [sender.py:send_request():407] send_request: summary_record
+2023-11-12 15:41:14,185 INFO    SenderThread:30777 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-12 15:41:14,985 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/wandb-summary.json
+2023-11-12 15:41:16,284 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: status_report
+2023-11-12 15:41:16,483 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-12 15:41:16,484 DEBUG   SenderThread:30777 [sender.py:send():380] send: history
+2023-11-12 15:41:16,484 DEBUG   SenderThread:30777 [sender.py:send_request():407] send_request: summary_record
+2023-11-12 15:41:16,484 INFO    SenderThread:30777 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-12 15:41:16,986 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/wandb-summary.json
+2023-11-12 15:41:17,986 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/output.log
+2023-11-12 15:41:18,801 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-12 15:41:18,802 DEBUG   SenderThread:30777 [sender.py:send():380] send: history
+2023-11-12 15:41:18,802 DEBUG   SenderThread:30777 [sender.py:send_request():407] send_request: summary_record
+2023-11-12 15:41:18,803 INFO    SenderThread:30777 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-12 15:41:18,986 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/wandb-summary.json
+2023-11-12 15:41:19,986 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/output.log
+2023-11-12 15:41:21,095 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-12 15:41:21,096 DEBUG   SenderThread:30777 [sender.py:send():380] send: history
+2023-11-12 15:41:21,096 DEBUG   SenderThread:30777 [sender.py:send_request():407] send_request: summary_record
+2023-11-12 15:41:21,098 INFO    SenderThread:30777 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-12 15:41:21,987 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/wandb-summary.json
+2023-11-12 15:41:21,987 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/output.log
+2023-11-12 15:41:22,098 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: status_report
+2023-11-12 15:41:23,411 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-12 15:41:23,412 DEBUG   SenderThread:30777 [sender.py:send():380] send: history
+2023-11-12 15:41:23,412 DEBUG   SenderThread:30777 [sender.py:send_request():407] send_request: summary_record
+2023-11-12 15:41:23,412 INFO    SenderThread:30777 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-12 15:41:23,988 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/wandb-summary.json
+2023-11-12 15:41:23,988 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/output.log
+2023-11-12 15:41:25,700 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-12 15:41:25,700 DEBUG   SenderThread:30777 [sender.py:send():380] send: history
+2023-11-12 15:41:25,701 DEBUG   SenderThread:30777 [sender.py:send_request():407] send_request: summary_record
+2023-11-12 15:41:25,701 INFO    SenderThread:30777 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-12 15:41:25,988 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/wandb-summary.json
+2023-11-12 15:41:25,988 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/output.log
+2023-11-12 15:41:26,932 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-12 15:41:26,933 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-12 15:41:26,933 DEBUG   SenderThread:30777 [sender.py:send_request():407] send_request: stop_status
+2023-11-12 15:41:27,238 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: status_report
+2023-11-12 15:41:27,989 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/output.log
+2023-11-12 15:41:28,001 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-12 15:41:28,002 DEBUG   SenderThread:30777 [sender.py:send():380] send: history
+2023-11-12 15:41:28,002 DEBUG   SenderThread:30777 [sender.py:send_request():407] send_request: summary_record
+2023-11-12 15:41:28,002 INFO    SenderThread:30777 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-12 15:41:28,989 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/wandb-summary.json
+2023-11-12 15:41:30,300 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-12 15:41:30,301 DEBUG   SenderThread:30777 [sender.py:send():380] send: history
+2023-11-12 15:41:30,301 DEBUG   SenderThread:30777 [sender.py:send_request():407] send_request: summary_record
+2023-11-12 15:41:30,301 INFO    SenderThread:30777 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-12 15:41:30,990 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/wandb-summary.json
+2023-11-12 15:41:31,990 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/output.log
+2023-11-12 15:41:32,402 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: status_report
+2023-11-12 15:41:32,601 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-12 15:41:32,602 DEBUG   SenderThread:30777 [sender.py:send():380] send: history
+2023-11-12 15:41:32,602 DEBUG   SenderThread:30777 [sender.py:send_request():407] send_request: summary_record
+2023-11-12 15:41:32,603 INFO    SenderThread:30777 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-12 15:41:32,990 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/wandb-summary.json
+2023-11-12 15:41:33,991 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/output.log
+2023-11-12 15:41:34,897 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-12 15:41:34,898 DEBUG   SenderThread:30777 [sender.py:send():380] send: history
+2023-11-12 15:41:34,898 DEBUG   SenderThread:30777 [sender.py:send_request():407] send_request: summary_record
+2023-11-12 15:41:34,898 INFO    SenderThread:30777 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-12 15:41:34,991 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/wandb-summary.json
+2023-11-12 15:41:35,991 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/output.log
+2023-11-12 15:41:37,213 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-12 15:41:37,214 DEBUG   SenderThread:30777 [sender.py:send():380] send: history
+2023-11-12 15:41:37,214 DEBUG   SenderThread:30777 [sender.py:send_request():407] send_request: summary_record
+2023-11-12 15:41:37,215 INFO    SenderThread:30777 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-12 15:41:37,992 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/wandb-summary.json
+2023-11-12 15:41:37,992 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/output.log
+2023-11-12 15:41:38,215 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: status_report
+2023-11-12 15:41:39,141 DEBUG   SenderThread:30777 [sender.py:send():380] send: stats
+2023-11-12 15:41:39,506 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-12 15:41:39,507 DEBUG   SenderThread:30777 [sender.py:send():380] send: history
+2023-11-12 15:41:39,507 DEBUG   SenderThread:30777 [sender.py:send_request():407] send_request: summary_record
+2023-11-12 15:41:39,507 INFO    SenderThread:30777 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-12 15:41:39,992 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/wandb-summary.json
+2023-11-12 15:41:39,993 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/output.log
+2023-11-12 15:41:41,808 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-12 15:41:41,808 DEBUG   SenderThread:30777 [sender.py:send():380] send: history
+2023-11-12 15:41:41,809 DEBUG   SenderThread:30777 [sender.py:send_request():407] send_request: summary_record
+2023-11-12 15:41:41,809 INFO    SenderThread:30777 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-12 15:41:41,932 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-12 15:41:41,933 DEBUG   SenderThread:30777 [sender.py:send_request():407] send_request: stop_status
+2023-11-12 15:41:41,933 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-12 15:41:41,993 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/wandb-summary.json
+2023-11-12 15:41:41,993 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/output.log
+2023-11-12 15:41:43,954 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: status_report
+2023-11-12 15:41:43,993 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/output.log
+2023-11-12 15:41:44,121 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-12 15:41:44,122 DEBUG   SenderThread:30777 [sender.py:send():380] send: history
+2023-11-12 15:41:44,122 DEBUG   SenderThread:30777 [sender.py:send_request():407] send_request: summary_record
+2023-11-12 15:41:44,122 INFO    SenderThread:30777 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-12 15:41:44,994 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/wandb-summary.json
+2023-11-12 15:41:46,428 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-12 15:41:46,429 DEBUG   SenderThread:30777 [sender.py:send():380] send: history
+2023-11-12 15:41:46,429 DEBUG   SenderThread:30777 [sender.py:send_request():407] send_request: summary_record
+2023-11-12 15:41:46,429 INFO    SenderThread:30777 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-12 15:41:46,994 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/wandb-summary.json
+2023-11-12 15:41:47,995 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/output.log
+2023-11-12 15:41:48,730 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-12 15:41:48,731 DEBUG   SenderThread:30777 [sender.py:send():380] send: history
+2023-11-12 15:41:48,731 DEBUG   SenderThread:30777 [sender.py:send_request():407] send_request: summary_record
+2023-11-12 15:41:48,732 INFO    SenderThread:30777 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-12 15:41:48,995 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/wandb-summary.json
+2023-11-12 15:41:49,732 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: status_report
+2023-11-12 15:41:49,995 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/output.log
+2023-11-12 15:41:51,041 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-12 15:41:51,041 DEBUG   SenderThread:30777 [sender.py:send():380] send: history
+2023-11-12 15:41:51,042 DEBUG   SenderThread:30777 [sender.py:send_request():407] send_request: summary_record
+2023-11-12 15:41:51,042 INFO    SenderThread:30777 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-12 15:41:51,996 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/wandb-summary.json
+2023-11-12 15:41:51,996 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/output.log
+2023-11-12 15:41:53,332 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-12 15:41:53,333 DEBUG   SenderThread:30777 [sender.py:send():380] send: history
+2023-11-12 15:41:53,333 DEBUG   SenderThread:30777 [sender.py:send_request():407] send_request: summary_record
+2023-11-12 15:41:53,334 INFO    SenderThread:30777 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-12 15:41:53,996 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/wandb-summary.json
+2023-11-12 15:41:53,996 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/output.log
+2023-11-12 15:41:55,440 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: status_report
+2023-11-12 15:41:55,605 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-12 15:41:55,605 DEBUG   SenderThread:30777 [sender.py:send():380] send: history
+2023-11-12 15:41:55,606 DEBUG   SenderThread:30777 [sender.py:send_request():407] send_request: summary_record
+2023-11-12 15:41:55,606 INFO    SenderThread:30777 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-12 15:41:55,997 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/wandb-summary.json
+2023-11-12 15:41:55,997 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/output.log
+2023-11-12 15:41:56,933 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-12 15:41:56,933 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-12 15:41:56,933 DEBUG   SenderThread:30777 [sender.py:send_request():407] send_request: stop_status
+2023-11-12 15:41:57,905 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-12 15:41:57,906 DEBUG   SenderThread:30777 [sender.py:send():380] send: history
+2023-11-12 15:41:57,906 DEBUG   SenderThread:30777 [sender.py:send_request():407] send_request: summary_record
+2023-11-12 15:41:57,906 INFO    SenderThread:30777 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-12 15:41:57,997 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/wandb-summary.json
+2023-11-12 15:41:57,998 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/output.log
+2023-11-12 15:41:59,998 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/output.log
+2023-11-12 15:42:00,216 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-12 15:42:00,217 DEBUG   SenderThread:30777 [sender.py:send():380] send: history
+2023-11-12 15:42:00,217 DEBUG   SenderThread:30777 [sender.py:send_request():407] send_request: summary_record
+2023-11-12 15:42:00,217 INFO    SenderThread:30777 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-12 15:42:00,998 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/wandb-summary.json
+2023-11-12 15:42:01,218 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: status_report
+2023-11-12 15:42:02,501 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-12 15:42:02,501 DEBUG   SenderThread:30777 [sender.py:send():380] send: history
+2023-11-12 15:42:02,502 DEBUG   SenderThread:30777 [sender.py:send_request():407] send_request: summary_record
+2023-11-12 15:42:02,503 INFO    SenderThread:30777 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-12 15:42:02,999 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/wandb-summary.json
+2023-11-12 15:42:03,999 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/output.log
+2023-11-12 15:42:04,799 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-12 15:42:04,800 DEBUG   SenderThread:30777 [sender.py:send():380] send: history
+2023-11-12 15:42:04,800 DEBUG   SenderThread:30777 [sender.py:send_request():407] send_request: summary_record
+2023-11-12 15:42:04,800 INFO    SenderThread:30777 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-12 15:42:04,999 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/wandb-summary.json
+2023-11-12 15:42:06,000 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/output.log
+2023-11-12 15:42:06,900 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: status_report
+2023-11-12 15:42:07,113 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-12 15:42:07,114 DEBUG   SenderThread:30777 [sender.py:send():380] send: history
+2023-11-12 15:42:07,114 DEBUG   SenderThread:30777 [sender.py:send_request():407] send_request: summary_record
+2023-11-12 15:42:07,114 INFO    SenderThread:30777 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-12 15:42:08,000 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/wandb-summary.json
+2023-11-12 15:42:08,001 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/output.log
+2023-11-12 15:42:09,142 DEBUG   SenderThread:30777 [sender.py:send():380] send: stats
+2023-11-12 15:42:09,393 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-12 15:42:09,394 DEBUG   SenderThread:30777 [sender.py:send():380] send: history
+2023-11-12 15:42:09,394 DEBUG   SenderThread:30777 [sender.py:send_request():407] send_request: summary_record
+2023-11-12 15:42:09,394 INFO    SenderThread:30777 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-12 15:42:10,001 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/wandb-summary.json
+2023-11-12 15:42:10,001 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/output.log
+2023-11-12 15:42:11,700 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-12 15:42:11,701 DEBUG   SenderThread:30777 [sender.py:send():380] send: history
+2023-11-12 15:42:11,701 DEBUG   SenderThread:30777 [sender.py:send_request():407] send_request: summary_record
+2023-11-12 15:42:11,701 INFO    SenderThread:30777 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-12 15:42:11,933 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-12 15:42:11,933 DEBUG   SenderThread:30777 [sender.py:send_request():407] send_request: stop_status
+2023-11-12 15:42:11,933 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-12 15:42:12,001 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/wandb-summary.json
+2023-11-12 15:42:12,002 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/output.log
+2023-11-12 15:42:12,243 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: status_report
+2023-11-12 15:42:14,002 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/output.log
+2023-11-12 15:42:14,017 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-12 15:42:14,018 DEBUG   SenderThread:30777 [sender.py:send():380] send: history
+2023-11-12 15:42:14,018 DEBUG   SenderThread:30777 [sender.py:send_request():407] send_request: summary_record
+2023-11-12 15:42:14,018 INFO    SenderThread:30777 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-12 15:42:15,002 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/wandb-summary.json
+2023-11-12 15:42:16,003 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/output.log
+2023-11-12 15:42:16,316 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-12 15:42:16,317 DEBUG   SenderThread:30777 [sender.py:send():380] send: history
+2023-11-12 15:42:16,317 DEBUG   SenderThread:30777 [sender.py:send_request():407] send_request: summary_record
+2023-11-12 15:42:16,317 INFO    SenderThread:30777 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-12 15:42:17,003 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/wandb-summary.json
+2023-11-12 15:42:17,318 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: status_report
+2023-11-12 15:42:18,638 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-12 15:42:18,639 DEBUG   SenderThread:30777 [sender.py:send():380] send: history
+2023-11-12 15:42:18,639 DEBUG   SenderThread:30777 [sender.py:send_request():407] send_request: summary_record
+2023-11-12 15:42:18,639 INFO    SenderThread:30777 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-12 15:42:19,003 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/wandb-summary.json
+2023-11-12 15:42:20,004 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/output.log
+2023-11-12 15:42:20,966 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-12 15:42:20,967 DEBUG   SenderThread:30777 [sender.py:send():380] send: history
+2023-11-12 15:42:20,968 DEBUG   SenderThread:30777 [sender.py:send_request():407] send_request: summary_record
+2023-11-12 15:42:20,968 INFO    SenderThread:30777 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-12 15:42:21,004 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/wandb-summary.json
+2023-11-12 15:42:22,004 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/output.log
+2023-11-12 15:42:23,070 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: status_report
+2023-11-12 15:42:23,270 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-12 15:42:23,271 DEBUG   SenderThread:30777 [sender.py:send():380] send: history
+2023-11-12 15:42:23,271 DEBUG   SenderThread:30777 [sender.py:send_request():407] send_request: summary_record
+2023-11-12 15:42:23,272 INFO    SenderThread:30777 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-12 15:42:24,005 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/wandb-summary.json
+2023-11-12 15:42:24,005 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/output.log
+2023-11-12 15:42:25,560 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-12 15:42:25,562 DEBUG   SenderThread:30777 [sender.py:send():380] send: history
+2023-11-12 15:42:25,562 DEBUG   SenderThread:30777 [sender.py:send_request():407] send_request: summary_record
+2023-11-12 15:42:25,562 INFO    SenderThread:30777 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-12 15:42:26,005 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/wandb-summary.json
+2023-11-12 15:42:26,006 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/output.log
+2023-11-12 15:42:26,933 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-12 15:42:26,933 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-12 15:42:26,933 DEBUG   SenderThread:30777 [sender.py:send_request():407] send_request: stop_status
+2023-11-12 15:42:27,876 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-12 15:42:27,876 DEBUG   SenderThread:30777 [sender.py:send():380] send: history
+2023-11-12 15:42:27,877 DEBUG   SenderThread:30777 [sender.py:send_request():407] send_request: summary_record
+2023-11-12 15:42:27,877 INFO    SenderThread:30777 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-12 15:42:28,006 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/wandb-summary.json
+2023-11-12 15:42:28,006 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/output.log
+2023-11-12 15:42:28,877 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: status_report
+2023-11-12 15:42:30,007 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/output.log
+2023-11-12 15:42:30,165 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-12 15:42:30,166 DEBUG   SenderThread:30777 [sender.py:send():380] send: history
+2023-11-12 15:42:30,166 DEBUG   SenderThread:30777 [sender.py:send_request():407] send_request: summary_record
+2023-11-12 15:42:30,166 INFO    SenderThread:30777 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-12 15:42:31,007 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/wandb-summary.json
+2023-11-12 15:42:32,482 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-12 15:42:32,482 DEBUG   SenderThread:30777 [sender.py:send():380] send: history
+2023-11-12 15:42:32,483 DEBUG   SenderThread:30777 [sender.py:send_request():407] send_request: summary_record
+2023-11-12 15:42:32,483 INFO    SenderThread:30777 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-12 15:42:33,007 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/wandb-summary.json
+2023-11-12 15:42:34,008 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/output.log
+2023-11-12 15:42:34,586 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: status_report
+2023-11-12 15:42:34,790 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-12 15:42:34,791 DEBUG   SenderThread:30777 [sender.py:send():380] send: history
+2023-11-12 15:42:34,791 DEBUG   SenderThread:30777 [sender.py:send_request():407] send_request: summary_record
+2023-11-12 15:42:34,792 INFO    SenderThread:30777 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-12 15:42:35,008 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/wandb-summary.json
+2023-11-12 15:42:36,008 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/output.log
+2023-11-12 15:42:37,102 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-12 15:42:37,103 DEBUG   SenderThread:30777 [sender.py:send():380] send: history
+2023-11-12 15:42:37,103 DEBUG   SenderThread:30777 [sender.py:send_request():407] send_request: summary_record
+2023-11-12 15:42:37,104 INFO    SenderThread:30777 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-12 15:42:38,009 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/wandb-summary.json
+2023-11-12 15:42:38,009 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/output.log
+2023-11-12 15:42:39,142 DEBUG   SenderThread:30777 [sender.py:send():380] send: stats
+2023-11-12 15:42:39,402 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-12 15:42:39,403 DEBUG   SenderThread:30777 [sender.py:send():380] send: history
+2023-11-12 15:42:39,404 DEBUG   SenderThread:30777 [sender.py:send_request():407] send_request: summary_record
+2023-11-12 15:42:39,404 INFO    SenderThread:30777 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-12 15:42:40,010 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/wandb-summary.json
+2023-11-12 15:42:40,010 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/output.log
+2023-11-12 15:42:40,405 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: status_report
+2023-11-12 15:42:41,692 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-12 15:42:41,693 DEBUG   SenderThread:30777 [sender.py:send():380] send: history
+2023-11-12 15:42:41,693 DEBUG   SenderThread:30777 [sender.py:send_request():407] send_request: summary_record
+2023-11-12 15:42:41,693 INFO    SenderThread:30777 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-12 15:42:41,933 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-12 15:42:41,933 DEBUG   SenderThread:30777 [sender.py:send_request():407] send_request: stop_status
+2023-11-12 15:42:41,933 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-12 15:42:42,010 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/wandb-summary.json
+2023-11-12 15:42:42,010 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/output.log
+2023-11-12 15:42:43,984 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-12 15:42:43,985 DEBUG   SenderThread:30777 [sender.py:send():380] send: history
+2023-11-12 15:42:43,985 DEBUG   SenderThread:30777 [sender.py:send_request():407] send_request: summary_record
+2023-11-12 15:42:43,986 INFO    SenderThread:30777 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-12 15:42:44,011 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/wandb-summary.json
+2023-11-12 15:42:44,011 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/output.log
+2023-11-12 15:42:46,011 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/output.log
+2023-11-12 15:42:46,089 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: status_report
+2023-11-12 15:42:46,278 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-12 15:42:46,279 DEBUG   SenderThread:30777 [sender.py:send():380] send: history
+2023-11-12 15:42:46,279 DEBUG   SenderThread:30777 [sender.py:send_request():407] send_request: summary_record
+2023-11-12 15:42:46,279 INFO    SenderThread:30777 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-12 15:42:47,011 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/wandb-summary.json
+2023-11-12 15:42:48,581 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-12 15:42:48,582 DEBUG   SenderThread:30777 [sender.py:send():380] send: history
+2023-11-12 15:42:48,582 DEBUG   SenderThread:30777 [sender.py:send_request():407] send_request: summary_record
+2023-11-12 15:42:48,583 INFO    SenderThread:30777 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-12 15:42:49,012 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/wandb-summary.json
+2023-11-12 15:42:50,012 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/output.log
+2023-11-12 15:42:50,849 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-12 15:42:50,850 DEBUG   SenderThread:30777 [sender.py:send():380] send: history
+2023-11-12 15:42:50,850 DEBUG   SenderThread:30777 [sender.py:send_request():407] send_request: summary_record
+2023-11-12 15:42:50,851 INFO    SenderThread:30777 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-12 15:42:51,012 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/wandb-summary.json
+2023-11-12 15:42:51,851 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: status_report
+2023-11-12 15:42:52,013 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/output.log
+2023-11-12 15:42:53,149 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-12 15:42:53,150 DEBUG   SenderThread:30777 [sender.py:send():380] send: history
+2023-11-12 15:42:53,150 DEBUG   SenderThread:30777 [sender.py:send_request():407] send_request: summary_record
+2023-11-12 15:42:53,151 INFO    SenderThread:30777 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-12 15:42:54,013 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/wandb-summary.json
+2023-11-12 15:42:54,014 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/output.log
+2023-11-12 15:42:55,426 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-12 15:42:55,427 DEBUG   SenderThread:30777 [sender.py:send():380] send: history
+2023-11-12 15:42:55,427 DEBUG   SenderThread:30777 [sender.py:send_request():407] send_request: summary_record
+2023-11-12 15:42:55,428 INFO    SenderThread:30777 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-12 15:42:56,014 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/wandb-summary.json
+2023-11-12 15:42:56,014 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/output.log
+2023-11-12 15:42:56,933 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-12 15:42:56,933 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-12 15:42:56,934 DEBUG   SenderThread:30777 [sender.py:send_request():407] send_request: stop_status
+2023-11-12 15:42:57,236 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: status_report
+2023-11-12 15:42:57,747 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-12 15:42:57,748 DEBUG   SenderThread:30777 [sender.py:send():380] send: history
+2023-11-12 15:42:57,748 DEBUG   SenderThread:30777 [sender.py:send_request():407] send_request: summary_record
+2023-11-12 15:42:57,749 INFO    SenderThread:30777 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-12 15:42:58,014 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/wandb-summary.json
+2023-11-12 15:42:58,015 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/output.log
+2023-11-12 15:43:00,015 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/output.log
+2023-11-12 15:43:00,034 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-12 15:43:00,034 DEBUG   SenderThread:30777 [sender.py:send():380] send: history
+2023-11-12 15:43:00,035 DEBUG   SenderThread:30777 [sender.py:send_request():407] send_request: summary_record
+2023-11-12 15:43:00,035 INFO    SenderThread:30777 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-12 15:43:01,015 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/wandb-summary.json
+2023-11-12 15:43:02,016 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/output.log
+2023-11-12 15:43:02,342 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-12 15:43:02,342 DEBUG   SenderThread:30777 [sender.py:send():380] send: history
+2023-11-12 15:43:02,343 DEBUG   SenderThread:30777 [sender.py:send_request():407] send_request: summary_record
+2023-11-12 15:43:02,343 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: status_report
+2023-11-12 15:43:02,343 INFO    SenderThread:30777 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-12 15:43:03,016 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/wandb-summary.json
+2023-11-12 15:43:04,662 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-12 15:43:04,662 DEBUG   SenderThread:30777 [sender.py:send():380] send: history
+2023-11-12 15:43:04,663 DEBUG   SenderThread:30777 [sender.py:send_request():407] send_request: summary_record
+2023-11-12 15:43:04,664 INFO    SenderThread:30777 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-12 15:43:05,017 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/wandb-summary.json
+2023-11-12 15:43:06,017 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/output.log
+2023-11-12 15:43:06,952 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-12 15:43:06,953 DEBUG   SenderThread:30777 [sender.py:send():380] send: history
+2023-11-12 15:43:06,953 DEBUG   SenderThread:30777 [sender.py:send_request():407] send_request: summary_record
+2023-11-12 15:43:06,953 INFO    SenderThread:30777 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-12 15:43:07,017 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/wandb-summary.json
+2023-11-12 15:43:07,954 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: status_report
+2023-11-12 15:43:08,017 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/output.log
+2023-11-12 15:43:09,143 DEBUG   SenderThread:30777 [sender.py:send():380] send: stats
+2023-11-12 15:43:09,237 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-12 15:43:09,237 DEBUG   SenderThread:30777 [sender.py:send():380] send: history
+2023-11-12 15:43:09,238 DEBUG   SenderThread:30777 [sender.py:send_request():407] send_request: summary_record
+2023-11-12 15:43:09,238 INFO    SenderThread:30777 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-12 15:43:10,018 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/wandb-summary.json
+2023-11-12 15:43:10,018 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/output.log
+2023-11-12 15:43:11,544 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-12 15:43:11,545 DEBUG   SenderThread:30777 [sender.py:send():380] send: history
+2023-11-12 15:43:11,545 DEBUG   SenderThread:30777 [sender.py:send_request():407] send_request: summary_record
+2023-11-12 15:43:11,545 INFO    SenderThread:30777 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-12 15:43:11,933 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-12 15:43:11,934 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-12 15:43:11,934 DEBUG   SenderThread:30777 [sender.py:send_request():407] send_request: stop_status
+2023-11-12 15:43:12,019 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/wandb-summary.json
+2023-11-12 15:43:12,019 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/output.log
+2023-11-12 15:43:13,686 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: status_report
+2023-11-12 15:43:13,833 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-12 15:43:13,833 DEBUG   SenderThread:30777 [sender.py:send():380] send: history
+2023-11-12 15:43:13,834 DEBUG   SenderThread:30777 [sender.py:send_request():407] send_request: summary_record
+2023-11-12 15:43:13,834 INFO    SenderThread:30777 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-12 15:43:14,019 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/wandb-summary.json
+2023-11-12 15:43:14,019 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/output.log
+2023-11-12 15:43:16,020 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/output.log
+2023-11-12 15:43:16,140 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-12 15:43:16,141 DEBUG   SenderThread:30777 [sender.py:send():380] send: history
+2023-11-12 15:43:16,141 DEBUG   SenderThread:30777 [sender.py:send_request():407] send_request: summary_record
+2023-11-12 15:43:16,141 INFO    SenderThread:30777 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-12 15:43:17,020 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/wandb-summary.json
+2023-11-12 15:43:18,467 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-12 15:43:18,467 DEBUG   SenderThread:30777 [sender.py:send():380] send: history
+2023-11-12 15:43:18,468 DEBUG   SenderThread:30777 [sender.py:send_request():407] send_request: summary_record
+2023-11-12 15:43:18,468 INFO    SenderThread:30777 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-12 15:43:19,021 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/wandb-summary.json
+2023-11-12 15:43:19,468 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: status_report
+2023-11-12 15:43:20,021 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/output.log
+2023-11-12 15:43:20,766 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-12 15:43:20,767 DEBUG   SenderThread:30777 [sender.py:send():380] send: history
+2023-11-12 15:43:20,767 DEBUG   SenderThread:30777 [sender.py:send_request():407] send_request: summary_record
+2023-11-12 15:43:20,768 INFO    SenderThread:30777 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-12 15:43:21,021 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/wandb-summary.json
+2023-11-12 15:43:22,022 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/output.log
+2023-11-12 15:43:23,058 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-12 15:43:23,059 DEBUG   SenderThread:30777 [sender.py:send():380] send: history
+2023-11-12 15:43:23,059 DEBUG   SenderThread:30777 [sender.py:send_request():407] send_request: summary_record
+2023-11-12 15:43:23,059 INFO    SenderThread:30777 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-12 15:43:24,022 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/wandb-summary.json
+2023-11-12 15:43:24,022 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/output.log
+2023-11-12 15:43:25,160 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: status_report
+2023-11-12 15:43:25,364 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-12 15:43:25,364 DEBUG   SenderThread:30777 [sender.py:send():380] send: history
+2023-11-12 15:43:25,365 DEBUG   SenderThread:30777 [sender.py:send_request():407] send_request: summary_record
+2023-11-12 15:43:25,365 INFO    SenderThread:30777 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-12 15:43:26,023 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/wandb-summary.json
+2023-11-12 15:43:26,023 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/output.log
+2023-11-12 15:43:26,934 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-12 15:43:26,934 DEBUG   SenderThread:30777 [sender.py:send_request():407] send_request: stop_status
+2023-11-12 15:43:26,936 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-12 15:43:27,661 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-12 15:43:27,661 DEBUG   SenderThread:30777 [sender.py:send():380] send: history
+2023-11-12 15:43:27,662 DEBUG   SenderThread:30777 [sender.py:send_request():407] send_request: summary_record
+2023-11-12 15:43:27,662 INFO    SenderThread:30777 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-12 15:43:28,024 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/wandb-summary.json
+2023-11-12 15:43:28,024 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/output.log
+2023-11-12 15:43:29,949 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-12 15:43:29,950 DEBUG   SenderThread:30777 [sender.py:send():380] send: history
+2023-11-12 15:43:29,950 DEBUG   SenderThread:30777 [sender.py:send_request():407] send_request: summary_record
+2023-11-12 15:43:29,950 INFO    SenderThread:30777 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-12 15:43:30,024 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/wandb-summary.json
+2023-11-12 15:43:30,025 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/output.log
+2023-11-12 15:43:30,951 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: status_report
+2023-11-12 15:43:32,025 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/output.log
+2023-11-12 15:43:32,258 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-12 15:43:32,259 DEBUG   SenderThread:30777 [sender.py:send():380] send: history
+2023-11-12 15:43:32,259 DEBUG   SenderThread:30777 [sender.py:send_request():407] send_request: summary_record
+2023-11-12 15:43:32,259 INFO    SenderThread:30777 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-12 15:43:33,025 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/wandb-summary.json
+2023-11-12 15:43:34,567 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-12 15:43:34,568 DEBUG   SenderThread:30777 [sender.py:send():380] send: history
+2023-11-12 15:43:34,568 DEBUG   SenderThread:30777 [sender.py:send_request():407] send_request: summary_record
+2023-11-12 15:43:34,569 INFO    SenderThread:30777 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-12 15:43:35,026 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/wandb-summary.json
+2023-11-12 15:43:36,026 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/output.log
+2023-11-12 15:43:36,672 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: status_report
+2023-11-12 15:43:36,862 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-12 15:43:36,863 DEBUG   SenderThread:30777 [sender.py:send():380] send: history
+2023-11-12 15:43:36,863 DEBUG   SenderThread:30777 [sender.py:send_request():407] send_request: summary_record
+2023-11-12 15:43:36,864 INFO    SenderThread:30777 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-12 15:43:37,027 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/wandb-summary.json
+2023-11-12 15:43:38,027 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/output.log
+2023-11-12 15:43:39,144 DEBUG   SenderThread:30777 [sender.py:send():380] send: stats
+2023-11-12 15:43:39,156 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-12 15:43:39,157 DEBUG   SenderThread:30777 [sender.py:send():380] send: history
+2023-11-12 15:43:39,157 DEBUG   SenderThread:30777 [sender.py:send_request():407] send_request: summary_record
+2023-11-12 15:43:39,158 INFO    SenderThread:30777 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-12 15:43:40,028 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/wandb-summary.json
+2023-11-12 15:43:40,028 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/output.log
+2023-11-12 15:43:40,503 DEBUG   SenderThread:30777 [sender.py:send():380] send: exit
+2023-11-12 15:43:40,503 INFO    SenderThread:30777 [sender.py:send_exit():585] handling exit code: 255
+2023-11-12 15:43:40,503 INFO    SenderThread:30777 [sender.py:send_exit():587] handling runtime: 391
+2023-11-12 15:43:40,503 INFO    SenderThread:30777 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-12 15:43:40,503 INFO    SenderThread:30777 [sender.py:send_exit():593] send defer
+2023-11-12 15:43:40,504 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: defer
+2023-11-12 15:43:40,504 INFO    HandlerThread:30777 [handler.py:handle_request_defer():172] handle defer: 0
+2023-11-12 15:43:40,504 DEBUG   SenderThread:30777 [sender.py:send_request():407] send_request: defer
+2023-11-12 15:43:40,504 INFO    SenderThread:30777 [sender.py:send_request_defer():609] handle sender defer: 0
+2023-11-12 15:43:40,504 INFO    SenderThread:30777 [sender.py:transition_state():613] send defer: 1
+2023-11-12 15:43:40,504 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: defer
+2023-11-12 15:43:40,504 INFO    HandlerThread:30777 [handler.py:handle_request_defer():172] handle defer: 1
+2023-11-12 15:43:40,504 DEBUG   SenderThread:30777 [sender.py:send_request():407] send_request: defer
+2023-11-12 15:43:40,504 INFO    SenderThread:30777 [sender.py:send_request_defer():609] handle sender defer: 1
+2023-11-12 15:43:40,504 INFO    SenderThread:30777 [sender.py:transition_state():613] send defer: 2
+2023-11-12 15:43:40,504 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: defer
+2023-11-12 15:43:40,505 INFO    HandlerThread:30777 [handler.py:handle_request_defer():172] handle defer: 2
+2023-11-12 15:43:40,505 INFO    HandlerThread:30777 [system_monitor.py:finish():203] Stopping system monitor
+2023-11-12 15:43:40,505 DEBUG   SystemMonitor:30777 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2023-11-12 15:43:40,505 INFO    HandlerThread:30777 [interfaces.py:finish():202] Joined cpu monitor
+2023-11-12 15:43:40,505 DEBUG   SystemMonitor:30777 [system_monitor.py:_start():183] Publishing last batch of metrics
+2023-11-12 15:43:40,505 INFO    HandlerThread:30777 [interfaces.py:finish():202] Joined disk monitor
+2023-11-12 15:43:40,512 INFO    HandlerThread:30777 [interfaces.py:finish():202] Joined gpu monitor
+2023-11-12 15:43:40,512 INFO    HandlerThread:30777 [interfaces.py:finish():202] Joined memory monitor
+2023-11-12 15:43:40,512 INFO    HandlerThread:30777 [interfaces.py:finish():202] Joined network monitor
+2023-11-12 15:43:40,512 DEBUG   SenderThread:30777 [sender.py:send_request():407] send_request: defer
+2023-11-12 15:43:40,512 INFO    SenderThread:30777 [sender.py:send_request_defer():609] handle sender defer: 2
+2023-11-12 15:43:40,512 INFO    SenderThread:30777 [sender.py:transition_state():613] send defer: 3
+2023-11-12 15:43:40,513 DEBUG   SenderThread:30777 [sender.py:send():380] send: stats
+2023-11-12 15:43:40,513 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: defer
+2023-11-12 15:43:40,513 INFO    HandlerThread:30777 [handler.py:handle_request_defer():172] handle defer: 3
+2023-11-12 15:43:40,513 DEBUG   SenderThread:30777 [sender.py:send_request():407] send_request: defer
+2023-11-12 15:43:40,513 INFO    SenderThread:30777 [sender.py:send_request_defer():609] handle sender defer: 3
+2023-11-12 15:43:40,513 INFO    SenderThread:30777 [sender.py:transition_state():613] send defer: 4
+2023-11-12 15:43:40,513 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: defer
+2023-11-12 15:43:40,513 INFO    HandlerThread:30777 [handler.py:handle_request_defer():172] handle defer: 4
+2023-11-12 15:43:40,514 DEBUG   SenderThread:30777 [sender.py:send_request():407] send_request: defer
+2023-11-12 15:43:40,514 INFO    SenderThread:30777 [sender.py:send_request_defer():609] handle sender defer: 4
+2023-11-12 15:43:40,514 INFO    SenderThread:30777 [sender.py:transition_state():613] send defer: 5
+2023-11-12 15:43:40,514 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: defer
+2023-11-12 15:43:40,514 INFO    HandlerThread:30777 [handler.py:handle_request_defer():172] handle defer: 5
+2023-11-12 15:43:40,514 DEBUG   SenderThread:30777 [sender.py:send():380] send: summary
+2023-11-12 15:43:40,515 INFO    SenderThread:30777 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-12 15:43:40,515 DEBUG   SenderThread:30777 [sender.py:send_request():407] send_request: defer
+2023-11-12 15:43:40,515 INFO    SenderThread:30777 [sender.py:send_request_defer():609] handle sender defer: 5
+2023-11-12 15:43:40,515 INFO    SenderThread:30777 [sender.py:transition_state():613] send defer: 6
+2023-11-12 15:43:40,515 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: defer
+2023-11-12 15:43:40,515 INFO    HandlerThread:30777 [handler.py:handle_request_defer():172] handle defer: 6
+2023-11-12 15:43:40,515 DEBUG   SenderThread:30777 [sender.py:send_request():407] send_request: defer
+2023-11-12 15:43:40,515 INFO    SenderThread:30777 [sender.py:send_request_defer():609] handle sender defer: 6
+2023-11-12 15:43:40,515 INFO    SenderThread:30777 [sender.py:transition_state():613] send defer: 7
+2023-11-12 15:43:40,515 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: status_report
+2023-11-12 15:43:40,516 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: defer
+2023-11-12 15:43:40,516 INFO    HandlerThread:30777 [handler.py:handle_request_defer():172] handle defer: 7
+2023-11-12 15:43:40,516 DEBUG   SenderThread:30777 [sender.py:send_request():407] send_request: defer
+2023-11-12 15:43:40,516 INFO    SenderThread:30777 [sender.py:send_request_defer():609] handle sender defer: 7
+2023-11-12 15:43:41,048 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/wandb-summary.json
+2023-11-12 15:43:41,503 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: poll_exit
+2023-11-12 15:43:42,048 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/output.log
+2023-11-12 15:43:42,508 INFO    SenderThread:30777 [sender.py:transition_state():613] send defer: 8
+2023-11-12 15:43:42,509 DEBUG   SenderThread:30777 [sender.py:send_request():407] send_request: poll_exit
+2023-11-12 15:43:42,509 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: defer
+2023-11-12 15:43:42,509 INFO    HandlerThread:30777 [handler.py:handle_request_defer():172] handle defer: 8
+2023-11-12 15:43:42,509 DEBUG   SenderThread:30777 [sender.py:send_request():407] send_request: defer
+2023-11-12 15:43:42,509 INFO    SenderThread:30777 [sender.py:send_request_defer():609] handle sender defer: 8
+2023-11-12 15:43:42,509 INFO    SenderThread:30777 [job_builder.py:build():298] Attempting to build job artifact
+2023-11-12 15:43:42,510 INFO    SenderThread:30777 [job_builder.py:_get_source_type():439] no source found
+2023-11-12 15:43:42,510 INFO    SenderThread:30777 [sender.py:transition_state():613] send defer: 9
+2023-11-12 15:43:42,510 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: defer
+2023-11-12 15:43:42,510 INFO    HandlerThread:30777 [handler.py:handle_request_defer():172] handle defer: 9
+2023-11-12 15:43:42,510 DEBUG   SenderThread:30777 [sender.py:send_request():407] send_request: defer
+2023-11-12 15:43:42,510 INFO    SenderThread:30777 [sender.py:send_request_defer():609] handle sender defer: 9
+2023-11-12 15:43:42,510 INFO    SenderThread:30777 [dir_watcher.py:finish():358] shutting down directory watcher
+2023-11-12 15:43:43,049 INFO    Thread-12 :30777 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/output.log
+2023-11-12 15:43:43,050 INFO    SenderThread:30777 [dir_watcher.py:finish():388] scan: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files
+2023-11-12 15:43:43,050 INFO    SenderThread:30777 [dir_watcher.py:finish():402] scan save: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/config.yaml config.yaml
+2023-11-12 15:43:43,050 INFO    SenderThread:30777 [dir_watcher.py:finish():402] scan save: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/requirements.txt requirements.txt
+2023-11-12 15:43:43,050 INFO    SenderThread:30777 [dir_watcher.py:finish():402] scan save: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/conda-environment.yaml conda-environment.yaml
+2023-11-12 15:43:43,056 INFO    SenderThread:30777 [dir_watcher.py:finish():402] scan save: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/wandb-metadata.json wandb-metadata.json
+2023-11-12 15:43:43,057 INFO    SenderThread:30777 [dir_watcher.py:finish():402] scan save: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/wandb-summary.json wandb-summary.json
+2023-11-12 15:43:43,060 INFO    SenderThread:30777 [dir_watcher.py:finish():402] scan save: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/output.log output.log
+2023-11-12 15:43:43,060 INFO    SenderThread:30777 [sender.py:transition_state():613] send defer: 10
+2023-11-12 15:43:43,063 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: defer
+2023-11-12 15:43:43,063 INFO    HandlerThread:30777 [handler.py:handle_request_defer():172] handle defer: 10
+2023-11-12 15:43:43,066 DEBUG   SenderThread:30777 [sender.py:send_request():407] send_request: defer
+2023-11-12 15:43:43,066 INFO    SenderThread:30777 [sender.py:send_request_defer():609] handle sender defer: 10
+2023-11-12 15:43:43,066 INFO    SenderThread:30777 [file_pusher.py:finish():175] shutting down file pusher
+2023-11-12 15:43:43,787 INFO    wandb-upload_0:30777 [upload_job.py:push():131] Uploaded file /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/config.yaml
+2023-11-12 15:43:43,788 INFO    wandb-upload_1:30777 [upload_job.py:push():131] Uploaded file /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/requirements.txt
+2023-11-12 15:43:43,941 INFO    wandb-upload_2:30777 [upload_job.py:push():131] Uploaded file /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/conda-environment.yaml
+2023-11-12 15:43:43,953 INFO    wandb-upload_3:30777 [upload_job.py:push():131] Uploaded file /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/wandb-summary.json
+2023-11-12 15:43:43,970 INFO    wandb-upload_4:30777 [upload_job.py:push():131] Uploaded file /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/files/output.log
+2023-11-12 15:43:44,170 INFO    Thread-11 :30777 [sender.py:transition_state():613] send defer: 11
+2023-11-12 15:43:44,171 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: defer
+2023-11-12 15:43:44,171 INFO    HandlerThread:30777 [handler.py:handle_request_defer():172] handle defer: 11
+2023-11-12 15:43:44,171 DEBUG   SenderThread:30777 [sender.py:send_request():407] send_request: defer
+2023-11-12 15:43:44,171 INFO    SenderThread:30777 [sender.py:send_request_defer():609] handle sender defer: 11
+2023-11-12 15:43:44,171 INFO    SenderThread:30777 [file_pusher.py:join():181] waiting for file pusher
+2023-11-12 15:43:44,171 INFO    SenderThread:30777 [sender.py:transition_state():613] send defer: 12
+2023-11-12 15:43:44,171 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: defer
+2023-11-12 15:43:44,171 INFO    HandlerThread:30777 [handler.py:handle_request_defer():172] handle defer: 12
+2023-11-12 15:43:44,172 DEBUG   SenderThread:30777 [sender.py:send_request():407] send_request: defer
+2023-11-12 15:43:44,172 INFO    SenderThread:30777 [sender.py:send_request_defer():609] handle sender defer: 12
+2023-11-12 15:43:44,172 INFO    SenderThread:30777 [file_stream.py:finish():595] file stream finish called
+2023-11-12 15:43:44,995 INFO    SenderThread:30777 [file_stream.py:finish():599] file stream finish is done
+2023-11-12 15:43:44,995 INFO    SenderThread:30777 [sender.py:transition_state():613] send defer: 13
+2023-11-12 15:43:44,995 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: defer
+2023-11-12 15:43:44,995 INFO    HandlerThread:30777 [handler.py:handle_request_defer():172] handle defer: 13
+2023-11-12 15:43:44,995 DEBUG   SenderThread:30777 [sender.py:send_request():407] send_request: defer
+2023-11-12 15:43:44,996 INFO    SenderThread:30777 [sender.py:send_request_defer():609] handle sender defer: 13
+2023-11-12 15:43:44,996 INFO    SenderThread:30777 [sender.py:transition_state():613] send defer: 14
+2023-11-12 15:43:44,996 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: defer
+2023-11-12 15:43:44,996 DEBUG   SenderThread:30777 [sender.py:send():380] send: final
+2023-11-12 15:43:44,996 INFO    HandlerThread:30777 [handler.py:handle_request_defer():172] handle defer: 14
+2023-11-12 15:43:44,996 DEBUG   SenderThread:30777 [sender.py:send():380] send: footer
+2023-11-12 15:43:44,997 DEBUG   SenderThread:30777 [sender.py:send_request():407] send_request: defer
+2023-11-12 15:43:44,997 INFO    SenderThread:30777 [sender.py:send_request_defer():609] handle sender defer: 14
+2023-11-12 15:43:44,997 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: poll_exit
+2023-11-12 15:43:44,997 DEBUG   SenderThread:30777 [sender.py:send_request():407] send_request: poll_exit
+2023-11-12 15:43:44,998 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: server_info
+2023-11-12 15:43:44,998 DEBUG   SenderThread:30777 [sender.py:send_request():407] send_request: server_info
+2023-11-12 15:43:45,000 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: get_summary
+2023-11-12 15:43:45,001 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: sampled_history
+2023-11-12 15:43:45,003 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-12 15:43:45,003 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: job_info
+2023-11-12 15:43:45,234 DEBUG   SenderThread:30777 [sender.py:send_request():407] send_request: job_info
+2023-11-12 15:43:45,234 INFO    MainThread:30777 [wandb_run.py:_footer_history_summary_info():3760] rendering history
+2023-11-12 15:43:45,235 INFO    MainThread:30777 [wandb_run.py:_footer_history_summary_info():3792] rendering summary
+2023-11-12 15:43:45,235 INFO    MainThread:30777 [wandb_run.py:_footer_sync_info():3719] logging synced files
+2023-11-12 15:43:45,235 DEBUG   HandlerThread:30777 [handler.py:handle_request():146] handle_request: shutdown
+2023-11-12 15:43:45,235 INFO    HandlerThread:30777 [handler.py:finish():866] shutting down handler
+2023-11-12 15:43:46,003 INFO    WriterThread:30777 [datastore.py:close():294] close: /home/jovyan/workspace/BA-PRE_THESIS/REPORT/training/wandb/run-20231112_153708-7ythuegu/run-7ythuegu.wandb
+2023-11-12 15:43:46,234 INFO    SenderThread:30777 [sender.py:finish():1536] shutting down sender
+2023-11-12 15:43:46,234 INFO    SenderThread:30777 [file_pusher.py:finish():175] shutting down file pusher
+2023-11-12 15:43:46,234 INFO    SenderThread:30777 [file_pusher.py:join():181] waiting for file pusher
